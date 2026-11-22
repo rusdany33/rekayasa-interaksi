@@ -1,0 +1,468 @@
+1 
+Worksheet 5 User Interview 
+Wawancara tentang kepastian pembayaran transfer pada Fleffy 
+Nama: Rusdany Maestro 
+NIM: 202210370311406 
+Program studi: Informatika 
+Institusi: Universitas Muhammadiyah Malang 
+Mata kuliah: Rekayasa Interaksi 
+Jenis tugas: Individu 
+Tanggal wawancara: 15 Oktober 2026 
+1 Ringkasan hasil 
+Jawaban tiga pengguna Fleffy menunjukkan bahwa pencatatan pembayaran membantu 
+pekerjaan mereka, sedangkan kepastian penerimaan transfer diperoleh melalui pemeriksaan 
+rekening atau konfirmasi pih ak yang memegang akses rekening. Cara pemeriksaan berbeda 
+menurut tugas: kasir dapat memeriksa sendiri, admin berkoordinasi dengan owner atau 
+finance, dan owner memeriksa rekening secara langsung. [R1 Q1, Q8-Q9; R2 Q1, Q8; R3 Q1, 
+Q6-Q8] 
+Perpindahan aplikasi dan penantian konfirmasi menjadi usaha tambahan yang dilaporkan. 
+Pemeriksaan juga dipandang berguna untuk menentukan tindak lanjut dan mengurangi risiko 
+kesalahan pembayaran. Kebutuhan utamanya adalah informasi pembayaran yang jelas, dapat 
+dicocokkan dengan pesanan, dan didukung pembagian tanggung jawab pemeriksaan. [R1 -R3 
+Q9-Q12] 
+2 Produk latar belakang dan tujuan 
+Fleffy - Kasir Laundry Sepatu digunakan dalam pencatatan pesanan, layanan, dan 
+pembayaran usaha laundry sepatu. Worksheet 1 -4 mengangkat kebut uhan memastikan 
+penerimaan transfer ketika catatan aplikasi sudah menunjukkan Lunas. Wawancara ini 
+melanjutkan fokus tersebut melalui pengalaman operator yang menjalankan tugas 
+pembayaran. [S1-S4] 
+Tujuan wawancara adalah memahami tujuan dan motivasi penggu na; kebiasaan serta 
+proses sebelum, saat, dan setelah menggunakan Fleffy; penafsiran status pembayaran; langkah 
+dan kewenangan pemeriksaan; serta masalah, kebutuhan, perasaan, dan harapan pengguna. 
+
+2 
+3 Responden dan pelaksanaan wawancara 
+Tiga orang dipilih b erdasarkan aktivitas pencatatan atau pemeriksaan pembayaran Bank 
+Transfer. Peran aktual digunakan untuk menentukan relevansi responden; owner dan admin 
+termasuk pengguna utama ketika menjalankan tugas tersebut. Satu orang tetap dihitung satu 
+responden meskipun memiliki beberapa tugas. 
+Kode dan peran Karakteristik penggunaan yang dilaporkan Keterlibatan pemeriksaan 
+R1 Kasir laundry 
+sepatu 
+Penggunaan harian, terutama saat melayani 
+transaksi. Memakai tablet kasir dan ponsel 
+untuk pemeriksaan. 
+Memeriksa rekening sendiri; 
+meminta bantuan owner atau 
+finance bila diperlukan. 
+R2 Admin 
+Operasional yang 
+menjalankan tugas 
+kasir 
+Menerima pesanan, memilih layanan, 
+menerbitkan nota, dan mencatat pembayaran. 
+Menggunakan perangkat operasional dalam 
+pekerjaan harian. 
+Meminta owner atau finance 
+memeriksa mutasi, kemudian 
+menindaklanjuti konfirmasi. 
+R3 Owner yang juga 
+mencatat transaksi 
+Menggunakan Fleffy melalui HP setiap hari 
+saat ada transaksi atau pemeriksaan status. 
+Mencocokkan transaksi dengan 
+rekening sendiri sebelum 
+melanjutkan pesanan. 
+ 
+Jumlah aktual adalah tiga pengguna, sedangkan Worksheet 4 merencanakan lima operator 
+dan satu informan pendukung. Laporan ini memuat cakupan pelaksanaan Worksheet 5 yang 
+memenuhi minimal tiga responden. Temuan diperla kukan sebagai eksplorasi pada ketiga 
+pengguna, dengan kedalaman yang mengikuti durasi sesi aktual. 
+Kode Tanggal Durasi sesi Tempat wawancara 
+R1 15 Oktober 2026 10 menit Pesenkopi 
+R2 15 Oktober 2026 12 menit Pesenkopi 
+R3 15 Oktober 2026 15 menit Pesenkopi 
+ 
+Pesenkopi merupakan lokasi pertemuan untuk wawancara. Konteks pekerjaan yang 
+dibahas tetap pencatatan dan pemeriksaan pembayaran pada usaha laundry sepatu yang 
+menggunakan Fleffy. 
+Metode: wawancara langsung dengan panduan 13 pertanyaan terbuka.  Pewawancara: 
+Rusdany Maestro. Catatan hasil disajikan sebagai parafrasa agar inti jawaban dan rujukan 
+pertanyaannya dapat ditelusuri. Isi percakapan tidak diperlakukan sebagai hasil observasi atau 
+pengukuran waktu proses pembayaran. 
+Persetujuan dan kerahasiaan 
+Ketiga responden menyetujui partisipasi, penggunaan jawaban anonim, dan dokumentasi 
+foto. Laporan menggunakan kode R1 -R3; nomor telepon, alamat pribadi, data pelanggan, dan 
+informasi rekening tidak dicantumkan. Foto kegiatan digunakan sesuai persetujuan responden 
+untuk kebutuhan pembelajaran. Data mentah disimpan terbatas dan dihapus paling lambat 30 
+hari setelah penilaian akhir atau revisi selesai. 
+
+3 
+4 Panduan pertanyaan wawancara 
+Pertanyaan dimulai dari pekerjaan sehari -hari, dilanjutkan pengalaman transaksi konkret, 
+kemudian pemeriksaan dan kebutuhan. Pertanyaan pendalaman digunakan untuk memperjelas 
+contoh dan alasan. Responden dapat menjelaskan proses yang lancar maupun pengalaman 
+dengan hambatan. 
+Q1 
+Ceritakan tugas Anda dalam penggunaan Fleffy dan penanganan pembayaran pelanggan. 
+Pendalaman: Bagian mana yang Anda kerjakan sendiri? Siapa lagi yang terlibat? 
+Q2 
+Ceritakan pola penggunaan Fleffy dalam pekerjaan Anda sehari-hari. 
+Pendalaman: Sejak kapan, seberapa sering, dengan perangkat apa, dan dalam situasi seperti 
+apa? 
+Q3 
+Apa yang ingin Anda capai ketika mencatat pembayaran transfer, dan mengapa hal itu penting 
+bagi Anda? 
+Pendalaman: Apa yang membuat urusan pembayaran dianggap selesai dengan baik? 
+Q4 
+Ceritakan transaksi transfer terakhir yang Anda tangani, dari awal sampai menentukan tindak 
+lanjutnya. 
+Pendalaman: Kapan kira-kira terjadi? Bagian mana yang Anda tangani langsung? 
+Q5 
+Sebelum mulai mencatat transaksi tersebut, apa yang Anda lakukan atau siapkan? 
+Pendalaman: Informasi berasal dari mana? Apa yang memicu pencatatan? 
+Q6 
+Saat menggunakan Fleffy pada transaksi itu, langkah apa yang Anda lakukan dan informasi 
+apa yang Anda perhatikan? 
+Pendalaman: Apa alasan memilih langkah tersebut? Adakah perpindahan ke sumber lain? 
+Q7 
+Setelah melihat gambar B2, apa arti informasi pada layar ini bagi Anda? 
+Pendalaman: Informasi apa yang sudah dan belum diketahui? Apa dasar penafsiran tersebut? 
+
+4 
+Panduan pemeriksaan dan kebutuhan pengguna  
+Q8 
+Setelah pencatatan atau status itu muncul, apa yang Anda lakukan berikutnya sampai 
+memutuskan tindak lanjut pembayaran? 
+Pendalaman: Siapa yang memastikan penerimaan, informasi apa yang digunakan, dan 
+bagaimana hasilnya disampaikan? 
+Q9 
+Dalam pengalaman tersebut, bagian mana yang berjalan lancar dan bagian mana yang 
+memerlukan usaha tambahan, jika ada? 
+Pendalaman: Jika pernah memeriksa atau menghubungi kembali, apa pemicunya dan 
+bagaimana hasilnya? 
+Q10 
+Bagaimana perasaan Anda sebelum, selama, dan setelah menangani pembayaran tersebut? 
+Pendalaman: Pada momen apa perasaan itu muncul dan apa yang menimbulkannya? 
+Q11 
+Apa pengaruh proses pemeriksaan itu terhadap pekerjaan atau pelayanan, jika ada? 
+Pendalaman: Adakah tindak lanjut yang tertunda? Mana yang dialami dan mana yang 
+diperkirakan? 
+Q12 
+Informasi atau dukungan apa yang Anda perlukan untuk menentukan tindak lanjut 
+pembayaran? Apa harapan Anda untuk proses ini ke depan? 
+Pendalaman: Apa yang sudah membantu? Jika satu hal dapat diperbaiki, hasil apa yang paling 
+penting dan mengapa? 
+Q13 
+Dari ringkasan yang saya sampaikan, apa yang perlu dikoreksi atau ditambahkan? 
+Pendalaman: Adakah pengalaman penting lain yang belum dibahas? 
+Stimulus dan pencatatan jawaban 
+B2 merujuk tampilan Rincian Pembayaran Fleffy pada dokumentasi Worksheet 1 -4: 
+status Lunas dan Bank Transfer Rp57.00 0 pada transaksi contoh. Nominal ini merupakan 
+konteks stimulus, bukan nominal transaksi baru dari ketiga responden. [S1, S4] 
+Seluruh ringkasan berikut merupakan parafrasa. Penanda seperti [R2 Q8] menunjukkan 
+responden dan nomor jawaban sumber. Pernyataan mengenai waktu tunggu, antrean, dan 
+perilaku aplikasi diatribusikan kepada responden. Analisis peneliti ditempatkan pada bagian 
+perbandingan serta temuan, terpisah dari ringkasan jawaban. 
+
+5 
+5 Ringkasan jawaban R1 Kasir laundry sepatu  
+Peran kebiasaan dan tujuan Q1 sampai Q3 
+R1 menangani pencatatan transaksi dan pembayaran pelanggan. Ia memasukkan nominal, 
+memilih metode pembayaran, dan memeriksa rekening atau notifikasi mobile banking sendiri. 
+Owner atau finance dapat membantu saat ada keraguan. Penggunaan Fle ffy berlangsung 
+setiap hari melalui tablet kasir dan ponsel, termasuk saat pelayanan ramai. Tujuannya adalah 
+catatan akurat, kepastian dana masuk, dan kesesuaian pencatatan di akhir pelayanan. [R1 Q1 -
+Q3] 
+Pengalaman sebelum dan saat pencatatan Q4 sampai Q6 
+Dalam uraian pengalaman, R1 menerima informasi pembayaran serta bukti dari 
+pelanggan, mencocokkan nominal dengan catatan Fleffy, dan menentukan tindak lanjut. Ia 
+menyiapkan aplikasi serta sarana pengecekan rekening. Ketika mencatat, R1 berpindah antara 
+layar Fleffy, bukti dari pelanggan, dan mobile banking untuk memeriksa kecocokan informasi 
+pembayaran. [R1 Q4-Q6] 
+Penafsiran status Q7 
+R1 memahami tampilan sebagai catatan pembayaran pada sistem. Ia masih 
+mempertanyakan apakah Lunas juga menjamin dana sudah d iterima secara langsung. 
+Pengalamannya dengan input manual menjadi dasar untuk tetap melakukan pemeriksaan 
+rekening. [R1 Q7] 
+Tindak lanjut usaha dan perasaan Q8 sampai Q11 
+Setelah nominal dan informasi penerimaan sesuai, R1 melanjutkan transaksi serta 
+memberi konfirmasi kepada pelanggan. Pencatatan dinilai cepat, tetapi memeriksa mobile 
+banking atau menunggu bantuan owner membutuhkan usaha tambahan. R1 melaporkan 
+pengaruh terhadap antrean, terutama saat ramai; lama penundaan tidak diukur. [R1 Q8 -Q9, 
+Q11] 
+Sebelum pemeriksaan, R1 merasa waspada, terutama jika bukti kurang jelas atau respons 
+informasi rekening lambat. Saat memeriksa, ia fokus pada kecocokan angka. Setelah 
+kepastian pembayaran diperoleh, ia merasa lega. [R1 Q10] 
+Kebutuhan harapan dan penutup Q12 sampai Q13 
+R1 mengharapkan kepastian pembayaran yang lebih mudah diperoleh tanpa sering 
+berpindah aplikasi. Notifikasi validasi atau integrasi bank menjadi usulan yang disampaikan. 
+Pada penutup, R1 menilai pokok ringkasan sudah sesuai dan menambahkan kekh awatiran 
+tentang bukti transfer yang disunting. Kekhawatiran tersebut tidak menyatakan bahwa 
+penipuan atau kerugian benar-benar telah terjadi. [R1 Q12-Q13] 
+
+6 
+6 Ringkasan jawaban R2 Admin Operasional 
+Peran kebiasaan dan tujuan Q1 sampai Q3 
+R2 menjalankan tuga s admin sekaligus kasir: menerima pesanan langsung atau melalui 
+WhatsApp, mencatat sepatu dan layanan, menerbitkan nota, serta mencatat pembayaran. 
+Owner atau finance memegang akses pemeriksaan rekening, sedangkan teknisi menerima 
+informasi pengerjaan. Fleffy digunakan dalam aktivitas harian melalui perangkat operasional. 
+R2 menyebut kisaran 15 -30 transaksi per hari sebagai keterangannya, bukan hasil hitung 
+peneliti. [R2 Q1-Q2] 
+Tujuannya adalah memastikan pencatatan sesuai penerimaan dana dan mengurangi ris iko 
+kesalahan atau bukti transfer yang tidak sah. Pembayaran dianggap selesai dengan baik 
+setelah pemeriksaan owner atau finance menghasilkan kecocokan informasi yang diperlukan. 
+[R2 Q3] 
+Pengalaman sebelum dan saat pencatatan Q4 sampai Q6 
+R2 menceritakan pesanan deep cleaning dua pasang sepatu dengan transfer Rp150.000. Ia 
+menerima bukti melalui WhatsApp, mencatat pesanan pada Fleffy, dan meneruskan 
+permintaan pemeriksaan kepada owner sebelum menindaklanjuti pengerjaan. [R2 Q4] 
+Persiapan mencakup rincian pesanan dan layanan serta informasi pembayaran pelanggan. 
+R2 memperhatikan kesesuaian nominal dan informasi waktu pada bukti, lalu berpindah dari 
+Fleffy ke WhatsApp pelanggan serta percakapan dengan owner. [R2 Q5-Q6] 
+Penafsiran status dan tindak lanjut Q7 sampai Q8 
+R2 menafsirkan status sebagai informasi pencatatan, sementara kepastian penerimaan 
+diperoleh dari pemeriksaan owner atau finance. Ia meminta verifikasi dan menunggu 
+konfirmasi, kemudian menindaklanjuti pesanan. Penjelasan R2 tentang integrasi perbankan 
+dicatat sebagai pemahamannya mengenai aplikasi. [R2 Q7-Q8] 
+Usaha dampak dan perasaan Q9 sampai Q11 
+Input pesanan dan penerbitan nota dinilai lancar. Hambatan yang dilaporkan adalah 
+menunggu owner merespons, kadang disertai pangg ilan telepon atau permintaan agar 
+pelanggan menunggu. Contoh pengambilan sepatu diperlakukan sebagai pengalaman layanan 
+tambahan, terpisah dari contoh sebelum pengerjaan pada Q4. [R2 Q9] 
+R2 merasa cemas saat menunggu kepastian dan sungkan kepada pelanggan.  Sesudah 
+konfirmasi, ia merasa lega. Ia melaporkan antrean tersendat dan pengerjaan yang kadang 
+tertunda beberapa jam; durasi ini merupakan laporan pengalaman, bukan pengukuran. 
+Penurunan kepuasan pelanggan disebut sebagai perkiraan. [R2 Q10-Q11] 
+Kebutuhan harapan dan penutup Q12 sampai Q13 
+R2 membutuhkan informasi penerimaan pembayaran yang jelas dan koordinasi lebih 
+cepat. Ia mengusulkan validasi otomatis, integrasi rekening, QRIS dinamis, atau payment 
+gateway. Pada penutup, R2 menyatakan ringkasan sesuai  dengan pengalamannya dan 
+mengharapkan perbaikan verifikasi menjadi prioritas. Ia tetap menilai pencatatan Fleffy 
+membantu pekerjaan. Usulan teknologi tersebut menjadi harapan responden untuk dievaluasi 
+lebih lanjut. [R2 Q12-Q13] 
+
+7 
+7 Ringkasan jawaban R3 Owner 
+Peran kebiasaan dan tujuan Q1 sampai Q3 
+R3 adalah owner yang menggunakan Fleffy untuk mencatat transaksi dan memantau 
+pembayaran pelanggan. Ia melakukan pengecekan rekening sendiri. Aplikasi diakses melalui 
+HP setiap hari ketika ada transaksi atau saat perlu memeriksa status. Tujuannya adalah catatan 
+pembayaran yang benar dan kepastian bahwa uang benar -benar masuk ke rekening. [R3 Q1 -
+Q3] 
+Pengalaman sebelum dan saat pencatatan Q4 sampai Q6 
+R3 menceritakan pembayaran transfer yang diperiksa dengan mencocok kan transaksi di 
+Fleffy dan mutasi rekening sebelum pesanan dilanjutkan. Persiapannya mencakup informasi 
+pesanan, nominal, data pelanggan, dan bukti transfer. Ia membuka transaksi, membaca 
+nominal serta status pembayaran, kemudian memeriksa mobile banking untuk memastikan 
+penerimaan dana. [R3 Q4-Q6] 
+Penafsiran status dan tindak lanjut Q7 sampai Q8 
+R3 menafsirkan status di layar sebagai kondisi transaksi menurut aplikasi. Kepastian 
+penerimaan uang tetap diperoleh dari rekening. Setelah mutasi serta nominal s esuai, ia 
+memberi konfirmasi pembayaran dan melanjutkan pesanan. [R3 Q7-Q8] 
+Usaha dampak dan perasaan Q9 sampai Q11 
+Pencatatan Fleffy dinilai membantu, tetapi R3 masih perlu berpindah ke mobile banking. 
+Ia merasa tenang ketika catatan benar dan khawatir ap abila status belum sesuai dengan 
+rekening. Pemeriksaan tambahan membutuhkan waktu, sekaligus membantu mengurangi 
+risiko salah menentukan pembayaran. R3 tidak memberikan ukuran menit atau frekuensi 
+penundaan proses. [R3 Q9-Q11] 
+Kebutuhan harapan dan penutup Q12 sampai Q13 
+R3 membutuhkan informasi pembayaran yang akurat dan mengharapkan integrasi bank 
+agar pengecekan lebih praktis. Pada penutup, ia menegaskan manfaat Fleffy untuk pencatatan 
+serta kebiasaannya memastikan dana sebelum menganggap pembayaran sele sai. [R3 Q12 -
+Q13] 
+Interpretasi atas pengalaman R3 
+Jawaban R3 menunjukkan bahwa pemeriksaan merupakan bagian dari kendali 
+pembayaran yang dianggap bermanfaat. Karena R3 memiliki akses pemeriksaan sendiri, 
+pengalamannya membatasi anggapan bahwa semua penggun a harus menunggu konfirmasi 
+orang lain. Interpretasi ini digunakan dalam perbandingan berikut, tanpa menganggap praktik 
+owner mewakili seluruh peran. 
+
+8 
+8 Perbandingan jawaban antarresponden 
+Matriks merangkum perbedaan praktik yang dilaporkan. Perbandingan di lakukan 
+menurut aktivitas serta akses informasi, sehingga nama peran tidak otomatis menentukan pola 
+pemeriksaan yang sama. 
+Aspek R1 Kasir R2 Admin Operasional R3 Owner 
+Tujuan 
+Catatan tepat dan dana 
+dipastikan sebelum tindak 
+lanjut. 
+Pencatatan sesuai hasil 
+pemeriksaan owner atau 
+finance. 
+Catatan benar dan dana 
+masuk ke rekening. 
+Makna status 
+Catatan pembayaran; 
+masih mempertanyakan 
+jaminan penerimaan 
+dana. 
+Konfirmasi pencatatan; 
+menunggu hasil 
+pemeriksaan. 
+Kondisi transaksi 
+menurut aplikasi; 
+rekening tetap diperiksa. 
+Sumber 
+kepastian 
+Pemeriksaan rekening 
+sendiri; bantuan bila ragu. 
+Konfirmasi owner atau 
+finance yang memeriksa 
+rekening. 
+Pemeriksaan rekening 
+sendiri. 
+Usaha tambahan Pindah aplikasi atau 
+menunggu bantuan. 
+Pindah sumber dan 
+menunggu respons pihak 
+lain. 
+Pindah aplikasi dan 
+waktu pemeriksaan. 
+Dampak yang 
+dilaporkan 
+Antrean dapat tertunda 
+saat ramai. 
+Penantian pelanggan dan 
+penundaan pengerjaan dalam 
+pengalamannya. 
+Ada tambahan waktu; 
+pemeriksaan membantu 
+mengurangi risiko salah 
+bayar. 
+Perasaan Waspada, fokus 
+mencocokkan, lalu lega. 
+Cemas dan sungkan saat 
+menunggu, lalu lega. 
+Tenang bila sesuai; 
+khawatir bila catatan 
+belum sesuai rekening. 
+Harapan Notifikasi atau integrasi 
+bank. 
+Validasi otomatis dan 
+koordinasi lebih cepat; 
+mengusulkan beberapa 
+teknologi pembayaran. 
+Status akurat dan 
+integrasi bank yang 
+praktis. 
+ 
+Dasar perbandingan: tujuan Q3, makna Q7, sumber kepastian Q1/Q8, usaha dan dampak 
+Q9/Q11, perasaan Q10, dan harapan Q12-Q13 pada masing-masing responden. 
+Persamaan dan perbedaan yang penting 
+Ketiganya membutuhkan kecocokan antara catatan dan penerimaan dana serta menilai 
+pencatatan Fleffy membantu. Perbedaan utamanya adalah siapa yang dapat memperoleh bukti 
+penerimaan dan bagaimana hasilnya diter uskan. R2 menyoroti koordinasi antarorang, 
+sedangkan R3 menjalankan pemeriksaan sendiri. R1 menyebut kedua pola tersebut 
+bergantung pada kondisi. 
+R1 masih mempertanyakan cakupan jaminan label Lunas, sementara R2 dan R3 sudah 
+membedakan pencatatan dari kepa stian dana. Karena itu, temuan tidak menyatakan bahwa 
+seluruh responden salah memahami status pembayaran. 
+
+9 
+9 Temuan utama dan interpretasi peneliti 
+T1 Keputusan pembayaran memerlukan informasi penerimaan 
+Dasar jawaban: ketiganya mencocokkan catatan dengan r ekening atau konfirmasi 
+pemeriksa dana. Interpretasi: kebutuhan inti adalah kepastian yang dapat dijelaskan untuk 
+menentukan tindak lanjut, termasuk informasi apa yang telah dicatat dan apa yang telah 
+dipastikan. Perbedaan pemahaman status tetap dipertahan kan. [R1 Q3, Q7 -Q8; R2 Q3, Q7 -
+Q8; R3 Q3, Q7-Q8] 
+T2 Akses dan tanggung jawab membentuk alur kerja 
+Dasar jawaban: R1 dan R3 dapat memeriksa sendiri, sedangkan R2 meminta pemeriksaan 
+owner atau finance. Interpretasi: hambatan dan dukungan yang diperlukan berb eda menurut 
+kewenangan. Memperjelas pemeriksa serta cara menyampaikan hasil dapat membantu 
+koordinasi, tanpa menyimpulkan setiap kasir perlu memperoleh akses bank langsung. [R1 Q1, 
+Q8-Q9; R2 Q1, Q8; R3 Q1, Q6-Q8] 
+T3 Pemeriksaan menghubungkan beberapa sumber informasi 
+Dasar jawaban: operator menggunakan catatan Fleffy, informasi pelanggan, serta hasil 
+pemeriksaan rekening; R2 menghubungkannya melalui komunikasi dengan pihak lain. 
+Interpretasi: pencocokan informasi membutuhkan kesinambungan identitas pesanan dan hasil 
+pemeriksaan. Kepastian dana dalam kasus tersebut merupakan keterangan responden. [R1 Q4-
+Q6; R2 Q4-Q8; R3 Q4-Q8] 
+T4 Usaha tambahan dapat berupa perpindahan atau penantian 
+Dasar jawaban: R1 menyebut perpindahan dan bantuan, R2 menunggu konfirmasi, 
+sedangkan R3 menyoroti waktu pemeriksaan. Interpretasi: upaya perbaikan perlu menangani 
+jenis usaha yang benar -benar terjadi. Besaran waktu dan frekuensinya belum diukur; laporan 
+ini tidak menetapkan rata-rata keterlambatan. [R1-R3 Q9, Q11] 
+T5 Pemeriksaan juga melindungi keputusan kerja 
+Dasar jawaban: R3 menyatakan pemeriksaan membantu mengurangi risiko kesalahan, 
+dan ketiganya baru menindaklanjuti setelah memperoleh kepastian. Interpretasi: langkah 
+pemeriksaan yang diperlukan perlu tetap didukung. Penguran gan usaha dinilai bersama 
+ketelitian, bukan semata kecepatan. [R1 Q3, Q8; R2 Q3-Q4, Q8; R3 Q4, Q8, Q11] 
+T6 Perasaan yakin mengikuti kecocokan informasi 
+Dasar jawaban: ketiganya menyebut kewaspadaan, kekhawatiran, atau ketenangan yang 
+terkait kondisi pembay aran; kekhawatiran bukti palsu lebih eksplisit pada R1 dan R2. 
+Interpretasi: informasi dan tanggung jawab yang jelas dapat menjadi arah dukungan 
+pengalaman pengguna. Kekhawatiran tersebut tidak membuktikan telah terjadi penipuan atau 
+kerugian. [R1 Q10, Q12-Q13; R2 Q10, Q12; R3 Q10, Q13] 
+
+10 
+10 Masalah kebutuhan harapan dan kesimpulan 
+Masalah yang dilaporkan Kebutuhan pengguna hasil 
+interpretasi Harapan yang disampaikan 
+Kepastian penerimaan belum 
+diperoleh hanya dari catatan 
+status. 
+Memahami informasi yang 
+ditunjukkan status dan dasar untuk 
+menentukan tindak lanjut. 
+Status yang akurat, notifikasi, 
+atau validasi pembayaran. 
+Pencocokan memerlukan 
+perpindahan sumber atau 
+penantian konfirmasi. 
+Mencocokkan pesanan dengan hasil 
+pemeriksaan secara jelas dan 
+memperoleh tindak lanjut yang dapat 
+ditelusuri. 
+Integrasi bank agar pengecekan 
+lebih praktis; R2 juga 
+mengusulkan QRIS dinamis 
+atau payment gateway. 
+Pihak pencatat dan 
+pemeriksa dapat berbeda. 
+Mengetahui penanggung jawab 
+pemeriksaan, status tindak lanjut, dan 
+cara konfirmasi hasil. 
+Koordinasi yang lebih cepat 
+dengan owner atau finance. 
+ 
+Harapan teknologi dicatat sebagai usulan responden. Kelayakan integrasi, pengaruhnya 
+terhadap ketelitian, serta kemampuan mengatasi risiko perlu dievaluasi sebelum alternatif 
+perancangan dipilih. Kebutuhan pada tabel berasal dari interpretasi atas jawaban dan tidak 
+dianggap sebagai fitur yang sudah disepakati. 
+Kesimpulan 
+Dalam ketiga jawaban, kepastian pembayaran diperoleh melalui pencocokan catata n 
+Fleffy dengan informasi penerimaan dana. Praktik pemeriksaan mengikuti akses dan 
+pembagian tugas: ada pengguna yang memeriksa sendiri dan ada yang menunggu konfirmasi. 
+Pencatatan dinilai membantu, sementara perpindahan sumber serta koordinasi memerlukan 
+usaha tambahan. Temuan mendukung kebutuhan informasi pembayaran dan tanggung jawab 
+pemeriksaan yang jelas, dengan ketelitian keputusan tetap dipertahankan. 
+Batas dan penggunaan hasil berikutnya 
+Temuan berasal dari tiga wawancara dengan durasi berbeda. Peng alaman tersebut tidak 
+digunakan untuk menyatakan prevalensi seluruh pengguna, logika internal aplikasi, 
+penerimaan dana yang diperiksa peneliti, atau besaran waktu layanan. Rincian dampak dan 
+harapan tetap diatribusikan kepada responden. Data tujuan, peril aku, perasaan, serta 
+kebutuhan dapat menjadi dasar Empathy Map, Persona, dan Journey pada worksheet 
+berikutnya; pendalaman perlu dilakukan pada contoh kejadian yang masih umum. 
+Sumber dan penelusuran data 
+S1-S4: Rusdany Maestro, Worksheet 1 UX Detective, Worksheet 2 Design Challenge, 
+Worksheet 3 User and Stakeholder, serta Worksheet 4 UX Research Plan pada Fleffy. 
+R1-R3: catatan jawaban wawancara kasir laundry sepatu, Admin Operasional, dan owner, 15 
+Oktober 2026. Penanda Q1-Q13 merujuk panduan pada bagian 4 dan jawaban masing-masing 
+responden. Ringkasan merupakan parafrasa; sumber asli disimpan terpisah. 
+Acuan tugas: Instruksi Worksheet 5 User Interview mata kuliah Rekayasa Interaksi. 
+
+11 
+Lampiran dokumentasi wawancara R1 
+ 
+Dokumentasi sesi R1 sebagai kasir laundry sepatu. Wawancara langsung di Pesenkopi, 15 Oktober 
+2026, dengan durasi 10 menit. Foto digunakan atas persetujuan responden. 
+
+
+12 
+Lampiran dokumentasi wawancara R2 
+ 
+Dokumentasi sesi R2 sebagai Admin Operasional yang juga menjalankan tugas kasir. Wawancara 
+langsung di Pesenkopi, 15 Oktober 2026, dengan durasi 12 menit. Foto digunakan atas persetujuan 
+responden. 
+
+
+13 
+Lampiran dokumentasi wawancara R3 
+ 
+Dokumentasi sesi R3 sebagai owner yang menggunakan Fleffy untuk mencatat transaksi dan 
+memantau pembayaran. Wawancara langsung di Pesenkopi, 15 Oktober 2026, dengan durasi 15 menit. 
+Foto digunakan atas persetujuan responden. 

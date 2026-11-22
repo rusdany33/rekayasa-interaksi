@@ -1,0 +1,482 @@
+[
+  {
+    "block": 440,
+    "style": "normal",
+    "text": "Berkas Bukti Pendukung: "
+  },
+  {
+    "block": 441,
+    "style": "Heading 3",
+    "text": "A. User Journey Map"
+  },
+  {
+    "block": 442,
+    "style": "normal",
+    "text": ""
+  },
+  {
+    "block": 443,
+    "style": "TABLE",
+    "text": "Stage | User Goal | Action | Thought | Emotion | Pain Point | Opportunity\nBefore |  |  |  |  |  | \nDuring |  |  |  |  |  | \nAfter |  |  |  |  |  | "
+  },
+  {
+    "block": 444,
+    "style": "Heading 3",
+    "text": "B. Moment of Truth (MOT)"
+  },
+  {
+    "block": 445,
+    "style": "normal",
+    "text": "Pada tahap mana user mengalami masalah terbesar? __________________________________"
+  },
+  {
+    "block": 446,
+    "style": "normal",
+    "text": "Akar Masalah: __________________________________"
+  },
+  {
+    "block": 447,
+    "style": "normal",
+    "text": "Opportunity: __________________________________"
+  },
+  {
+    "block": 448,
+    "style": "normal",
+    "text": ""
+  },
+  {
+    "block": 449,
+    "style": "Title",
+    "text": ""
+  },
+  {
+    "block": 450,
+    "style": "Title",
+    "text": "PERTEMUAN 08"
+  },
+  {
+    "block": 451,
+    "style": "Heading 1",
+    "text": "From Insight to Requirement: User Need → Requirement"
+  },
+  {
+    "block": 452,
+    "style": "normal",
+    "text": ""
+  },
+  {
+    "block": 453,
+    "style": "normal",
+    "text": "Tujuan Pembelajaran: Mahasiswa mampu menghubungkan hasil UX Research (Insight & Need) menjadi Software Requirements (Functional & UX Requirements) dan merumuskan User Stories."
+  },
+  {
+    "block": 454,
+    "style": "Heading 2",
+    "text": "1. Materi: Konsep Dasar UX Requirements & User Stories"
+  },
+  {
+    "block": 455,
+    "style": "normal",
+    "text": "Hasil riset tidak akan berguna jika tidak diterjemahkan ke dalam spesifikasi kebutuhan perangkat lunak yang jelas bagi tim pengembang (engineers)."
+  },
+  {
+    "block": 456,
+    "style": "normal",
+    "text": "Insight → Need → Requirement: Proses inferensi dari temuan lapangan menjadi kebutuhan pengguna, lalu ditransformasikan ke Functional Requirement (fitur teknis) dan UX Requirement (kriteria pengalaman pengguna)."
+  },
+  {
+    "block": 457,
+    "style": "normal",
+    "text": "User Story: Format standar dokumentasi kebutuhan berbasis pengguna: As a [user], I want to [action], so that [benefit]."
+  },
+  {
+    "block": 458,
+    "style": "Heading 2",
+    "text": "2. Petunjuk Pengerjaan"
+  },
+  {
+    "block": 459,
+    "style": "normal",
+    "text": "Ikuti langkah-langkah berikut untuk menyelesaikan tugas PERTEMUAN 08:"
+  },
+  {
+    "block": 460,
+    "style": "normal",
+    "text": "Pemetaan Insight → Need: Petakan hasil riset ke kebutuhan pengguna."
+  },
+  {
+    "block": 461,
+    "style": "normal",
+    "text": "Turunkan Requirement: Turunkan User Need menjadi Functional Requirement dan UX Requirement."
+  },
+  {
+    "block": 462,
+    "style": "normal",
+    "text": "Susun User Stories: Buat minimal 5 User Stories menggunakan format standar."
+  },
+  {
+    "block": 463,
+    "style": "Heading 2",
+    "text": "3. Contoh Ringkasan Requirement & User Stories"
+  },
+  {
+    "block": 464,
+    "style": "normal",
+    "text": "User Story Contoh: As a mobile banking user, I want to receive clear error notifications with account balance validation, so that I don't feel anxious about losing my money."
+  },
+  {
+    "block": 465,
+    "style": "normal",
+    "text": ""
+  },
+  {
+    "block": 466,
+    "style": "Heading 2",
+    "text": "4. Contoh Worksheet Mahasiswa (Terisi)"
+  },
+  {
+    "block": 467,
+    "style": "normal",
+    "text": "Informasi Mahasiswa"
+  },
+  {
+    "block": 468,
+    "style": "normal",
+    "text": ""
+  },
+  {
+    "block": 469,
+    "style": "normal",
+    "text": "Nama: "
+  },
+  {
+    "block": 470,
+    "style": "normal",
+    "text": "Tanggal Analisis: "
+  },
+  {
+    "block": 471,
+    "style": "normal",
+    "text": "Berkas Bukti Pendukung: "
+  },
+  {
+    "block": 472,
+    "style": "Heading 3",
+    "text": "A. Pemetaan Insight → Need → Requirement"
+  },
+  {
+    "block": 473,
+    "style": "normal",
+    "text": ""
+  },
+  {
+    "block": 474,
+    "style": "TABLE",
+    "text": "Research Insight | User Need | Functional Requirement | UX Requirement\nPengguna mengalami anxiety tinggi saat eror karena takut uang terpotong. | Kepastian status saldo secara realtime saat transaksi gagal. | Sistem melakukan pengecekan otomatis Core Banking dan menampilkan modal status saldo. | Pesan disampaikan dengan bahasa awam dan visual status warna yang jelas (misal: kuning/hijau).\nPengguna merasa lelah jika harus mengulang pengisian data transfer dari awal. | Kemudahan mengulang transaksi secara instan tanpa input ulang. | Fitur Auto-fill & One-Tap Retry pada modal kesalahan transaksi. | Waktu pemulihan transaksi (time-to-retry) kurang dari 3 detik."
+  },
+  {
+    "block": 475,
+    "style": "Heading 3",
+    "text": "B. User Stories"
+  },
+  {
+    "block": 476,
+    "style": "normal",
+    "text": "As a nasabah M-Banking, I want to melihat penjelasan pesan eror dengan bahasa awam, so that saya dapat langsung memahami penyebab kegagalan transaksi."
+  },
+  {
+    "block": 477,
+    "style": "normal",
+    "text": "As a nasabah M-Banking, I want to mendapatkan konfirmasi status saldo di layar eror, so that saya merasa tenang bahwa saldo tidak terpotong."
+  },
+  {
+    "block": 478,
+    "style": "normal",
+    "text": "As a nasabah M-Banking, I want to memiliki tombol \"Coba Lagi\" otomatis, so that saya tidak perlu mengetik ulang nomor rekening dan nominal."
+  },
+  {
+    "block": 479,
+    "style": "normal",
+    "text": "As a nasabah M-Banking, I want to memiliki pintasan hubungi Customer Service di layar eror, so that saya bisa mendapatkan bantuan cepat saat darurat."
+  },
+  {
+    "block": 480,
+    "style": "normal",
+    "text": "As a nasabah M-Banking, I want to melihat indikator kualitas jaringan sebelum konfirmasi, so that saya bisa menunda transaksi jika koneksi buruk."
+  },
+  {
+    "block": 481,
+    "style": "normal",
+    "text": ""
+  },
+  {
+    "block": 482,
+    "style": "Heading 1",
+    "text": ""
+  },
+  {
+    "block": 483,
+    "style": "Heading 2",
+    "text": "5. Worksheet Mahasiswa"
+  },
+  {
+    "block": 484,
+    "style": "normal",
+    "text": "Informasi Mahasiswa"
+  },
+  {
+    "block": 485,
+    "style": "normal",
+    "text": ""
+  },
+  {
+    "block": 486,
+    "style": "normal",
+    "text": "Nama: "
+  },
+  {
+    "block": 487,
+    "style": "normal",
+    "text": "Tanggal Analisis: "
+  },
+  {
+    "block": 488,
+    "style": "normal",
+    "text": "Berkas Bukti Pendukung: "
+  },
+  {
+    "block": 489,
+    "style": "Heading 3",
+    "text": "A. Pemetaan Insight → Need → Requirement"
+  },
+  {
+    "block": 490,
+    "style": "normal",
+    "text": ""
+  },
+  {
+    "block": 491,
+    "style": "TABLE",
+    "text": "Research Insight | User Need | Functional Requirement | UX Requirement\n |  |  | \n |  |  | "
+  },
+  {
+    "block": 492,
+    "style": "Heading 3",
+    "text": "B. User Stories"
+  },
+  {
+    "block": 493,
+    "style": "normal",
+    "text": "Buat minimal 5 User Stories (As a [user], I want to [action], so that [benefit]):"
+  },
+  {
+    "block": 494,
+    "style": "normal",
+    "text": "As a ____________, I want to ____________, so that ____________."
+  },
+  {
+    "block": 495,
+    "style": "normal",
+    "text": "As a ____________, I want to ____________, so that ____________."
+  },
+  {
+    "block": 496,
+    "style": "normal",
+    "text": "As a ____________, I want to ____________, so that ____________."
+  },
+  {
+    "block": 497,
+    "style": "normal",
+    "text": "As a ____________, I want to ____________, so that ____________."
+  },
+  {
+    "block": 498,
+    "style": "normal",
+    "text": "As a ____________, I want to ____________, so that ____________."
+  },
+  {
+    "block": 499,
+    "style": "normal",
+    "text": ""
+  },
+  {
+    "block": 500,
+    "style": "Title",
+    "text": ""
+  },
+  {
+    "block": 501,
+    "style": "Title",
+    "text": "PERTEMUAN 09"
+  },
+  {
+    "block": 502,
+    "style": "Heading 1",
+    "text": "Information Architecture: Organize the Experience"
+  },
+  {
+    "block": 503,
+    "style": "normal",
+    "text": ""
+  },
+  {
+    "block": 504,
+    "style": "normal",
+    "text": "Tujuan Pembelajaran: Mahasiswa mampu merancang Arsitektur Informasi (Information Architecture) produk melalui Content Inventory, Sitemap, dan Card Sorting Mini Exercise."
+  },
+  {
+    "block": 505,
+    "style": "Heading 2",
+    "text": "1. Materi: Konsep Dasar Information Architecture (IA)"
+  },
+  {
+    "block": 506,
+    "style": "normal",
+    "text": "Information Architecture (IA) adalah seni dan ilmu mengorganisasi, memberi label, dan menyusun konten agar mudah ditemukan (findable) dan dipahami oleh pengguna."
+  },
+  {
+    "block": 507,
+    "style": "normal",
+    "text": "Content Inventory: Inventarisasi komponen, konten, dan fitur beserta prioritasnya."
+  },
+  {
+    "block": 508,
+    "style": "normal",
+    "text": "Sitemap: Diagram hirarki struktur navigasi aplikasi/web dari halaman utama hingga sub-halaman."
+  },
+  {
+    "block": 509,
+    "style": "normal",
+    "text": "Card Sorting: Teknik pengelompokan kategori konten berbasis mental model pengguna."
+  },
+  {
+    "block": 510,
+    "style": "Heading 2",
+    "text": "2. Petunjuk Pengerjaan"
+  },
+  {
+    "block": 511,
+    "style": "normal",
+    "text": "Ikuti langkah-langkah berikut untuk menyelesaikan tugas PERTEMUAN 09:"
+  },
+  {
+    "block": 512,
+    "style": "normal",
+    "text": "Buat Content Inventory: Inventarisasi fitur berdasarkan kebutuhan yang telah dirumuskan."
+  },
+  {
+    "block": 513,
+    "style": "normal",
+    "text": "Gambar Sitemap: Gambar struktur hirarki Sitemap aplikasi."
+  },
+  {
+    "block": 514,
+    "style": "normal",
+    "text": "Card Sorting: Kelompokkan fitur-fitur ke dalam minimal 3 kategori utama (Card Sorting Mini Exercise)."
+  },
+  {
+    "block": 515,
+    "style": "Heading 2",
+    "text": "3. Contoh Ringkasan Information Architecture"
+  },
+  {
+    "block": 516,
+    "style": "normal",
+    "text": "Sitemap Ringkas: Home -> Status Transaksi -> Error Handler Modal -> Action Options (Retry / Support / Mutasi)."
+  },
+  {
+    "block": 517,
+    "style": "Heading 2",
+    "text": "4. Contoh Worksheet Mahasiswa (Terisi)"
+  },
+  {
+    "block": 518,
+    "style": "normal",
+    "text": "Informasi Mahasiswa"
+  },
+  {
+    "block": 519,
+    "style": "normal",
+    "text": ""
+  },
+  {
+    "block": 520,
+    "style": "normal",
+    "text": "Nama:"
+  },
+  {
+    "block": 521,
+    "style": "normal",
+    "text": "Tanggal Analisis: "
+  },
+  {
+    "block": 522,
+    "style": "normal",
+    "text": "Berkas Bukti Pendukung: "
+  },
+  {
+    "block": 523,
+    "style": "Heading 3",
+    "text": "A. Content Inventory"
+  },
+  {
+    "block": 524,
+    "style": "normal",
+    "text": ""
+  },
+  {
+    "block": 525,
+    "style": "TABLE",
+    "text": "Content / Feature | User Need | Priority\nModal Status Eror Instruktif | Memahami penyebab kegagalan transaksi. | High\nIndicator Realtime Saldo | Memastikan saldo aman. | High\nTombol One-Tap Retry | Mengulang transaksi tanpa input ulang. | High\nShortcut Customer Service | Akses bantuan darurat. | Medium\nFitur Auto-Check Jaringan | Pencegahan eror sebelum transaksi. | Low"
+  },
+  {
+    "block": 526,
+    "style": "Heading 3",
+    "text": "B. Sitemap"
+  },
+  {
+    "block": 527,
+    "style": "normal",
+    "text": "[HOME / DASHBOARD]"
+  },
+  {
+    "block": 528,
+    "style": "normal",
+    "text": " │"
+  },
+  {
+    "block": 529,
+    "style": "normal",
+    "text": " ├── [TRANSFER]"
+  },
+  {
+    "block": 530,
+    "style": "normal",
+    "text": " │    ├── Input Rekening & Nominal"
+  },
+  {
+    "block": 531,
+    "style": "normal",
+    "text": " │    └── Konfirmasi & PIN"
+  },
+  {
+    "block": 532,
+    "style": "normal",
+    "text": " │         └── [ERROR RECOVERY MODAL] (New Feature)"
+  },
+  {
+    "block": 533,
+    "style": "normal",
+    "text": " │              ├── Button: Coba Lagi (Auto-fill)"
+  },
+  {
+    "block": 534,
+    "style": "normal",
+    "text": " │              ├── Button: Bantuan CS"
+  },
+  {
+    "block": 535,
+    "style": "normal",
+    "text": " │              └── Status Saldo Indicator"
+  }
+]

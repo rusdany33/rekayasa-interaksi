@@ -1,0 +1,89 @@
+HASIL WAWANCARA ANALISA APLIKASI KASIR FLEFFY.ID
+Studi Kasus: Kendala Validasi Manual Bukti Pembayaran Transfer pada Layanan Cuci Sepatu
+Peran Responden  : Admin Operasional / Kasir Store Fleffy.id
+Fokus Masalah   : Pencatatan manual bukti transaksi transfer & ketiadaan validasi otomatis real-time
+Konteks Bisnis   : Jasa Perawatan & Cuci Sepatu (Shoe Cleaning Services)
+
+BAGIAN 1: ALUR KERJA DAN PENGGUNAAN APLIKASI SEHARI-HARI
+Q1. Ceritakan tugas Anda dalam penggunaan Fleffy dan penanganan pembayaran pelanggan.
+Jawaban: Tugas utama saya sebagai admin kasir adalah menerima pesanan (baik pelanggan walk-in maupun pesanan masuk via WhatsApp), mencatat detail sepatu dan jenis layanan perawatan yang dipilih ke dalam sistem Fleffy, menerbitkan nota/invoice pesanan, serta mencatat status pembayaran pelanggan (tunai, QRIS, maupun transfer bank).
+Pendalaman:
+• Bagian yang Dikerjakan Sendiri: Menginput data identitas pelanggan, memilih jenis perawatan sepatu, mencetak/mengirimkan resi pembayaran, dan memperbarui status pembayaran di aplikasi Fleffy.
+• Pihak Lain yang Terlibat: Pelanggan (menyediakan informasi sepatu & mengirimkan bukti transfer), Pemilik Bisnis / Tim Keuangan (pemegang akses langsung m-Banking untuk mengecek mutasi masuk), dan Tim Teknisi Cuci (menerima SPK/nota untuk memproses sepatu).
+
+Q2. Ceritakan pola penggunaan Fleffy dalam pekerjaan Anda sehari-hari.
+Jawaban: Saya menggunakan Fleffy sepanjang jam operasional toko (setiap hari kerja, sekitar pukul 09.00 hingga 21.00 WIB) sebagai sistem utama transaksi front-office toko.
+Pendalaman:
+• Sejak Kapan: Sudah digunakan sejak awal bekerja / beberapa bulan terakhir sejak outlet mengadopsi Fleffy.id.
+• Frekuensi: Sangat sering, selalu aktif setiap kali ada transaksi masuk (rata-rata 15–30 transaksi per hari).
+• Perangkat yang Digunakan: Menggunakan tablet Android operasional toko, smartphone admin, dan sesekali diakses melalui browser laptop toko.
+• Situasi Penggunaan: Dijalankan saat penerimaan sepatu masuk, pelunasan saat pengambilan sepatu, dan rekapitulasi penjualan harian pada akhir shift.
+
+Q3. Apa yang ingin Anda capai ketika mencatat pembayaran transfer, dan mengapa hal itu penting bagi Anda?
+Jawaban: Target utama saya adalah memastikan bahwa status transaksi yang terdaftar di Fleffy benar-benar mencerminkan dana yang telah secara riil masuk ke rekening toko. Hal ini sangat penting untuk mencegah kerugian finansial akibat selisih kas serta menghindari risiko penipuan berupa bukti transfer palsu/rekayasa.
+Pendalaman:
+• Indikator Selesai dengan Baik: Urusan pembayaran dinyatakan selesai dengan baik apabila bukti transfer yang dikirimkan pelanggan telah diverifikasi mutasinya oleh owner/finance, nominal dan nomor referensi sesuai, lalu status di Fleffy dapat diubah menjadi 'Lunas' tanpa keraguan.
+
+BAGIAN 2: PENANGANAN TRANSAKSI DAN STIMULUS LUNAS (Q4 - Q7)
+Q4. Ceritakan transaksi transfer terakhir yang Anda tangani, dari awal sampai menentukan tindak lanjutnya.
+Jawaban: Kemarin sore, terdapat pelanggan yang memesan layanan deep cleaning untuk 2 pasang sepatu via WhatsApp. Pelanggan memilih metode pembayaran transfer bank dan mengirimkan tangkapan layar (screenshot) resi transfer sebesar Rp150.000.
+Pendalaman:
+• Waktu Kejadian: Kemarin sore sekitar pukul 15.30 WIB.
+• Penanganan Langsung: Saya membuatkan draft pesanan baru di Fleffy, menerima file bukti transfer di WhatsApp, mencatat transaksi di Fleffy, lalu meneruskan gambar resi ke WhatsApp Owner untuk verifikasi mutasi sebelum sepatu diserahkan ke tim teknisi.
+
+Q5. Sebelum mulai mencatat transaksi tersebut, apa yang Anda lakukan atau siapkan?
+Jawaban: Saya menyiapkan kondisi fisik/foto sepatu pelanggan, rincian paket layanan yang dipesan, nomor kontak pelanggan, serta file gambar bukti transfer yang dikirim pelanggan melalui obrolan WhatsApp.
+Pendalaman:
+• Sumber Informasi: Pesan dan lampiran gambar bukti transfer dari pelanggan di aplikasi WhatsApp.
+• Pemicu Pencatatan: Pelanggan menyatakan 'Sudah saya transfer ya kak, ini buktinya' seraya mengirimkan gambar resi. Pernyataan ini memicu saya membuka Fleffy untuk menginput rincian pesanan agar resi/SPK dapat diterbitkan.
+
+Q6. Saat menggunakan Fleffy pada transaksi itu, langkah apa yang Anda lakukan dan informasi apa yang Anda perhatikan?
+Jawaban: Saya membuka menu pesanan baru di Fleffy, menginput identitas pelanggan, memilih layanan cuci sepatu, memilih metode pembayaran 'Transfer Bank', lalu menandai status transaksi sesuai prosedur yang berlaku.
+Pendalaman:
+• Informasi yang Diperhatikan: Mencocokkan nominal tagihan di Fleffy dengan nominal angka yang tertera pada resi pelanggan, serta memeriksa tanggal dan jam transaksi pada resi.
+• Alasan Langkah Ditempuh: Agar pesanan resmi terdaftar di sistem Fleffy dan nomor resi/SPK dapat dicetak untuk ditempelkan pada fisik sepatu.
+• Perpindahan Sumber Informasi: Ya, terjadi perpindahan aplikasi secara berulang dari Fleffy ke WhatsApp (melihat resi pelanggan), lalu ke obrolan WhatsApp Owner (mengirim permintaan cek mutasi).
+
+Q7. Setelah melihat gambar B2, apa arti informasi pada layar ini bagi Anda?
+Jawaban: Layar ini menunjukkan bahwa data transaksi telah berhasil tersimpan dengan status 'Lunas' atau 'Transfer'. Namun, secara personal saya menafsirkan tampilan ini hanya sebagai konfirmasi bahwa proses input data admin telah selesai, bukan sebagai bukti mutlak bahwa dana telah mengendap di rekening toko.
+Pendalaman:
+• Informasi yang Sudah Diketahui: Rincian item/layanan yang dipesan, total nominal tagihan, dan metode pembayaran yang dipilih saat checkout.
+• Informasi yang Belum Diketahui: Keaslian dokumen bukti transfer (bebas dari penyuntingan) dan kepastian masuknya dana ke mutasi rekening usaha.
+• Dasar Penafsiran: Sistem Fleffy saat ini masih berbasis pencatatan manual sesuai input yang dimasukkan admin, belum terintegrasi secara otomatis dengan mutasi perbankan (bank feed/gateway).
+
+BAGIAN 3: PEMERIKSAAN, KEBUTUHAN, DAN EVALUASI PENGGUNA (Q8 - Q13)
+Q8. Setelah pencatatan atau status itu muncul, apa yang Anda lakukan berikutnya sampai memutuskan tindak lanjut pembayaran?
+Jawaban: Saya mengirimkan pesan singkat beserta tangkapan layar transaksi ke pihak Owner/Finance via WhatsApp untuk memohon verifikasi mutasi rekening.
+Pendalaman:
+• Pihak Penanggung Jawab: Owner atau Divisi Keuangan yang memegang kewenangan dan akses m-Banking toko.
+• Informasi Pemeriksaan: Nama pemilik rekening pengirim, nominal transfer, tanggal, dan jam transaksi.
+• Penyampaian Hasil: Owner membalas obrolan dengan konfirmasi 'Uang sudah masuk' atau mengirim foto mutasi. Setelah ada konfirmasi resmi ini, barulah saya merasa aman untuk menyerahkan sepatu ke bagian operasional cuci.
+
+Q9. Dalam pengalaman tersebut, bagian mana yang berjalan lancar dan bagian mana yang memerlukan usaha tambahan, jika ada?
+Jawaban: Proses penginputan pesanan dan penerbitan nota di aplikasi Fleffy berjalan sangat lancar dan intuitif. Namun, proses konfirmasi pembayaran transfer memerlukan usaha tambahan yang signifikan karena bergantung pada pengecekan manual pihak eksternal.
+Pendalaman:
+• Pemicu Usaha Tambahan: Ketika pelanggan ingin segera membawa pulang sepatunya / meminta kejelasan resi, sementara Owner lambat memberikan respon karena sedang ada kesibukan lain.
+• Tindakan yang Diambil: Terpaksa melakukan panggilan telepon ke Owner atau meminta pelanggan menunggu sejenak di kasir, yang berdampak pada kenyamanan pelanggan.
+
+Q10. Bagaimana perasaan Anda sebelum, selama, dan setelah menangani pembayaran tersebut?
+Jawaban: Sebelum proses, perasaan saya tenang dan siap melayani. Selama proses verifikasi, muncul rasa cemas dan waswas khawatir jika bukti transfer tersebut ternyata palsu atau teredit, serta merasa sungkan jika membuat pelanggan menunggu terlalu lama. Setelah mendapat konfirmasi mutasi dari Owner, barulah merasa lega dan tenang.
+Pendalaman:
+• Momen Kemunculan Perasaan: Rasa cemas muncul tepat pada saat menunggu balasan obrolan konfirmasi dari Owner sementara pelanggan berdiri menunggu di area kasir.
+
+Q11. Apa pengaruh proses pemeriksaan itu terhadap pekerjaan atau pelayanan, jika ada?
+Jawaban: Proses konfirmasi manual ini menghambat kelancaran alur pelayanan (turnaround time) di meja kasir.
+Pendalaman:
+• Dampak Nyata (Fakta Dialami): Antrean kasir tersendat saat jam sibuk, serta pengerjaan sepatu kadang tertunda beberapa jam karena admin menahan pengerjaan sebelum adanya konfirmasi mutasi masuk.
+• Dampak Perkiraan: Potensi penurunan kepuasan pelanggan akibat proses pengambilan/pembayaran yang memakan waktu lama.
+
+Q12. Informasi atau dukungan apa yang Anda perlukan untuk menentukan tindak lanjut pembayaran? Apa harapan Anda untuk proses ini ke depan?
+Jawaban: Saya membutuhkan indikator validasi pembayaran yang pasti, instan, dan terverifikasi otomatis di dalam aplikasi Fleffy tanpa bergantung pada komunikasi manual via WhatsApp.
+Pendalaman:
+• Fitur yang Sangat Membantu: Struktur pencatatan dan tata letak menu Fleffy yang sudah efisien.
+• Harapan Perbaikan Utama: Pengembangan fitur Validasi Pembayaran Otomatis / Integrasi Mutasi Rekening Bank (atau penggunaan QRIS Dinamis / Payment Gateway) langsung di dalam sistem Fleffy.
+• Hasil Paling Penting & Alasan: Status pembayaran dapat terverifikasi secara real-time dan otomatis. Alasan utamanya adalah untuk menjamin kepastian kas toko, mengeliminasi risiko resi palsu, dan meningkatkan kecepatan pelayanan kasir.
+
+Q13. Dari ringkasan yang saya sampaikan, apa yang perlu dikoreksi atau ditambahkan?
+Jawaban: Seluruh ringkasan yang disampaikan sudah sangat akurat dan merepresentasikan fakta operasional sehari-hari di kasir. Poin intinya adalah sistem Fleffy sudah sangat mendukung operasional pencatatan, namun tahap verifikasi pembayaran transfer manual masih menjadi bottleneck utama yang membutuhkan solusi otomatisasi.
+Pendalaman:
+• Catatan Tambahan: Diharapkan tim pengembang Fleffy dapat menjadikan fitur validasi otomatis ini sebagai prioritas pengembangan berikutnya.

@@ -1,0 +1,25 @@
+{
+  "pages": 8,
+  "fonts": [
+    "TimesNewRomanPS-BoldMT",
+    "TimesNewRomanPSMT"
+  ],
+  "colors": "hitam putih dan abu-abu netral",
+  "empathy_map_domains": 6,
+  "persona_fields": 14,
+  "map_is_image": true,
+  "map_orientation": "landscape",
+  "content_outside_map": "unchanged",
+  "pdf_bytes": 506792,
+  "qa_visual": "Lulus pemeriksaan visual seluruh halaman 1-8; Empathy Map berupa diagram bergambar pada halaman 3 landscape.",
+  "status": "Selesai",
+  "halaman_final": 8,
+  "map_visual_terverifikasi": {
+    "domain": 6,
+    "poin": 18,
+    "isi_sesuai_data": true,
+    "png_disisipkan_di_word": true,
+    "halaman_pdf_memuat_gambar": 3,
+    "isi_luar_map_tetap": true
+  }
+}

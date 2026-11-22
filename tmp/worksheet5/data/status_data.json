@@ -1,0 +1,68 @@
+{
+  "status_laporan": "Word dan PDF final 13 halaman telah dirapikan menjadi format akademik hitam-putih sesuai permintaan pengguna. Seluruh halaman diperiksa visual; isi dan dokumentasi R1-R3 tetap utuh. Tidak ada data atau dokumentasi yang menunggu.",
+  "R1": {
+    "peran_dari_pengguna": "Kasir",
+    "asal_data": "Pengguna mengonfirmasi bahwa ini jawaban kasir asli yang teksnya dibantu dirapikan; pembuka sumber semula menyebut simulasi.",
+    "konteks_tertulis": "Toko penjualan sepatu; berbeda dari fokus laundry sepatu",
+    "tanggal_wawancara": "15 Oktober 2026",
+    "durasi": "10 menit",
+    "persetujuan": "Dikonfirmasi pengguna: menyetujui wawancara, penggunaan jawaban anonim, dan dokumentasi",
+    "jumlah_pertanyaan_terisi": 13,
+    "status_keaslian": "Diberikan sebagai jawaban wawancara nyata; data pelaksanaan ketiganya telah dikonfirmasi pengguna",
+    "perlakuan_teks": "Parafrasa jawaban responden; tidak diperlakukan sebagai transkrip atau kutipan verbatim.",
+    "konfirmasi_pengguna": "Jawaban kasir asli; teksnya dibantu dirapikan.",
+    "status_konteks": "Peran kasir laundry sepatu telah dikonfirmasi pengguna. Konteks retail dalam teks awal merupakan ketidaksesuaian redaksi yang perlu dipisahkan dari rincian pengalaman.",
+    "konteks_dikonfirmasi_pengguna": "Kasir laundry sepatu",
+    "koreksi_konteks_pengguna": "kasir laundry sepatu itu seharusnya",
+    "catatan_pengolahan": [
+      "Gunakan konteks kasir laundry sepatu yang telah dikonfirmasi pengguna.",
+      "Pertahankan teks sumber asli; revisi istilah dalam parafrasa mengikuti koreksi pengguna.",
+      "Jangan menyimpulkan adanya penjualan barang, pengurangan stok, pembelian sneakers, atau penyerahan kotak sepatu sebagai fakta layanan laundry dari teks semula.",
+      "Rincian layanan dan kejadian konkret yang tidak sesuai konteks belum dikonfirmasi; jangan menggantinya dengan detail layanan yang dibuat sendiri.",
+      "Tanggal, durasi, lokasi pertemuan, dan persetujuan telah dikonfirmasi; nama usaha tidak disebutkan."
+    ],
+    "outlet": null,
+    "tempat_atau_media_wawancara": "Wawancara langsung di Pesenkopi",
+    "status_lokasi": "Lokasi pertemuan wawancara Pesenkopi; konteks pekerjaan laundry sepatu pengguna Fleffy.",
+    "foto_dokumentasi": "Foto sesi R1 diterima dari pengguna dan disertakan pada halaman 11."
+  },
+  "R2": {
+    "peran_dari_pengguna": "Admin",
+    "peran_tertulis": "Admin Operasional / Kasir Store Fleffy.id",
+    "konteks_tertulis": "Jasa perawatan dan cuci sepatu",
+    "tugas_dilaporkan": [
+      "Menerima dan mencatat pesanan",
+      "Menerbitkan nota",
+      "Mencatat pembayaran",
+      "Meminta verifikasi mutasi kepada owner atau finance"
+    ],
+    "asal_data": "Dokumen jawaban diterima dari pengguna; wawancara nyata dan data pelaksanaan telah dikonfirmasi pengguna.",
+    "tanggal_wawancara": "15 Oktober 2026",
+    "durasi": "12 menit",
+    "tempat_atau_media_wawancara": "Wawancara langsung di Pesenkopi",
+    "outlet": null,
+    "persetujuan": "Dikonfirmasi pengguna: menyetujui wawancara, penggunaan jawaban anonim, dan dokumentasi",
+    "jumlah_pertanyaan_terisi": 13,
+    "catatan_analisis": [
+      "Ketiadaan integrasi bank merupakan pernyataan R2, bukan hasil pemeriksaan teknis",
+      "Angka 15-30 transaksi per hari dan penundaan beberapa jam merupakan laporan responden, belum pengukuran",
+      "Contoh pengambilan pada Q9 disajikan terpisah dari contoh sebelum produksi pada Q4/Q8; tidak digabung menjadi satu kejadian.",
+      "Usulan fitur dipisahkan dari kebutuhan kepastian pembayaran dan kelancaran koordinasi"
+    ],
+    "status_keaslian": "Diberikan sebagai jawaban wawancara nyata; data pelaksanaan ketiganya telah dikonfirmasi pengguna",
+    "status_lokasi": "Lokasi pertemuan wawancara Pesenkopi; konteks pekerjaan laundry sepatu pengguna Fleffy.",
+    "foto_dokumentasi": "Foto sesi R2 diterima dari pengguna dan disertakan pada halaman 12."
+  },
+  "R3": {
+    "status": "Diterima sebagai jawaban wawancara owner",
+    "peran_dari_pengguna": "Owner yang juga mencatat transaksi dan memeriksa penerimaan transfer",
+    "jumlah_pertanyaan_terisi": 13,
+    "tanggal_wawancara": "15 Oktober 2026",
+    "tempat_atau_media_wawancara": "Wawancara langsung di Pesenkopi",
+    "persetujuan": "Dikonfirmasi pengguna: menyetujui wawancara, penggunaan jawaban anonim, dan dokumentasi",
+    "status_keaslian": "Diberikan sebagai jawaban wawancara nyata; data pelaksanaan ketiganya telah dikonfirmasi pengguna",
+    "durasi": "15 menit",
+    "status_lokasi": "Lokasi pertemuan wawancara Pesenkopi; konteks pekerjaan laundry sepatu pengguna Fleffy.",
+    "foto_dokumentasi": "Foto sesi R3 diterima dari pengguna dan disertakan pada halaman 13."
+  }
+}

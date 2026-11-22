@@ -1,0 +1,124 @@
+{
+  "domains": [
+    [
+      "Says",
+      "Pernyataan pengguna dalam parafrasa",
+      [
+        "R2 menilai input pesanan dan penerbitan nota membantu pekerjaan. [E6]",
+        "Status pada layar dipahami sebagai pencatatan, sementara dana tetap perlu diperiksa. [E5]",
+        "R2 mengharapkan validasi pembayaran yang lebih praktis. [E8]"
+      ]
+    ],
+    [
+      "Thinks",
+      "Pemikiran hasil interpretasi",
+      [
+        "Catatan pembayaran perlu cocok dengan informasi dana yang diterima. [E3, E5]",
+        "Tindak lanjut membutuhkan hasil pemeriksaan pihak yang memegang akses rekening. [E1, E4]",
+        "Penantian perlu ditangani tanpa mengurangi ketelitian keputusan. [E6, E7]"
+      ]
+    ],
+    [
+      "Does",
+      "Tindakan dan kebiasaan yang dilaporkan",
+      [
+        "Mencatat pelanggan, layanan, nominal, dan pembayaran di Fleffy. [E1, E4]",
+        "Mencocokkan bukti, lalu mengirim permintaan cek mutasi melalui WhatsApp. [E4]",
+        "Menunggu konfirmasi dan dapat menelepon owner ketika respons lambat. [E1, E6]"
+      ]
+    ],
+    [
+      "Feels",
+      "Perasaan yang dilaporkan",
+      [
+        "Tenang dan siap melayani sebelum proses pemeriksaan. [E7]",
+        "Cemas saat menunggu kepastian dan sungkan ketika pelanggan menunggu. [E7]",
+        "Lega setelah menerima konfirmasi mutasi dari owner. [E7]"
+      ]
+    ],
+    [
+      "Pain",
+      "Hambatan dan kekhawatiran",
+      [
+        "Informasi harus dihubungkan antara Fleffy dan percakapan WhatsApp. [E4]",
+        "Respons pemeriksa dapat terlambat; layanan atau pengerjaan ikut tertunda. [E6]",
+        "Ada kekhawatiran terhadap bukti transfer yang tidak sah; kejadian penipuan tidak terbukti. [E3, E7]"
+      ]
+    ],
+    [
+      "Gain",
+      "Hasil dan manfaat yang diinginkan",
+      [
+        "Mendapatkan kepastian bahwa catatan sesuai penerimaan dana. [E3, E8]",
+        "Memperoleh hasil pemeriksaan lebih mudah tanpa komunikasi berulang. [E8]",
+        "Melayani pelanggan lebih lancar sambil menjaga ketelitian pembayaran. [E6, E8]"
+      ]
+    ]
+  ],
+  "layout": [
+    {
+      "domain": "Says",
+      "bottom_clearance": 34.3,
+      "points": 3,
+      "items": [
+        "R2 menilai input pesanan dan penerbitan nota membantu pekerjaan. [E6]",
+        "Status pada layar dipahami sebagai pencatatan, sementara dana tetap perlu diperiksa. [E5]",
+        "R2 mengharapkan validasi pembayaran yang lebih praktis. [E8]"
+      ]
+    },
+    {
+      "domain": "Thinks",
+      "bottom_clearance": 34.3,
+      "points": 3,
+      "items": [
+        "Catatan pembayaran perlu cocok dengan informasi dana yang diterima. [E3, E5]",
+        "Tindak lanjut membutuhkan hasil pemeriksaan pihak yang memegang akses rekening. [E1, E4]",
+        "Penantian perlu ditangani tanpa mengurangi ketelitian keputusan. [E6, E7]"
+      ]
+    },
+    {
+      "domain": "Does",
+      "bottom_clearance": 34.3,
+      "points": 3,
+      "items": [
+        "Mencatat pelanggan, layanan, nominal, dan pembayaran di Fleffy. [E1, E4]",
+        "Mencocokkan bukti, lalu mengirim permintaan cek mutasi melalui WhatsApp. [E4]",
+        "Menunggu konfirmasi dan dapat menelepon owner ketika respons lambat. [E1, E6]"
+      ]
+    },
+    {
+      "domain": "Feels",
+      "bottom_clearance": 34.3,
+      "points": 3,
+      "items": [
+        "Tenang dan siap melayani sebelum proses pemeriksaan. [E7]",
+        "Cemas saat menunggu kepastian dan sungkan ketika pelanggan menunggu. [E7]",
+        "Lega setelah menerima konfirmasi mutasi dari owner. [E7]"
+      ]
+    },
+    {
+      "domain": "Pain",
+      "bottom_clearance": 34.3,
+      "points": 3,
+      "items": [
+        "Informasi harus dihubungkan antara Fleffy dan percakapan WhatsApp. [E4]",
+        "Respons pemeriksa dapat terlambat; layanan atau pengerjaan ikut tertunda. [E6]",
+        "Ada kekhawatiran terhadap bukti transfer yang tidak sah; kejadian penipuan tidak terbukti. [E3, E7]"
+      ]
+    },
+    {
+      "domain": "Gain",
+      "bottom_clearance": 34.3,
+      "points": 3,
+      "items": [
+        "Mendapatkan kepastian bahwa catatan sesuai penerimaan dana. [E3, E8]",
+        "Memperoleh hasil pemeriksaan lebih mudah tanpa komunikasi berulang. [E8]",
+        "Melayani pelanggan lebih lancar sambil menjaga ketelitian pembayaran. [E6, E8]"
+      ]
+    }
+  ],
+  "png": "D:\\Rekayasa Interaksi\\202210370311406_Rusdany_Maestro_Worksheet6_EmpathyMap.png",
+  "vector": "D:\\Rekayasa Interaksi\\tmp\\worksheet6\\empathy_map_vector.pdf",
+  "persona": "Ari",
+  "uses_real_photo": false
+}

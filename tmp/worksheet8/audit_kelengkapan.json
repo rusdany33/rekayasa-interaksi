@@ -1,0 +1,56 @@
+{
+  "workbook_template_verified": true,
+  "workbook_source": "C:\\Users\\HP 15\\Downloads\\UX Design Hands-on Workbook.docx",
+  "workbook_sha256": "4f4c943bbc8e82316ead3e7fb6745a8d721a8609678fe099110def8b785f6e73",
+  "template_sections": {
+    "identitas": true,
+    "tanggal_analisis": true,
+    "berkas_bukti_pendukung": true,
+    "A_four_columns": [
+      "Research Insight",
+      "User Need",
+      "Functional Requirement",
+      "UX Requirement"
+    ],
+    "A_rows": 6,
+    "B_user_stories_minimum": 5,
+    "B_user_stories_actual": 6
+  },
+  "requirements_count": 6,
+  "all_requirements_have_source_goal_priority_reason_criteria": true,
+  "must": [
+    "UX01",
+    "UX02",
+    "UX03",
+    "UX05"
+  ],
+  "should": [
+    "UX04",
+    "UX06"
+  ],
+  "rubric_coverage": {
+    "riset_25": "S3 S5 S6 S7 pada bagian 1, 3, 5, 9",
+    "rumusan_25": "User Need, FR, UX terpisah, kriteria teramati pada bagian 3 dan 5",
+    "tujuan_20": "G1-G4 pada bagian 2, story bagian 4, pemetaan bagian 9",
+    "prioritas_20": "Kategori, urutan, dampak, ketergantungan dan alasan pada bagian 5-7",
+    "kelengkapan_10": "Informasi mahasiswa, Bagian A, B, semua bagian Classroom; visual QA menyusul"
+  },
+  "test_results_claimed": false,
+  "verbatim_quotes_claimed": false,
+  "document_checks": {
+    "title_style_exists": true,
+    "identity_complete": true,
+    "A_headers_exact": true,
+    "A_six_rows": true,
+    "B_six_stories_standard": true,
+    "all_needs_traceable_and_measurable": true,
+    "priority_unique": true,
+    "requirements_are_user_needs": true,
+    "black_body_text": true,
+    "no_title_rule": true,
+    "all_tables_repeat_header": true,
+    "source_workbook_unchanged": true
+  },
+  "word_count": 3825,
+  "docx_bytes": 48665
+}

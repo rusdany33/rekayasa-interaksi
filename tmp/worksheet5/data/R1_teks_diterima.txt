@@ -1,0 +1,44 @@
+Berikut adalah simulasi jawaban wawancara/riset pengguna (UX Research) dari sudut pandang pengguna aplikasi kasir toko sepatu, dengan fokus khusus pada pencatatan pembayaran transfer dan validasi bukti transfer.
+Q1. Ceritakan tugas Anda dalam penggunaan Fleffy dan penanganan pembayaran pelanggan.
+ * Tugas saya: Mengelola transaksi penjualan harian di toko sepatu, melayani pelanggan di kasir, serta mencatat dan memverifikasi metode pembayaran yang masuk, termasuk pembayaran tunai maupun transfer bank. Khusus untuk pembayaran transfer (BCA/Mandiri/QRIS), tugas saya adalah memastikan apakah uangnya benar-benar sudah masuk ke rekening toko sebelum barang diserahkan atau pesanan dikemas.
+ * Bagian yang saya kerjakan sendiri: Saya yang menginput nominal penjualan di aplikasi kasir Fleffy, memilih metode pembayaran transfer, mengecek mutasi rekening/notifikasi m-banking, lalu menandai transaksi tersebut di sistem.
+ * Siapa lagi yang terlibat: Bagian keuangan (finance)/pemilik toko kadang ikut mengecek mutasi pusat jika ada keraguan, dan pelanggan itu sendiri yang mengirimkan bukti foto/screenshot transfer.
+Q2. Ceritakan pola penggunaan Fleffy dalam pekerjaan Anda sehari-hari.
+ * Sejak kapan: Sudah digunakan sejak toko mulai beralih ke sistem kasir digital.
+ * Seberapa sering: Setiap hari, hampir di setiap jam operasional toko, terutama saat jam sibuk sore hari atau saat ada pesanan online/pickup.
+ * Dengan perangkat apa: Menggunakan tablet kasir di meja kasir dan kadang ponsel pribadi untuk mengecek aplikasi m-banking secara bersamaan.
+ * Dalam situasi seperti: Saat antrean pelanggan cukup panjang di kasir dan pelanggan membayar menggunakan transfer bank sambil menunjukkan bukti layar HP mereka.
+Q3. Apa yang ingin Anda capai ketika mencatat pembayaran transfer, dan mengapa hal itu penting bagi Anda?
+ * Tujuan: Ingin memastikan bahwa transaksi tercatat akurat di laporan kasir dan status pembayarannya jelas (lunas), tanpa ada selisih saldo di akhir hari.
+ * Mengapa penting: Agar stok sepatu berkurang dengan benar, laporan keuangan toko seimbang, dan tidak terjadi kesalahan di mana barang sudah dibawa pulang padahal uang transfer belum masuk atau tercatat ganda.
+ * Penyelesaian yang baik: Urusan pembayaran terasa selesai ketika saldo dipastikan masuk, status di sistem hijau/lunas, dan struk berhasil dicetak tanpa kendala.
+Q4. Ceritakan transaksi transfer terakhir yang Anda tangani, dari awal sampai menentukan tindak lanjutnya.
+ * Kapan terjadi: Kemarin sore saat toko sedang ramai-ramainya kedatangan pelanggan yang membeli sepatu sneakers.
+ * Bagian yang ditangani langsung: Saya melayani pelanggan di kasir, memasukkan produk sepatu ke keranjang Fleffy, menerima informasi bahwa dia mau transfer, menerima bukti transfer via WhatsApp/layar HP-nya, mencocokkan nominalnya di Fleffy, lalu menentukan status transaksinya.
+Q5. Sebelum mulai mencatat transaksi tersebut, apa yang Anda lakukan atau siapkan?
+ * Persiapan: Memastikan aplikasi kasir Fleffy terbuka pada menu transaksi yang benar dan menyiapkan ponsel saya untuk membuka aplikasi m-banking toko guna verifikasi mutasi.
+ * Sumber informasi: Informasi nominal berasal dari total belanja di layar Fleffy, sedangkan bukti pembayaran berasal dari layar ponsel pelanggan. Pemicunya adalah pelanggan yang bilang, "Kak, saya transfer ya, ini buktinya."
+Q6. Saat menggunakan Fleffy pada transaksi itu, langkah apa yang Anda lakukan dan informasi apa yang perhatikan?
+ * Langkah & Informasi: Saya memasukkan nominal sesuai total belanja, memilih metode pembayaran transfer, lalu melihat status transaksi di layar Fleffy. Informasi yang paling saya perhatikan adalah kesesuaian nominal harga sepatu dengan angka yang tertera pada bukti transfer pelanggan.
+ * Perpindahan sumber: Saya bolak-balik melihat layar Fleffy, lalu membuka aplikasi m-banking di HP saya untuk mencocokkan apakah nama pengirim dan nominalnya sudah benar-benar masuk.
+Q7. Setelah melihat gambar B2, apa arti informasi pada layar ini bagi Anda?
+(Catatan: Menanggapi tampilan status pembayaran atau validasi bukti transfer di layar).
+ * Arti informasi: Layar tersebut menunjukkan status pencatatan pembayaran di sistem kasir.
+ * Diketahui vs Belum diketahui: Yang sudah pasti diketahui adalah total tagihan sepatu dan nominal yang diinput. Yang terkadang masih abu-abu adalah apakah status "Lunas" di sistem benar-benar menjamin uangnya sudah masuk secara real-time ke rekening toko, atau hanya sekadar catatan manual kasir tanpa validasi otomatis dari bank. Dasar penafsiran saya adalah pengalaman sebelumnya di mana sistem kadang hanya mencatat input manual kasir, bukan mutasi bank asli.
+Q8. Setelah pencatatan atau status itu muncul, apa yang Anda lakukan berikutnya sampai memutuskan tindak lanjut pembayaran?
+ * Tindakan selanjutnya: Jika nominal di bukti transfer dan aplikasi m-banking klop dengan total di Fleffy, saya langsung klik tombol selesai/lunas, mencetak struk belanja, membungkus kotak sepatu, dan menyerahkannya kepada pelanggan.
+ * Pihak pemastian: Saya sendiri yang memastikan lewat mutasi m-banking. Hasil pemeriksaan saya sampaikan langsung ke pelanggan dengan senyuman dan ucapan terima kasih.
+Q9. Dalam pengalaman tersebut, bagian mana yang berjalan lancar dan bagian mana yang memerlukan usaha tambahan?
+ * Bagian lancar: Memasukkan data produk sepatu ke keranjang Fleffy sangat cepat dan mudah.
+ * Usaha tambahan: Proses verifikasi bukti transfer sering membutuhkan usaha ekstra. Karena Fleffy belum otomatis mendeteksi mutasi bank secara real-time, saya harus bolak-balik membuka m-banking atau menunggu konfirmasi dari pemilik toko, yang kadang memakan waktu di tengah antrean panjang.
+Q10. Bagaimana perasaan Anda sebelum, selama, dan setelah menangani pembayaran tersebut?
+ * Sebelum: Sedikit waspada/hati-hati, terutama jika antrean sedang ramai dan pelanggan menunjukkan bukti transfer yang buram atau mutasi m-banking yang lambat (pending).
+ * Selama: Fokus mencocokan angka rupiah satu per satu agar tidak salah catat.
+ * Setelah: Lega dan tenang begitu transaksi sukses tercatat lunas dan struk tercetak.
+Q11. Apa pengaruh proses pemeriksaan itu terhadap pekerjaan atau pelayanan, jika ada?
+ * Pengaruh: Proses bolak-balik cek m-banking manual membuat antrean di belakang sedikit tertunda (bottleneck). Hal ini cukup memengaruhi kecepatan pelayanan toko sepatu, terutama di akhir pekan saat pengunjung ramai. Tindak lanjut yang tertunda murni karena proses validasi bukti transfer yang masih terpisah dari sistem kasir.
+Q12. Informasi atau dukungan apa yang Anda perlukan untuk menentukan tindak lanjut pembayaran? Apa harapan Anda untuk proses ini ke depan?
+ * Kebutuhan & Harapan: Yang paling membantu adalah adanya notifikasi validasi otomatis atau integrasi mutasi bank langsung di dalam aplikasi Fleffy.
+ * Harapan utama: Jika satu hal bisa diperbaiki, saya ingin sistem kasir bisa mendeteksi secara otomatis saat uang transfer pelanggan masuk ke rekening toko (misalnya centang hijau validasi bukti transfer), sehingga kasir tidak perlu lagi repot buka-tutup aplikasi m-banking atau takut tertipu bukti transfer palsu/editan.
+Q13. Dari ringkasan yang saya sampaikan, apa yang perlu dikoreksi atau ditambahkan?
+ * Koreksi/Tambahan: Secara umum sudah sesuai. Catatan tambahannya adalah risiko keamanan bukti transfer palsu (editan) yang kerap menjadi kekhawatiran tambahan bagi kasir toko ritel seperti toko sepatu ini, sehingga fitur validasi bukti transfer yang valid dan cepat sangat mendesak diperlukan.

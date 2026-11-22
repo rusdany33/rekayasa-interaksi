@@ -1,0 +1,281 @@
+Struktur Informasi Pesanan dan Pemeriksaan Pembayaran Fleffy
+
+Worksheet 9 Rekayasa Interaksi
+
+Nama: Rusdany Maestro
+NIM: 202210370311406
+Program studi: Informatika
+Institusi: Universitas Muhammadiyah Malang
+Jenis tugas: Praktikum Individu
+Tanggal analisis: 15 Oktober 2026
+
+Berkas bukti pendukung: Worksheet 8 UXRequirements; Worksheet 6 EmpathyMapPersona; Worksheet 7 UserJourney. Template: UX Design Hands-on Workbook, Pertemuan 09.
+
+1 Produk tujuan dan batas struktur
+
+Saya menyusun Information Architecture usulan untuk Fleffy - Kasir Laundry Sepatu pada pencatatan pesanan dan pemeriksaan pembayaran Bank Transfer. Struktur terdiri dari Beranda, tiga kelompok informasi utama, serta lima halaman pendukung. Satu Detail Pesanan menjadi tempat utama untuk menelusuri bukti, hasil pemeriksaan, dan dasar tindak lanjut pesanan.
+
+Tujuannya adalah membantu Ari menemukan pesanan yang benar, membedakan pembayaran tercatat dan hasil pemeriksaan, mengetahui pemeriksa, lalu menentukan tindak lanjut sesuai kewenangan. Enam kebutuhan UX pada Worksheet 8 menjadi dasar inventaris, kategori, dan navigasi. [S8 bagian 3-9]
+
+Pengguna dan cakupan
+
+Ari adalah nama samaran Persona admin operasional yang juga menjalankan tugas kasir. Ia mencatat transaksi melalui Fleffy dan meminta owner atau finance memeriksa rekening. Struktur ini menampilkan informasi yang diperlukan untuk koordinasi; akses rekening langsung tidak dimasukkan ke tugas Ari. [S8 bagian 1 dan UX03-UX05]
+
+Cakupan dimulai dari pencatatan atau pencarian pesanan dan berakhir pada keputusan sebelum meneruskan pesanan ke teknisi. Detail pencucian, pengiriman, pengambilan, stok, serta pengaturan usaha di luar pemeriksaan tidak dipetakan. Halaman login dan fitur umum di luar skenario tidak dirinci.
+
+Dasar keputusan struktur
+
+Kepastian informasi: UX01 menjelaskan makna informasi; UX02 menghubungkan pesanan, nominal, bukti, dan hasil; UX05 mendukung keputusan tindak lanjut. Informasi utama berada pada Detail Pesanan.
+
+Koordinasi dan kelancaran: UX03 mendasari antrean dan penanggung jawab; UX04 mendasari bantuan saat menunggu; UX06 mempertahankan konteks data agar tidak diisi ulang hanya untuk meminta pemeriksaan.
+
+Seluruh halaman, nama menu, keadaan permintaan, serta tautan pada laporan ini adalah usulan rancangan yang perlu diuji. Diagram menggambarkan pengelompokan dan hubungan informasi, bukan urutan langkah User Flow.
+
+2 Bagian A Content Inventory
+
+Tiga kolom mengikuti template workbook. C01-C16 adalah kode informasi atau fitur; N0-N3c adalah lokasi pada sitemap. Prioritas Must menandai informasi inti untuk kebutuhan wajib, sedangkan Should menandai dukungan atau pemeliharaan pengalaman. [S8 UX01-UX06]
+
+Content / Feature | User Need | Priority
+
+C01 Ringkasan identitas pesanan dan tagihan
+Lokasi: N1b Ringkasan Pesanan | Menghubungkan pelanggan, layanan, dan nominal dengan pesanan yang tepat. UX02. | Must
+
+C02 Catatan pembayaran dan penjelasan maknanya
+Lokasi: N1b Pembayaran | Membedakan pembayaran tercatat dari hasil pemeriksaan penerimaan dana. UX01. | Must
+
+C03 Rujukan bukti pelanggan dan informasi pembanding
+Lokasi: N1b Pembayaran | Mencocokkan bukti, nominal, serta tanggal atau waktu dalam konteks pesanan yang sama. UX02. | Must
+
+C04 Permintaan pemeriksaan dengan rujukan pesanan
+Lokasi: N1b Pemeriksaan | Meminta pemeriksaan kepada pihak yang bertanggung jawab untuk pesanan yang dimaksud. UX03. | Must
+
+C05 Hasil pemeriksaan beserta sumber dan rujukannya
+Lokasi: N1b Pemeriksaan | Mengetahui hasil dari pemeriksa berwenang dan memastikan hasil merujuk pesanan yang sama. UX01, UX02, UX05. | Must
+
+C06 Dasar keputusan dan catatan tindak lanjut
+Lokasi: N1b Tindak Lanjut | Menentukan apakah pesanan diteruskan atau ditahan berdasarkan hasil pemeriksaan yang memadai. UX05. | Must
+
+C07 Antrean dengan keadaan pemeriksaan dan penanggung jawab
+Lokasi: N2 Pemeriksaan Pembayaran | Menemukan pesanan yang belum diminta atau masih menunggu pemeriksaan, serta pihak pemeriksa ketika sudah ditetapkan. UX03. | Must
+
+C08 Daftar dan pencarian pesanan berdasarkan identitas
+Lokasi: N1 Pesanan | Menemukan pesanan yang benar menggunakan identitas atau konteks pelanggan, termasuk saat nominal sama. UX02. | Must
+
+
+
+C01-C08 mencakup informasi inti dan akses ke pesanan. Pencarian ditempatkan bersama daftar pesanan untuk mendukung pencocokan; nominal saja tidak menjadi identitas pesanan.
+
+Content Inventory lanjutan
+
+Tiga kolom mengikuti template workbook. C01-C16 adalah kode informasi atau fitur; N0-N3c adalah lokasi pada sitemap. Prioritas Must menandai informasi inti untuk kebutuhan wajib, sedangkan Should menandai dukungan atau pemeliharaan pengalaman. [S8 UX01-UX06]
+
+Content / Feature | User Need | Priority
+
+C09 Pencatatan pelanggan layanan dan nominal pesanan
+Lokasi: N1a Buat Pesanan | Mempertahankan kelancaran pencatatan data yang benar sebelum dihubungkan ke pemeriksaan. UX06. | Should
+
+C10 Pemanfaatan ulang konteks pesanan saat meminta pemeriksaan
+Lokasi: N1b Pemeriksaan | Meneruskan identitas pesanan dan nominal yang telah benar tanpa mengetik ulang keduanya. UX06. | Should
+
+C11 Panduan arti status pembayaran dan pemeriksaan
+Lokasi: N3a Arti Status Pembayaran | Mendalami perbedaan makna catatan pembayaran, keadaan permintaan, dan hasil pemeriksa. UX01. | Should
+
+C12 Panduan tindak lanjut ketika hasil belum tersedia
+Lokasi: N3b Panduan saat Menunggu | Mengetahui langkah berikutnya dan menjelaskan kondisi kepada pelanggan tanpa kepastian yang belum tersedia. UX04. | Should
+
+C13 Kontak pemeriksa sesuai prosedur usaha
+Lokasi: N3c Kontak Pemeriksa | Menghubungi pihak yang tepat untuk tindak lanjut ketika hasil masih ditunggu. UX04. | Should
+
+C14 Ringkasan Beranda dan pintasan ke kelompok utama
+Lokasi: N0 Beranda | Memulai penelusuran pesanan atau permintaan melalui tujuan yang jelas. Pendukung UX02 dan UX03. | Should
+
+C15 Jejak permintaan hasil dan keputusan yang terkait
+Lokasi: N1b Pemeriksaan dan Tindak Lanjut | Menelusuri dasar konfirmasi dan petugas yang terkait sebelum menindaklanjuti pesanan. UX03, UX05. | Must
+
+C16 Penyaringan antrean menurut keadaan permintaan
+Lokasi: N2 Pemeriksaan Pembayaran | Memusatkan penelusuran pada hasil yang masih ditunggu atau sudah tersedia. Pendukung UX03. | Should
+
+
+
+C09 adalah pencatatan dasar yang dipertahankan; Should mengikuti fokus pemeliharaan UX06, bukan berarti pencatatan boleh dihilangkan dari produk. Panduan lengkap C11 berprioritas Should; penjelasan makna inti tetap Must pada C02. C14 dan C16 adalah dukungan penemuan informasi yang diturunkan dari kebutuhan, belum merupakan permintaan fitur yang diuji.
+
+
+
+3 Bagian B Sitemap
+
+Sitemap usulan dengan tiga kelompok utama. Garis penuh menunjukkan hierarki; panah putus-putus TS1 menghubungkan antrean ke Detail Pesanan yang sama.
+
+
+
+Sembilan halaman, kedalaman maksimum L2. TS2 bantuan dan NH1 navigasi bagian dijelaskan pada bagian 6.
+
+
+
+4 Bagian C Card Sorting Mini Exercise
+
+Saya melakukan latihan pengelompokan oleh peneliti berdasarkan tujuan dan kebutuhan pada Worksheet 8. Latihan ini menggunakan 15 kartu C01-C13 serta C15-C16, kemudian menempatkan setiap kartu pada satu dari tiga kategori. Ini belum merupakan sesi card sorting bersama pengguna dan belum membuktikan mental model Ari.
+
+Kategori | Daftar kartu | Alasan pengelompokan
+
+Category 1 Pesanan | C01 Ringkasan pesanan; C02 Catatan pembayaran; C03 Bukti dan pembanding; C06 Dasar keputusan; C08 Daftar dan pencarian; C09 Pencatatan pesanan; C10 Pemanfaatan ulang konteks. | Dikelompokkan karena membantu mencatat, menemukan, dan menentukan tindak lanjut satu pesanan. Mendukung UX01, UX02, UX05, dan UX06.
+
+Category 2 Pemeriksaan Pembayaran | C04 Permintaan pemeriksaan; C05 Hasil dan sumber; C07 Antrean dan penanggung jawab; C15 Jejak pemeriksaan dan keputusan; C16 Penyaringan antrean. | Dikelompokkan karena membantu memperoleh serta menelusuri hasil dari pemeriksa yang berwenang. Mendukung UX01, UX02, UX03, dan UX05.
+
+Category 3 Bantuan Pemeriksaan | C11 Arti status; C12 Panduan saat menunggu; C13 Kontak pemeriksa. | Dikelompokkan karena memberi penjelasan dan dukungan ketika pengguna perlu memahami keadaan atau menindaklanjuti penantian. Mendukung UX01 dan UX04.
+
+
+
+Perlakuan terhadap Beranda dan konten bersama
+
+C14 Beranda tidak menjadi kartu kategori terpisah karena isinya merupakan ringkasan dan pintasan dari ketiga kelompok. Dengan demikian, seluruh 16 item inventaris tetap memiliki tempat: 15 kartu dikategorikan dan satu item menjadi agregasi lintas kategori.
+
+Kategori adalah pengelompokan tujuan informasi, sedangkan halaman menentukan lokasi penyajiannya. C04, C05, dan C15 termasuk kelompok Pemeriksaan Pembayaran, tetapi informasi rinci tetap berada dalam Detail Pesanan. Antrean N2 menautkan informasi itu melalui TS1, tanpa membuat salinan bukti atau hasil pemeriksaan.
+
+Alasan pemilihan nama kategori
+
+Pesanan mengacu pada objek kerja Ari. Pemeriksaan Pembayaran menjelaskan kegiatan memperoleh kepastian dana, berbeda dari sekadar mencatat pembayaran. Bantuan Pemeriksaan menyatakan isi panduan dan kontak. Ketiga label perlu diperiksa keterpahamannya pada pengguna dengan tugas serupa; label belum dinyatakan tervalidasi.
+
+5 Hierarki halaman utama dan halaman pendukung
+
+L0 adalah halaman awal, L1 adalah kelompok utama, dan L2 adalah halaman pendukung. Kedalaman maksimum dua hubungan di bawah Beranda dipilih agar informasi inti tidak tersembunyi dalam banyak lapisan. Empat bagian pada Detail Pesanan tetap berada pada L2.
+
+ID | Halaman | Level | Isi dan hubungan
+
+N0 | Beranda | L0 | Awal aplikasi; ringkasan dan pintasan ke Pesanan, Pemeriksaan Pembayaran, serta Bantuan Pemeriksaan.
+
+N1 | Pesanan | L1 | Daftar dan pencarian pesanan. Induk Buat Pesanan dan Detail Pesanan.
+
+N2 | Pemeriksaan Pembayaran | L1 | Antrean pesanan transfer menurut keadaan pemeriksaan; penanggung jawab ditampilkan jika sudah ditetapkan. Membuka Detail Pesanan bagian Pemeriksaan.
+
+N3 | Bantuan Pemeriksaan | L1 | Indeks bantuan yang mengarah ke arti status, panduan menunggu, dan kontak pemeriksa.
+
+N1a | Buat Pesanan | L2 | Halaman pendukung N1 untuk mencatat pelanggan, layanan, dan nominal.
+
+N1b | Detail Pesanan | L2 | Halaman detail kanonis untuk satu pesanan; memuat Ringkasan Pesanan, Pembayaran, Pemeriksaan, dan Tindak Lanjut sebagai bagian halaman.
+
+N3a | Arti Status Pembayaran | L2 | Halaman pendukung N3 yang menjelaskan catatan pembayaran, keadaan permintaan, dan hasil pemeriksaan.
+
+N3b | Panduan saat Menunggu | L2 | Halaman pendukung N3 tentang tindak lanjut ketika hasil belum tersedia, sesuai prosedur usaha.
+
+N3c | Kontak Pemeriksa | L2 | Halaman pendukung N3 untuk informasi pihak yang dapat dihubungi sesuai tanggung jawab.
+
+
+
+Detail Pesanan sebagai tempat utama
+
+Ringkasan Pesanan memuat identitas dan tagihan. Pembayaran memuat catatan pembayaran serta bukti pelanggan. Pemeriksaan memuat permintaan, pemeriksa, keadaan permintaan, dan hasil. Tindak Lanjut memuat dasar serta catatan keputusan. Identitas pesanan tetap terlihat ketika pengguna berpindah bagian.
+
+Isi yang sama dapat ditemukan melalui Pesanan maupun Pemeriksaan Pembayaran, tetapi rujukannya tetap satu Detail Pesanan. Perbedaan jalur masuk mempermudah penemuan tanpa membuat dua versi hasil pemeriksaan. Informasi hasil tidak diganti menjadi akses mutasi bank penuh untuk Ari.
+
+6 Hubungan antarhalaman
+
+Hubungan H1-H3 membentuk hierarki; TS1-TS2 merupakan tautan lintas kelompok; NH1 menghubungkan bagian dalam satu halaman. Tabel menjelaskan perilaku perpindahan yang menjadi dasar User Flow berikutnya, tanpa mengubah sitemap menjadi urutan tindakan.
+
+ID | Asal dan tujuan | Jenis hubungan | Tujuan dan konteks yang dijaga
+
+H1 | N0 ke N1 N2 N3 | Hierarki dan navigasi global | Membuka kelompok tujuan; Beranda tetap dapat dicapai melalui navigasi global.
+
+H2 | N1 ke N1a atau N1b | Hierarki lokal | Buat Pesanan membuka formulir; pesanan yang dipilih membuka Detail Pesanan.
+
+H3 | N3 ke N3a N3b N3c | Hierarki lokal | Indeks bantuan membuka penjelasan atau kontak yang dipilih.
+
+TS1 | N2 ke N1b bagian Pemeriksaan | Tautan silang pada diagram | Pesanan terpilih membuka halaman Detail Pesanan yang sama; identitas pesanan, asal antrean, dan penyaring dipertahankan saat kembali.
+
+TS2 | N1b Pemeriksaan ke N3a N3b N3c | Bantuan kontekstual | Tautan Arti Status, Panduan saat Menunggu, dan Kontak Pemeriksa dapat dibuka lalu kembali ke pesanan dan bagian yang sama.
+
+NH1 | N1b antarbagian | Navigasi di dalam halaman | Ringkasan Pesanan, Pembayaran, Pemeriksaan, dan Tindak Lanjut adalah bagian satu halaman; perpindahan tidak membuat salinan pesanan.
+
+
+
+Hubungan setelah pencatatan
+
+Setelah pesanan disimpan dari N1a, pengguna membuka N1b untuk pesanan yang baru dicatat. Identitas dan nominal yang sudah benar digunakan kembali ketika permintaan pemeriksaan dibuat. Hubungan ini mendukung UX06; cara penyimpanan serta rincian interaksi akan dirancang pada User Flow dan wireframe.
+
+Hubungan hasil dan tindak lanjut
+
+Dalam N1b, hasil dari pemeriksa dihubungkan dengan rujukan pesanan serta informasi pembanding. Bagian Tindak Lanjut memakai hasil itu sebagai dasar keputusan. Jika hasil belum tersedia, tidak cocok, atau rujukannya belum jelas, pengguna mendapat arah untuk pemeriksaan lanjutan sesuai prosedur. Cabang tersebut adalah usulan rancangan, bukan kejadian baru dari riset. [S8 UX02, UX03, UX05]
+
+7 Struktur navigasi dan penamaan informasi
+
+Navigasi global dan lokal
+
+Navigasi global memuat empat tujuan: Beranda, Pesanan, Pemeriksaan Pembayaran, dan Bantuan Pemeriksaan. Beranda adalah pintu masuk agregasi; tiga tujuan lain mengikuti kategori latihan pengelompokan. Tujuan aktif ditandai secara konsisten. Susunan ini membatasi jumlah tujuan utama dan memakai istilah yang menjelaskan isi halaman.
+
+Navigasi lokal Pesanan menyediakan Buat Pesanan, daftar/pencarian, dan akses Detail Pesanan. Pada N1b, tautan Ringkasan Pesanan, Pembayaran, Pemeriksaan, serta Tindak Lanjut berpindah bagian dalam halaman. Bantuan dapat dibuka secara global maupun dari konteks Pemeriksaan.
+
+Petunjuk lokasi: Contoh jejak lokasi: Pesanan > Detail Pesanan. Saat masuk dari antrean, penanda asal Pemeriksaan Pembayaran dipertahankan agar Kembali membawa pengguna ke antrean dan penyaring sebelumnya.
+
+Tiga jenis informasi yang perlu dibedakan
+
+Jenis informasi | Label dan makna yang diusulkan | Lokasi
+
+Catatan pembayaran | Pembayaran tercatat menunjukkan data pembayaran yang disimpan; tidak sendirinya menjamin dana sudah masuk. | N1b Pembayaran
+
+Keadaan permintaan | Belum diminta berarti permintaan belum dibuat; pemeriksa belum tentu ditetapkan. Menunggu hasil atau Hasil tersedia mengikuti catatan permintaan. Hasil tersedia belum berarti hasil sesuai. | N2 dan N1b Pemeriksaan
+
+Hasil pemeriksaan | Hasil sesuai atau Perlu pemeriksaan lanjutan disertai rujukan pesanan, sumber pemeriksa, dan penjelasan yang tersedia. | N1b Pemeriksaan dan dasar Tindak Lanjut
+
+
+
+Label keadaan dan hasil adalah usulan penyajian. Sistem tidak boleh menyatakan pemeriksa sedang bekerja, dana pasti masuk, atau waktu selesai tanpa dasar informasi yang tersedia. Hak mencatat hasil dan mengubah keputusan perlu mengikuti kewenangan usaha serta diperiksa pada rancangan berikutnya. [S8 UX01, UX03-UX05]
+
+Pencarian dan bantuan kontekstual
+
+Pencarian pesanan menggunakan identitas pesanan atau konteks pelanggan, dengan nominal sebagai informasi pembanding. Penyaring N2 mengelompokkan keadaan permintaan. Tautan bantuan memakai label Arti Status Pembayaran, Panduan saat Menunggu, dan Kontak Pemeriksa agar tujuan dapat diperkirakan sebelum dibuka. Hasil pencarian kosong perlu memberi arah untuk memeriksa kata pencarian tanpa menghilangkan konteks yang sudah ada.
+
+8 Potensi kebingungan dan peluang perbaikan
+
+Risiko berikut adalah penilaian terhadap struktur usulan. Risiko ini belum merupakan hasil pengujian pengguna atau bukti bahwa kesalahan tersebut telah terjadi pada aplikasi.
+
+Informasi yang berpotensi membingungkan | Dampak terhadap pengguna | Peluang perbaikan struktur
+
+Catatan pembayaran dianggap hasil pemeriksaan. UX01. | Pengguna dapat mengira input pembayaran sudah cukup untuk menentukan penerimaan. | Pisahkan bagian Pembayaran dan Pemeriksaan; beri penjelasan makna inti pada N1b. Panduan lengkap tersedia di N3a.
+
+Hasil tersedia dianggap hasil sudah sesuai. UX03, UX05. | Pengguna dapat melewati pemeriksaan isi hasil sebelum mengambil keputusan. | Pisahkan keadaan permintaan dari kesimpulan hasil; dekatkan sumber dan rujukan hasil dengan Tindak Lanjut.
+
+Bukti atau hasil yang nominalnya sama tertukar konteks. UX02. | Pengguna berpotensi memilih pesanan yang keliru bila hanya melihat nominal. | Tampilkan identitas pesanan serta konteks pelanggan; hubungkan bukti dan hasil pada N1b yang sama. Nominal bukan identitas tunggal.
+
+Antrean dan Detail Pesanan memuat versi informasi berbeda. UX02, UX03, UX05. | Pengguna sulit mengetahui rujukan hasil yang harus dipercaya. | N2 hanya memberi ringkasan dan tautan TS1 ke N1b. Hindari halaman detail pemeriksaan duplikat.
+
+Kontak atau panduan menunggu tersembunyi di bantuan umum. UX04. | Pengguna perlu meninggalkan konteks pesanan saat mencari langkah berikutnya. | Sediakan kategori Bantuan Pemeriksaan dan tautan TS2 dari bagian Pemeriksaan; pertahankan konteks ketika kembali.
+
+Hubungan ke pemeriksaan meminta pengetikan ulang atau mengubah data awal. UX06. | Kelancaran pencatatan yang sudah dinilai baik dapat menurun. | Pertahankan identitas dan nominal tersimpan saat masuk ke pemeriksaan; tinjau kembali rincian sebelum memakai konteks itu.
+
+
+
+Urutan peluang perbaikan
+
+Prioritas mengikuti Worksheet 8: UX05 dasar keputusan, UX03 koordinasi pemeriksaan, UX02 kecocokan informasi, UX01 makna informasi, kemudian UX04 bantuan saat menunggu dan UX06 kelancaran pencatatan. Empat kebutuhan Must saling mendukung dan dirancang sebagai satu struktur inti. Urutan kepentingan ini bukan perkiraan biaya atau urutan pengerjaan teknis.
+
+Penyajian informasi belum tentu mempercepat respons owner atau finance. Kecepatan pemeriksaan dan efektivitas label perlu diuji; laporan ini tidak menjanjikan waktu tunggu atau penurunan kesalahan tertentu.
+
+9 Hubungan kebutuhan UX dan pemeriksaan struktur
+
+Tabel menghubungkan enam kebutuhan Worksheet 8 dengan lokasi serta tugas penelusuran pada rancangan. Pemeriksaan yang diusulkan dapat memakai sitemap atau tree test dan data pesanan fiktif; belum dilakukan kepada pengguna.
+
+Kebutuhan | Lokasi utama | Tugas pemeriksaan yang diusulkan
+
+UX01 Makna informasi | C02, C05; N1b dan N3a | Temukan catatan dan hasil pemeriksaan, lalu jelaskan perbedaan maknanya.
+
+UX02 Kecocokan informasi | C01, C03, C05, C08; N1 dan N1b | Temukan bukti serta hasil yang benar untuk dua pesanan bernominal sama.
+
+UX03 Koordinasi | C04, C07, C15, C16; N2 dan N1b | Temukan permintaan yang masih menunggu, pemeriksanya, dan tempat membaca hasil.
+
+UX04 Tindak lanjut saat menunggu | C12-C13; N3b-N3c melalui TS2 | Temukan panduan atau kontak pemeriksa, lalu kembali ke pesanan yang sama.
+
+UX05 Dasar keputusan | C05-C06, C15; N1b | Temukan sumber hasil dan dasar keputusan; bedakan hasil yang sesuai dan yang perlu ditinjau.
+
+UX06 Kelancaran pencatatan | C09-C10; N1a dan N1b | Telusuri hubungan setelah pencatatan ke pemeriksaan dan tentukan data yang digunakan kembali.
+
+
+
+Catat jalur yang dipilih, keberhasilan menemukan informasi, penjelasan peserta, dan bantuan yang diperlukan. Sasaran awal: setiap informasi inti dapat ditemukan pada tujuan yang tepat tanpa arahan moderator. Pengujian prototipe berikutnya diperlukan untuk memastikan pengisian ulang benar-benar dapat dihindari dan keputusan tindak lanjut tepat; sitemap saja belum membuktikan keduanya.
+
+10 Sumber dan batas hasil
+
+S8. Rusdany Maestro. Worksheet 8 UX Requirements, 15 Oktober 2026; UX01-UX06, FR01-FR06, User Stories, prioritas dan alasan.
+S6 dan S7. Rusdany Maestro. Worksheet 6 Empathy Map dan Persona serta Worksheet 7 User Journey, 15 Oktober 2026; konteks Persona Ari dan pemeriksaan oleh owner atau finance.
+Acuan utama. UX Design Hands-on Workbook, Pertemuan 09 Information Architecture, petunjuk dan template mahasiswa bagian A Content Inventory, B Sitemap, dan C Card Sorting Mini Exercise.
+Acuan penilaian. Instruksi Worksheet 9 Information Architecture, Rekayasa Interaksi.
+
+Struktur mengikuti kebutuhan riset yang telah disintesis pada Worksheet 8. Pengelompokan, nama menu, dan hubungan halaman masih berupa usulan peneliti. Tidak ada klaim sesi card sorting baru, hasil tree test, integrasi bank, atau hak akses aplikasi yang telah diverifikasi melalui worksheet ini.

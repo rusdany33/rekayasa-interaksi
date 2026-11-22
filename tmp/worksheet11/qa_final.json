@@ -1,0 +1,88 @@
+{
+  "google_document_id": "14fqXBuhYXhu3rpNHJjarz8OOvmsUbiycUvWW6JXfqd4",
+  "google_docs_url": "https://docs.google.com/document/d/14fqXBuhYXhu3rpNHJjarz8OOvmsUbiycUvWW6JXfqd4/edit?usp=drivesdk",
+  "native_mime_type": "application/vnd.google-apps.document",
+  "parent_folder_id": "1M2pFybewl10ZZGrk_cKeU-LxCtZJngIh",
+  "source_blocks": 206,
+  "missing_blocks": 0,
+  "alternatives": 8,
+  "selected_concept": 1,
+  "selected_name": "Ringkasan bertingkat",
+  "selected_sketch_states": 4,
+  "inline_image_instances": 20,
+  "unique_final_sketch_images": 12,
+  "tables": 12,
+  "template_sections": [
+    "A Crazy 8s Description and Sketches",
+    "B Evaluate Idea Matrix",
+    "C Selected Concept"
+  ],
+  "matrix_totals": [
+    12,
+    10,
+    10,
+    11,
+    12,
+    9,
+    11,
+    11
+  ],
+  "decision": "Konsep 1 dan 5 total 12; User Value sama5, Feasibility4 versus3 memilih1.",
+  "ideation_record": {
+    "start_utc": "2026-10-15 12:28:56 UTC",
+    "end_utc": "2026-10-15 12:36:39 UTC",
+    "elapsed_seconds": 463,
+    "digital_ai_assisted": true,
+    "manual_student_session_claimed": false
+  },
+  "local_pages_visually_checked": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "native_pages_visually_checked": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "rubric_coverage": [
+    "Kelengkapan 8 alternatif ide",
+    "Kreativitas dan variasi ide",
+    "Kesesuaian ide dengan kebutuhan pengguna",
+    "Kualitas Sketch terpilih",
+    "Kelengkapan dan kerapian dokumen"
+  ],
+  "fixes": [
+    "Kepastian dana masuk: Belum diketahui",
+    "Kode pada Bukti dijelaskan sebagai tautan aplikasi",
+    "Matriks angka rata tengah",
+    "Halaman kosong sesudah section landscape diperbaiki di Docs dan sumber"
+  ],
+  "native_pdf_route": "Drive files.download via fetch because files.export size limit reached",
+  "sanitizer": "passed",
+  "submitted_to_classroom": false,
+  "docx_sha256": "d8e28b48440d7aad683f1a225d4fc8cedcf26bfc51c8ccf308cefedd443f7309",
+  "docx_bytes": 12180446,
+  "local_pdf_pages": 13,
+  "native_pdf_pages": 13
+}

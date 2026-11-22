@@ -1,0 +1,108 @@
+{
+  "persona": "Ari",
+  "scenario": "Pencatatan transfer Rp150.000 untuk deep cleaning dua pasang sepatu sebelum pesanan diteruskan ke teknisi",
+  "phases": 6,
+  "required_components": [
+    "Tahapan perjalanan pengguna",
+    "Tujuan pengguna",
+    "Aktivitas pengguna",
+    "Tindakan pengguna",
+    "Touchpoint atau media interaksi",
+    "Pemikiran pengguna",
+    "Perasaan atau emosi pengguna",
+    "Masalah atau hambatan",
+    "Kebutuhan pengguna",
+    "Peluang perbaikan UX"
+  ],
+  "rubrik": [
+    {
+      "aspek": "Kesesuaian dengan Persona dan skenario",
+      "bobot": 20,
+      "halaman_rencana": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "aspek": "Kelengkapan tahapan perjalanan",
+      "bobot": 20,
+      "halaman_rencana": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "aspek": "Aktivitas touchpoint pikiran dan emosi",
+      "bobot": 20,
+      "halaman_rencana": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "aspek": "Identifikasi masalah dan hambatan UX",
+      "bobot": 15,
+      "halaman_rencana": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "aspek": "Kejelasan kebutuhan dan peluang UX",
+      "bobot": 15,
+      "halaman_rencana": [
+        4,
+        5,
+        7
+      ]
+    },
+    {
+      "aspek": "Visualisasi dan kerapian",
+      "bobot": 10,
+      "halaman_rencana": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    }
+  ],
+  "pemisahan_bukti": {
+    "D": "laporan R2",
+    "I": "interpretasi",
+    "P": "peluang belum diuji"
+  },
+  "qa_visual": "Lulus pemeriksaan visual seluruh halaman 1-8; visual alur dan peta detail terbaca tanpa clipping atau halaman kosong.",
+  "deadline": null,
+  "status": "Selesai",
+  "halaman_final": 8,
+  "berkas_final": {
+    "pdf": {
+      "path": "D:\\Rekayasa Interaksi\\202210370311406_Rusdany_Maestro_Worksheet7_UserJourney.pdf",
+      "bytes": 330711,
+      "sha256": "51d547eea4ca4e9998ab050db1f104503299a23352f43ea36fd554ce3a1c07ea"
+    },
+    "docx": {
+      "path": "D:\\Rekayasa Interaksi\\202210370311406_Rusdany_Maestro_Worksheet7_UserJourney.docx",
+      "bytes": 308762,
+      "sha256": "feb40615ad588774bf04b6d8762a73a56679e693e2bee651a5f463adec20191f"
+    },
+    "png": {
+      "path": "D:\\Rekayasa Interaksi\\202210370311406_Rusdany_Maestro_Worksheet7_AlurJourney.png",
+      "bytes": 311042,
+      "sha256": "36865a6ec47d8544dcd6c9c155b005219f4a3a5ca9fc99d77bce1f24970b2733"
+    }
+  },
+  "instruksi_sumber": "C:\\Users\\HP 15\\.codex\\attachments\\3620411e-7e40-4b8b-b17a-868bf9d50ba9\\Pasted text.txt",
+  "catatan_rubrik": "Seluruh 6 aspek dipetakan ke isi; bobot total 100 persen bukan penetapan nilai."
+}

@@ -1,0 +1,56 @@
+{
+  "tanggal": "15 Oktober 2026",
+  "metode": "Wawancara langsung",
+  "tempat": "Pesenkopi",
+  "nama_outlet": null,
+  "pewawancara": "Rusdany Maestro",
+  "jumlah_orang": 3,
+  "persetujuan_partisipasi": true,
+  "persetujuan_jawaban_anonim": true,
+  "persetujuan_foto": true,
+  "dokumentasi_foto": "Foto sesi R1, R2, dan R3 diterima serta disertakan.",
+  "rekaman_suara_digunakan": false,
+  "durasi": {
+    "R1": "10 menit",
+    "R2": "12 menit",
+    "R3": "15 menit"
+  },
+  "foto": [
+    {
+      "responden": "R1",
+      "path": "D:\\Rekayasa Interaksi\\tmp\\worksheet5\\data\\foto_R1_asli.png",
+      "caption": "Dokumentasi sesi R1 sebagai kasir laundry sepatu. Wawancara langsung di Pesenkopi, 15 Oktober 2026, dengan durasi 10 menit. Foto digunakan atas persetujuan responden."
+    },
+    {
+      "responden": "R2",
+      "path": "D:\\Rekayasa Interaksi\\tmp\\worksheet5\\data\\foto_R2_asli.png",
+      "caption": "Dokumentasi sesi R2 sebagai Admin Operasional yang juga menjalankan tugas kasir. Wawancara langsung di Pesenkopi, 15 Oktober 2026, dengan durasi 12 menit. Foto digunakan atas persetujuan responden."
+    },
+    {
+      "responden": "R3",
+      "path": "D:\\Rekayasa Interaksi\\tmp\\worksheet5\\data\\foto_R3_asli.png",
+      "caption": "Dokumentasi sesi R3 sebagai owner yang menggunakan Fleffy untuk mencatat transaksi dan memantau pembayaran. Wawancara langsung di Pesenkopi, 15 Oktober 2026, dengan durasi 15 menit. Foto digunakan atas persetujuan responden."
+    }
+  ],
+  "siap_final": true,
+  "jumlah_durasi_menit": 37,
+  "status_outlet": "Pesenkopi adalah lokasi wawancara, bukan usaha yang dikaji. Ketiga responden menggunakan Fleffy untuk laundry sepatu.",
+  "lokasi_wawancara_per_responden": {
+    "R1": "Pesenkopi",
+    "R2": "Pesenkopi",
+    "R3": "Pesenkopi"
+  },
+  "laporan_utama_selesai": true,
+  "qa_laporan_utama": "Versi final 13 halaman dengan format akademik hitam-putih telah diperiksa secara visual seluruh halaman. Times New Roman, margin 2,5 cm, paragraf rata kanan-kiri, tabel netral, tanpa garis dekoratif. Seluruh isi dan tiga foto asli tetap utuh; pemeriksaan warna dan font pada PDF lolos.",
+  "lampiran_foto_lengkap": true,
+  "status_dokumentasi": "Dokumentasi tiga responden lengkap sesuai label dan persetujuan yang dikonfirmasi pengguna.",
+  "jumlah_halaman_final": 13,
+  "format_laporan": {
+    "font_isi": "Times New Roman 12 pt",
+    "font_tabel": "Times New Roman 10.5 pt",
+    "warna": "Teks hitam; tabel putih dengan kepala abu-abu netral",
+    "margin_cm": 2.5,
+    "jumlah_halaman": 13,
+    "qa_semua_halaman": true
+  }
+}

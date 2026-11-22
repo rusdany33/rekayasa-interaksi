@@ -1,0 +1,25 @@
+Q1. Sebagai owner, saya menggunakan Fleffy untuk mencatat transaksi dan memantau pembayaran pelanggan. Pengecekan rekening saya lakukan sendiri.
+
+Q2. Saya menggunakan Fleffy melalui HP setiap hari saat ada transaksi atau ketika memeriksa status pembayaran pelanggan.
+
+Q3. Saya ingin memastikan semua pembayaran tercatat dengan benar dan uang benar-benar masuk ke rekening.
+
+Q4. Terakhir, pelanggan melakukan transfer, lalu saya mengecek transaksi di Fleffy dan mencocokkannya dengan mutasi rekening sebelum melanjutkan pesanan.
+
+Q5. Saya menyiapkan data pelanggan, nominal transaksi, bukti transfer, dan informasi pesanan.
+
+Q6. Saya membuka transaksi di Fleffy, melihat nominal dan status pembayaran, lalu mengecek mobile banking untuk memastikan dana masuk.
+
+Q7. Bagi saya, status di layar menunjukkan kondisi transaksi menurut aplikasi, tetapi saya tetap perlu memastikan penerimaan uang melalui rekening.
+
+Q8. Saya memeriksa mutasi rekening, mencocokkan nominal, lalu mengonfirmasi pembayaran dan melanjutkan pesanan jika sesuai.
+
+Q9. Pencatatan di Fleffy cukup membantu, tetapi terkadang saya harus berpindah ke mobile banking untuk memastikan pembayaran.
+
+Q10. Saya merasa tenang ketika transaksi tercatat dengan benar, tetapi masih khawatir jika status pembayaran belum sesuai dengan rekening.
+
+Q11. Pengecekan tambahan membutuhkan waktu, tetapi membantu mengurangi risiko kesalahan pembayaran.
+
+Q12. Saya membutuhkan status pembayaran yang akurat dan berharap ada integrasi bank agar pengecekan lebih praktis.
+
+Q13. Intinya, Fleffy membantu pencatatan transaksi, tetapi saya tetap memastikan uang masuk ke rekening sebelum menganggap pembayaran selesai.

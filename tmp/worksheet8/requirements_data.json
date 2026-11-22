@@ -1,0 +1,110 @@
+[
+  {
+    "id": "UX01",
+    "title": "Memahami makna informasi pembayaran",
+    "priority": "Must",
+    "rank": 4,
+    "problem": "M3",
+    "goal": "G1",
+    "u": "U1",
+    "stage": "T2-T3",
+    "need": "Ari membutuhkan informasi yang membedakan pembayaran yang telah dicatat dari penerimaan dana yang telah diperiksa agar ia mengetahui kepastian yang sudah tersedia dan yang masih perlu diperoleh.",
+    "basis": "R2 membedakan pencatatan dari pemeriksaan rekening pada Q7. R1 masih mempertanyakan jaminan label Lunas, sedangkan R3 tetap memeriksa rekening. Kebutuhan ini memperjelas informasi; tidak menganggap semua pengguna salah memahami status. [S5 R1-R3 Q7; S6 U1; S7 M3]",
+    "criteria": [
+      "Pada pesanan yang baru dicatat tanpa hasil pemeriksaan, Ari dapat menyebut bahwa pembayaran telah dicatat dan penerimaan dana belum dipastikan.",
+      "Pada pesanan yang hasil pemeriksaannya tersedia, Ari dapat menjelaskan perbedaan informasi pencatatan dan hasil pemeriksaan dengan benar, tanpa petunjuk moderator."
+    ],
+    "rationale": "Makna informasi adalah dasar memahami proses. Prioritas Must karena penafsiran yang tidak tepat dapat melemahkan keputusan, walaupun R2 sudah memahami perbedaannya.",
+    "scope": "Berlaku saat membaca catatan dan hasil pemeriksaan. Istilah atau bentuk tampilan dipilih pada tahap rancangan; kebutuhan tidak mewajibkan nama status tertentu."
+  },
+  {
+    "id": "UX02",
+    "title": "Mencocokkan informasi pada pesanan yang sama",
+    "priority": "Must",
+    "rank": 3,
+    "problem": "M2",
+    "goal": "G1",
+    "u": "U2",
+    "stage": "T1-T4",
+    "need": "Ari membutuhkan hubungan yang dapat ditelusuri antara pesanan, nominal tagihan, bukti pelanggan, dan hasil pemeriksaan agar ia dapat mencocokkan pembayaran untuk pesanan yang tepat tanpa mengandalkan ingatan semata.",
+    "basis": "R2 menghubungkan data Fleffy, bukti pada WhatsApp pelanggan, dan hasil pemeriksaan owner atau finance. R1 dan R3 juga mencocokkan catatan dengan informasi penerimaan. Kejadian salah cocok belum dibuktikan. [S5 R2 Q4-Q8; R1 dan R3 Q4-Q8; S6 U2; S7 M2]",
+    "criteria": [
+      "Ketika diberi dua pesanan bernominal sama, Ari dapat menunjuk pesanan dan bukti yang sesuai menggunakan identitas pesanan atau konteks pembanding yang tersedia, bukan hanya nominal.",
+      "Ari dapat membandingkan nominal serta tanggal atau waktu pada informasi pembayaran, dan menghubungkan hasil pemeriksaan dengan pesanan yang sama. Ketidakcocokan pada skenario uji dikenali sebelum tindak lanjut."
+    ],
+    "rationale": "Prioritas Must karena konfirmasi hanya berguna jika merujuk pesanan yang benar. Hubungan informasi mendukung koordinasi dan keputusan pada UX03 serta UX05.",
+    "scope": "Informasi pembanding mengikuti yang tersedia dan prosedur pemeriksa. Nomor rekening lengkap atau akses bank langsung untuk Ari tidak menjadi syarat."
+  },
+  {
+    "id": "UX03",
+    "title": "Mengetahui penanggung jawab dan perkembangan pemeriksaan",
+    "priority": "Must",
+    "rank": 2,
+    "problem": "M1",
+    "goal": "G2",
+    "u": "U3",
+    "stage": "T4-T5",
+    "need": "Ari membutuhkan kejelasan siapa yang bertanggung jawab memeriksa rekening dan sampai di mana permintaan pemeriksaan pesanan ditangani agar ia dapat berkoordinasi dengan pihak yang tepat saat menunggu kepastian.",
+    "basis": "R2 meminta owner atau finance memeriksa mutasi dan menunggu balasan. Respons yang lambat dilaporkan dapat menunda pelayanan atau pengerjaan. Worksheet 3 menekankan pembagian tanggung jawab sesuai peran. [S3 profil Kasir Owner Admin; S5 R2 Q1, Q8-Q11; S6 U3; S7 M1]",
+    "criteria": [
+      "Setelah meminta pemeriksaan, Ari dapat menyebut pesanan yang dimaksud, pihak pemeriksa sesuai prosedur usaha, serta apakah hasil pemeriksaan sudah tersedia atau masih ditunggu.",
+      "Ketika hasil belum tersedia, Ari tidak menafsirkan pengiriman permintaan sebagai konfirmasi dana masuk; ketika hasil tersedia, ia dapat menemukan hasil untuk permintaan yang sama."
+    ],
+    "rationale": "Prioritas Must karena ketergantungan pada pemeriksa merupakan hambatan utama Ari. Kejelasan perkembangan mengurangi ketidakpastian koordinasi; tidak menjamin owner merespons lebih cepat.",
+    "scope": "Ari tetap sebagai pencatat dan penerima konfirmasi. Progres hanya menyatakan keadaan yang memiliki dasar; waktu selesai tidak boleh dijanjikan tanpa informasi pemeriksa."
+  },
+  {
+    "id": "UX04",
+    "title": "Menentukan tindak lanjut selama hasil belum tersedia",
+    "priority": "Should",
+    "rank": 5,
+    "problem": "M1",
+    "goal": "G2",
+    "u": "U3",
+    "stage": "T5",
+    "need": "Saat hasil pemeriksaan belum tersedia, Ari membutuhkan kejelasan langkah tindak lanjut sesuai prosedur usaha agar ia dapat menghubungi pihak yang tepat dan menjelaskan kondisi pembayaran kepada pelanggan secara akurat.",
+    "basis": "R2 melaporkan panggilan telepon saat respons lambat, pelanggan yang diminta menunggu, dan rasa sungkan. Perumusan dukungan tindak lanjut adalah interpretasi atas pola tersebut, bukan prosedur baku yang telah disepakati. [S5 R2 Q9-Q11; S6 U3; S7 T5 dan P5]",
+    "criteria": [
+      "Pada skenario hasil masih ditunggu, Ari dapat memilih langkah menghubungi kembali atau meminta bantuan sesuai prosedur uji, sambil mempertahankan kondisi pembayaran yang belum dipastikan.",
+      "Ari dapat menjelaskan kepada pelanggan bahwa pemeriksaan masih berlangsung tanpa menyatakan dana sudah diterima atau menjanjikan waktu selesai yang belum diketahui."
+    ],
+    "rationale": "Prioritas Should karena mendukung pelayanan pada kondisi penantian. Penerapannya membutuhkan kesepakatan prosedur dan mengandalkan kejelasan penanggung jawab pada UX03.",
+    "scope": "Kontak, batas waktu tindak lanjut, dan pihak pengganti harus disepakati usaha saat pendalaman. Penelitian belum menetapkan berapa menit pengguna harus menunggu."
+  },
+  {
+    "id": "UX05",
+    "title": "Menentukan keputusan berdasarkan hasil pemeriksaan",
+    "priority": "Must",
+    "rank": 1,
+    "problem": "M3 dan M4",
+    "goal": "G3",
+    "u": "U4",
+    "stage": "T6 serta kondisi sebelum konfirmasi",
+    "need": "Ari membutuhkan hasil pemeriksaan yang merujuk pesanan yang sama dan berasal dari pihak berwenang agar ia dapat menentukan apakah pesanan boleh diteruskan ke teknisi atau perlu ditahan untuk pemeriksaan lanjutan.",
+    "basis": "R2 baru meneruskan pesanan setelah konfirmasi owner atau finance. R3 juga memastikan penerimaan sebelum melanjutkan. Worksheet 3 membedakan tanggung jawab pencatat, pemeriksa, dan teknisi. [S3 hubungan Kasir Owner dan Kasir Teknisi; S5 R2 Q3, Q8; R3 Q8; S6 U4; S7 T6]",
+    "criteria": [
+      "Pada hasil yang sesuai dari pemeriksa berwenang, Ari dapat menentukan tindak lanjut pesanan dan menjelaskan hasil pemeriksaan yang menjadi dasarnya.",
+      "Pada hasil yang belum tersedia, tidak cocok, atau tidak jelas rujukan pesanannya, Ari memilih menahan tindak lanjut dan meminta pemeriksaan lanjutan sesuai prosedur uji, tanpa menganggap input pembayaran sebagai kepastian dana."
+    ],
+    "rationale": "Prioritas Must dan urutan pertama karena merupakan tujuan akhir tugas: keputusan kerja memiliki dasar yang tepat. Jika kebutuhan ini tidak terpenuhi, kejelasan informasi lain belum cukup menjamin ketepatan tindak lanjut.",
+    "scope": "Rincian penanganan ketidaksesuaian adalah kasus uji yang diusulkan, bukan kejadian lapangan yang telah diamati. Kewenangan perubahan status aktual masih perlu diperiksa pada akun terkait."
+  },
+  {
+    "id": "UX06",
+    "title": "Mempertahankan kelancaran pencatatan",
+    "priority": "Should",
+    "rank": 6,
+    "problem": "M2 dan kualitas yang sudah baik",
+    "goal": "G4",
+    "u": "U2",
+    "stage": "T1-T4",
+    "need": "Ari membutuhkan proses pencatatan pesanan dan pembayaran yang tetap lancar ketika terhubung dengan pemeriksaan agar ia dapat meneruskan konteks pesanan tanpa memasukkan ulang informasi yang sudah benar hanya untuk meminta pemeriksaan.",
+    "basis": "R2 menilai input pesanan serta penerbitan nota sudah lancar, tetapi perlu berpindah sumber saat meminta pemeriksaan. Mencegah pengisian ulang merupakan sasaran menjaga pengalaman baik; bukan hambatan yang telah dilaporkan terjadi. [S5 R2 Q6, Q9, Q12; S6 U2; S7 pengalaman baik dan P2]",
+    "criteria": [
+      "Setelah mencatat pesanan, Ari dapat melanjutkan permintaan pemeriksaan dengan identitas pesanan dan nominal yang sama tanpa mengetik ulang kedua informasi tersebut dalam alur rancangan.",
+      "Rincian pelanggan, layanan, dan nominal yang telah benar tetap dapat ditunjuk serta digunakan saat menghubungkan pemeriksaan; tidak ada perubahan data yang tidak disengaja pada skenario uji."
+    ],
+    "rationale": "Prioritas Should karena menjaga kelebihan pencatatan yang sudah dinilai baik. Bukti masalah pengisian ulang belum tersedia, sehingga kebutuhan ini ditempatkan setelah kepastian dan koordinasi inti.",
+    "scope": "Tidak menetapkan jumlah klik atau waktu input sebelum baseline tersedia. Bentuk pemanfaatan ulang konteks dipilih melalui eksplorasi rancangan."
+  }
+]

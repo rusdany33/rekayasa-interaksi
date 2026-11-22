@@ -1,0 +1,72 @@
+{
+  "mapping": [
+    [
+      "R2 memandang status sebagai catatan; kepastian dana berasal dari pemeriksaan. R1 mempertanyakan jaminan Lunas. [S5 R1-R3 Q7; S6 U1; S7 M3]",
+      "Mengetahui informasi yang sudah dicatat dan penerimaan dana yang sudah dipastikan, agar dasar kepastian pembayaran dapat dijelaskan.",
+      "FR01 Sistem menyimpan informasi pencatatan pembayaran dan hasil pemeriksaan penerimaan secara terpisah, menghubungkan keduanya ke pesanan, serta menampilkan sumber hasil pemeriksaan.",
+      "UX01 Ari dapat membedakan pembayaran tercatat dan penerimaan yang sudah diperiksa dengan benar, tanpa petunjuk moderator. Must; urutan 4."
+    ],
+    [
+      "R2 mencocokkan catatan Fleffy, bukti pada chat pelanggan, dan hasil owner atau finance melalui sumber yang terpisah. [S5 R2 Q4-Q8; S6 U2; S7 M2]",
+      "Menghubungkan pesanan, nominal, bukti, dan hasil pemeriksaan untuk pembayaran yang sama tanpa bergantung pada ingatan semata.",
+      "FR02 Sistem mengaitkan identitas pesanan, nominal tagihan, rujukan bukti pelanggan, dan hasil pemeriksaan agar dapat ditinjau dalam konteks pesanan yang sama.",
+      "UX02 Ari dapat mencocokkan bukti dan hasil dengan pesanan yang tepat, termasuk ketika dua pesanan bernominal sama. Must; urutan 3."
+    ],
+    [
+      "R2 meminta owner atau finance memeriksa rekening. Respons yang lambat dilaporkan dapat menunda pelayanan atau pengerjaan. [S3 hubungan peran; S5 R2 Q8-Q11; S6 U3; S7 M1]",
+      "Mengetahui penanggung jawab dan perkembangan permintaan pemeriksaan agar dapat berkoordinasi dengan pihak yang tepat.",
+      "FR03 Sistem mencatat permintaan pemeriksaan per pesanan, pihak yang dituju, keadaan permintaan, dan hasil dari pemeriksa sesuai kewenangan yang ditetapkan usaha.",
+      "UX03 Ari dapat menyebut pemeriksa serta mengetahui apakah hasil sudah tersedia atau masih ditunggu, tanpa menganggap pengiriman permintaan sebagai penerimaan dana. Must; urutan 2."
+    ],
+    [
+      "R2 kadang menelepon owner ketika respons lambat dan merasa sungkan bila pelanggan menunggu. [S5 R2 Q9-Q11; S6 U3; S7 T5]",
+      "Mengetahui langkah berikutnya saat menunggu dan dapat menjelaskan kondisi pembayaran kepada pelanggan tanpa memberikan kepastian yang belum tersedia.",
+      "FR04 Sistem menyediakan informasi tindak lanjut dan pihak yang dapat dihubungi ketika hasil pemeriksaan belum tersedia, mengikuti prosedur yang disepakati usaha.",
+      "UX04 Ari dapat memilih tindak lanjut sesuai prosedur dan menjelaskan bahwa pemeriksaan masih berlangsung tanpa menjanjikan hasil atau waktu yang belum diketahui. Should; urutan 5."
+    ],
+    [
+      "R2 meneruskan pesanan setelah konfirmasi pemeriksa rekening; R3 juga memastikan penerimaan sebelum melanjutkan. [S3 hubungan Kasir Owner Teknisi; S5 R2 Q3, Q8; R3 Q8; S6 U4; S7 T6]",
+      "Memiliki dasar dari pihak berwenang untuk menentukan apakah pesanan dapat diteruskan atau perlu ditahan untuk pemeriksaan lanjutan.",
+      "FR05 Sistem mencatat keputusan menahan atau meneruskan pesanan beserta rujukan hasil pemeriksaan dan petugas pengambil keputusan, sesuai kewenangan yang disepakati usaha.",
+      "UX05 Ari memilih tindak lanjut berdasarkan hasil yang sesuai untuk pesanan yang sama; tanpa hasil yang memadai, ia menahan tindak lanjut. Must; urutan 1."
+    ],
+    [
+      "R2 menilai input pesanan dan nota sudah lancar, sementara permintaan pemeriksaan melibatkan perpindahan sumber. Pengisian ulang belum dilaporkan sebagai keluhan. [S5 R2 Q6, Q9, Q12; S7 bagian 6]",
+      "Mempertahankan kelancaran pencatatan saat menghubungkan pemeriksaan, tanpa mengisi ulang informasi yang sudah benar hanya untuk meminta pemeriksaan.",
+      "FR06 Sistem menggunakan kembali identitas pesanan dan nominal yang tersimpan saat membuat permintaan pemeriksaan serta mempertahankan rincian awal yang tidak diubah pengguna.",
+      "UX06 Ari dapat meneruskan konteks pesanan ke pemeriksaan tanpa mengetik ulang identitas pesanan dan nominal; rincian yang benar tetap terjaga. Should; urutan 6."
+    ]
+  ],
+  "stories": [
+    [
+      "US01",
+      "As a Fleffy admin handling cashier tasks, I want to distinguish recorded payments from confirmed fund receipts, so that I know which payment information has been verified.",
+      "UX01; FR01; G1; V1"
+    ],
+    [
+      "US02",
+      "As a Fleffy admin handling cashier tasks, I want to match each order with its bill, payment proof, and verification result, so that I can identify the correct payment even when order amounts are the same.",
+      "UX02; FR02; G1; V2"
+    ],
+    [
+      "US03",
+      "As a Fleffy admin handling cashier tasks, I want to know who is checking a payment and whether the result is available, so that I can coordinate with the responsible person while waiting.",
+      "UX03; FR03; G2; V1"
+    ],
+    [
+      "US04",
+      "As a Fleffy admin handling cashier tasks, I want to know the appropriate follow-up when a verification result is unavailable, so that I can explain the situation to the customer without making unsupported promises.",
+      "UX04; FR04; G2; V4"
+    ],
+    [
+      "US05",
+      "As a Fleffy admin handling cashier tasks, I want to base my decision on an authorized verification result for the same order, so that I can decide whether to forward the order to technicians or hold it for further checking.",
+      "UX05; FR05; G3; V3-V4"
+    ],
+    [
+      "US06",
+      "As a Fleffy admin handling cashier tasks, I want to reuse correct order information when requesting payment verification, so that I can continue the process without re-entering the order identity and payment amount.",
+      "UX06; FR06; G4; V5"
+    ]
+  ]
+}

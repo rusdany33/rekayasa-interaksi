@@ -1,0 +1,21 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Error: Cannot set style successfully: Cannot find style\n    at <anonymous> (<input>:1:22)\n"
+    },
+    {
+      "type": "text",
+      "text": "Figma Debug UUID: 734c6a44-7d32-4e4d-93d1-cf88ec67036d"
+    }
+  ],
+  "structuredContent": {
+    "error": {
+      "message": "Error: Cannot set style successfully: Cannot find style\n    at <anonymous> (<input>:1:22)\n",
+      "debugUuid": "734c6a44-7d32-4e4d-93d1-cf88ec67036d"
+    },
+    "safeToRetryWithoutCanvasRead": true,
+    "error_code": "INVALID_ARGUMENT"
+  },
+  "isError": true
+}

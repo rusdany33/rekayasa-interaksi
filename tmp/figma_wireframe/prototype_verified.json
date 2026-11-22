@@ -1,0 +1,21 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Error: Reaction at index 0 was invalid\n    at <anonymous> (<input>:1:22)\n"
+    },
+    {
+      "type": "text",
+      "text": "Figma Debug UUID: 1caaab2e-c638-4e87-a497-91c1532e315b"
+    }
+  ],
+  "structuredContent": {
+    "error": {
+      "message": "Error: Reaction at index 0 was invalid\n    at <anonymous> (<input>:1:22)\n",
+      "debugUuid": "1caaab2e-c638-4e87-a497-91c1532e315b"
+    },
+    "safeToRetryWithoutCanvasRead": true,
+    "error_code": "INVALID_ARGUMENT"
+  },
+  "isError": true
+}

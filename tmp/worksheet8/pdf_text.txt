@@ -1,0 +1,553 @@
+1 
+Kebutuhan UX Pemeriksaan Pembayaran Transfer pada 
+Fleffy 
+Worksheet 8 Rekayasa Interaksi 
+Nama: Rusdany Maestro 
+NIM: 202210370311406 
+Program studi: Informatika 
+Institusi: Universitas Muhammadiyah Malang 
+Jenis tugas: Praktikum Individu 
+Tanggal analisis: 15 Oktober 2026 
+Berkas bukti pendukung: Worksheet 3 UserStakeholder; Worksheet 5 UserInterview; Worksheet 6 
+EmpathyMapPersona; Worksheet 7 UserJourney. Rincian sumber pada bagian 10. 
+1 Fokus dan hasil perumusan 
+Saya merumuskan enam kebutuhan UX u ntuk membantu admin atau kasir Fleffy 
+mencocokkan pembayaran transfer, memperoleh hasil pemeriksaan, dan menentukan tindak 
+lanjut pesanan. Empat kebutuhan berprioritas Must dan dua kebutuhan berprioritas Should. 
+Kebutuhan paling penting adalah dasar keputu san yang sesuai hasil pemeriksaan dan 
+kewenangan pengguna, yaitu UX05. 
+Fleffy - Kasir Laundry Sepatu mendukung pencatatan pesanan, layanan, dan pembayaran. 
+Fokus kajian ini dimulai ketika pesanan serta bukti transfer diterima dan berakhir ketika 
+operator m enentukan tindak lanjut sebelum pengerjaan oleh teknisi. Proses pencucian, 
+pengantaran, dan pengambilan berada di luar skenario utama. [S3; S5 R2 Q4 -Q8; S7 bagian 
+2] 
+Pengguna dan konteks utama 
+Persona utama adalah Ari, nama samaran admin operasional yang j uga bertugas sebagai 
+kasir, usia 20-22 tahun. Ia mencatat transaksi melalui Fleffy dan meminta owner atau finance 
+memeriksa rekening. R2 menjadi sumber utama Persona dan Journey. R1 serta R3 digunakan 
+sebagai pembanding karena dapat memeriksa rekening sendiri. [S5 bagian 8; S6 bagian 5] 
+Skenario acuan: Pelanggan memesan deep cleaning dua pasang sepatu melalui WhatsApp dan 
+mengirim bukti transfer Rp150.000. Ari mencatat pesanan, meminta pemeriksaan, lalu 
+menindaklanjuti konfirmasi sebelum menyerahkan pesanan kepada teknisi. [S5 R2 Q4-Q8] 
+Dasar penyusunan 
+Worksheet 3 memberi batas peran dan tanggung jawab. Worksheet 5 memberi 
+pengalaman, tujuan, hambatan, serta harapan pengguna. Worksheet 6 merangkum kebutuhan 
+Persona menjadi U1 -U4. Worksheet 7 menempatkannya pada T1 -T6. Bagian 3 dan 4 
+mengikuti pemetaan serta User Stories pada template Pertemuan 08 dalam workbook. 
+
+2 
+2 Masalah tujuan kebutuhan dan harapan pengguna  
+Ringkasan berikut menghubungkan pengalaman pengguna dengan hasil yang dibutuhkan. M1-M4 
+adalah kode analisis pada worksheet ini; G1-G4 adalah tujuan yang menjadi dasar rumusan kebutuhan. 
+Masalah dan dasar riset Tujuan dan kebutuhan 
+pengguna Harapan hasil pengalaman 
+M1 Penantian konfirmasi pihak 
+lain. R2 melaporkan respons 
+lambat, rasa cemas, dan 
+kemungkinan layanan atau 
+pengerjaan tertunda. [S5 R2 Q8-
+Q11; S7 M1] 
+G2 Menangani koordinasi 
+dengan jelas saat menunggu. Ari 
+perlu mengetahui pemeriksa, 
+perkembangan permintaan, dan 
+langkah berikutnya. 
+Kepastian lebih mudah 
+diperoleh; operator dapat 
+menjelaskan keadaan 
+pembayaran selama 
+menunggu. [R2 Q10, Q12] 
+M2 Informasi pembayaran 
+tersebar. Ari berpindah antara 
+Fleffy, bukti pelanggan, dan chat 
+pemeriksa. [S5 R2 Q4-Q8; S7 
+M2] 
+G1 Mencocokkan catatan dengan 
+pembayaran yang tepat. Ari 
+perlu hubungan yang jelas antara 
+pesanan, nominal, bukti, dan 
+hasil pemeriksaan. 
+Pengecekan lebih praktis 
+dengan konteks pesanan tetap 
+terjaga. [R1 Q12; R2 Q12; R3 
+Q12] 
+M3 Pencatatan belum menjadi 
+satu-satunya dasar kepastian 
+penerimaan. R2 dan R3 
+memahami perbedaannya; R1 
+masih mempertanyakan cakupan 
+Lunas. [S5 R1-R3 Q7; S7 M3] 
+G1 Memahami informasi yang 
+sudah dipastikan. Ari perlu 
+membedakan catatan 
+pembayaran dan hasil 
+pemeriksaan penerimaan. 
+Status yang akurat dan dasar 
+kepastian yang jelas. [S5 R1-
+R3 Q3, Q12] 
+M4 Keputusan bergantung pada 
+konfirmasi berwenang. Bukan 
+keluhan terpisah, melainkan 
+kebutuhan keputusan dari Q3 
+dan Q8. [S3 hubungan peran; S5 
+R2 Q3, Q8] 
+G3 Menentukan kapan pesanan 
+dapat diteruskan. Ari perlu hasil 
+pemeriksaan untuk pesanan yang 
+sama sesuai tanggung jawabnya. 
+Dapat melanjutkan pesanan 
+dengan yakin setelah hasil 
+pemeriksaan sesuai. [R2 Q3, 
+Q8, Q10] 
+ 
+Pengalaman baik yang menjadi kebutuhan pemeliharaan 
+G4 adalah mempertahankan kelancaran pencatatan. R2 menilai input pesanan dan nota  
+sudah membantu. Karena itu, hubungan dengan pemeriksaan perlu menjaga konteks data yang 
+telah benar dan menghindari tambahan pengisian yang tidak diperlukan. Bagian ini menjadi 
+dasar UX06, bukan klaim bahwa pengisian ulang sudah menjadi keluhan. [S5 R2 Q6 , Q9, 
+Q12; S7 bagian 6] 
+R1-R3 mengusulkan integrasi bank; R2 juga menyebut validasi otomatis, QRIS dinamis, dan payment 
+gateway. Harapan teknologi ini tidak dijadikan kebutuhan wajib. Kebutuhan UX berfokus pada 
+kepastian dan kemudahan memperoleh hasil; pilihan integrasi masih perlu dinilai. [S5 Q12-Q13] 
+
+3 
+3 Bagian A Pemetaan Insight Need dan Requirement  
+Empat kolom mengikuti template Pertemuan 08. Insight bersumber dari riset; User Need menyatakan kebutuhan pengguna; FR01-FR06 adalah usulan fungsi; UX01-UX06 
+menetapkan hasil pengalaman yang dapat diperiksa. Rumusan lengkap dan kriterianya tersedia pada bagian 5. 
+Research Insight User Need Functional Requirement UX Requirement 
+R2 memandang status sebagai 
+catatan; kepastian dana berasal dari 
+pemeriksaan. R1 mempertanyakan 
+jaminan Lunas. [S5 R1-R3 Q7; S6 
+U1; S7 M3] 
+Mengetahui informasi yang sudah 
+dicatat dan penerimaan dana yang 
+sudah dipastikan, agar dasar 
+kepastian pembayaran dapat 
+dijelaskan. 
+FR01 Sistem menyimpan informasi 
+pencatatan pembayaran dan hasil 
+pemeriksaan penerimaan secara terpisah, 
+menghubungkan keduanya ke pesanan, 
+serta menampilkan sumber hasil 
+pemeriksaan. 
+UX01 Ari dapat membedakan 
+pembayaran tercatat dan penerimaan 
+yang sudah diperiksa dengan benar, tanpa 
+petunjuk moderator. Must; urutan 4. 
+R2 mencocokkan catatan Fleffy, 
+bukti pada chat pelanggan, dan 
+hasil owner atau finance melalui 
+sumber yang terpisah. [S5 R2 Q4-
+Q8; S6 U2; S7 M2] 
+Menghubungkan pesanan, nominal, 
+bukti, dan hasil pemeriksaan untuk 
+pembayaran yang sama tanpa 
+bergantung pada ingatan semata. 
+FR02 Sistem mengaitkan identitas 
+pesanan, nominal tagihan, rujukan bukti 
+pelanggan, dan hasil pemeriksaan agar 
+dapat ditinjau dalam konteks pesanan 
+yang sama. 
+UX02 Ari dapat menunjuk dan 
+mencocokkan bukti serta hasil untuk 
+pesanan yang tepat, termasuk pada dua 
+pesanan bernominal sama. Must; urutan 
+3. 
+R2 meminta owner atau finance 
+memeriksa rekening. Respons yang 
+lambat dilaporkan dapat menunda 
+pelayanan atau pengerjaan. [S3 
+hubungan peran; S5 R2 Q8-Q11; S6 
+U3; S7 M1] 
+Mengetahui penanggung jawab dan 
+perkembangan permintaan 
+pemeriksaan agar dapat 
+berkoordinasi dengan pihak yang 
+tepat. 
+FR03 Sistem mencatat permintaan 
+pemeriksaan per pesanan, pihak yang 
+dituju, keadaan permintaan, dan hasil dari 
+pemeriksa sesuai kewenangan yang 
+ditetapkan usaha. 
+UX03 Ari dapat menyebut pemeriksa 
+serta mengetahui apakah hasil sudah 
+tersedia atau masih ditunggu, tanpa 
+menganggap pengiriman permintaan 
+sebagai penerimaan dana. Must; urutan 2. 
+ 
+Functional Requirement menjelaskan perilaku sistem yang diusulkan, sedangkan UX Requirement menjelaskan apa yang harus dapat dipahami atau dilakukan pengguna. 
+Fungsi belum diimplementasikan atau diuji. Pemetaan tidak mewajibkan integrasi bank maupun memberi Ari akses rekening langsung. 
+
+4 
+Pemetaan Insight Need dan Requirement lanjutan  
+Empat kolom mengikuti template Pertemuan 08. Insight bersumber dari riset; User Need menyatakan kebutuhan pengguna; FR01-FR06 adalah usulan fungsi; UX01-UX06 
+menetapkan hasil pengalaman yang dapat diperiksa. Rumusan lengkap dan kriterianya tersedia pada bagian 5. 
+Research Insight User Need Functional Requirement UX Requirement 
+R2 kadang menelepon owner ketika 
+respons lambat dan merasa sungkan 
+bila pelanggan menunggu. [S5 R2 
+Q9-Q11; S6 U3; S7 T5] 
+Mengetahui langkah berikutnya saat 
+menunggu dan dapat menjelaskan 
+kondisi pembayaran kepada 
+pelanggan tanpa memberikan 
+kepastian yang belum tersedia. 
+FR04 Sistem menyediakan informasi 
+tindak lanjut dan pihak yang dapat 
+dihubungi ketika hasil pemeriksaan 
+belum tersedia, mengikuti prosedur yang 
+disepakati usaha. 
+UX04 Ari dapat memilih tindak lanjut 
+sesuai prosedur dan menjelaskan bahwa 
+pemeriksaan masih berlangsung tanpa 
+menjanjikan hasil atau waktu yang belum 
+diketahui. Should; urutan 5. 
+R2 meneruskan pesanan setelah 
+konfirmasi pemeriksa rekening; R3 
+juga memastikan penerimaan 
+sebelum melanjutkan. [S3 
+hubungan Kasir Owner Teknisi; S5 
+R2 Q3, Q8; R3 Q8; S6 U4; S7 T6] 
+Memiliki dasar dari pihak 
+berwenang untuk menentukan 
+apakah pesanan dapat diteruskan 
+atau perlu ditahan untuk 
+pemeriksaan lanjutan. 
+FR05 Sistem mencatat keputusan 
+menahan atau meneruskan pesanan 
+beserta rujukan hasil pemeriksaan dan 
+petugas pengambil keputusan, sesuai 
+kewenangan yang disepakati usaha. 
+UX05 Ari memilih tindak lanjut 
+berdasarkan hasil yang sesuai untuk 
+pesanan yang sama; tanpa hasil yang 
+memadai, ia menahan tindak lanjut. 
+Must; urutan 1. 
+R2 menilai input pesanan dan nota 
+sudah lancar, sementara permintaan 
+pemeriksaan melibatkan 
+perpindahan sumber. Pengisian 
+ulang belum dilaporkan sebagai 
+keluhan. [S5 R2 Q6, Q9, Q12; S7 
+bagian 6] 
+Mempertahankan kelancaran 
+pencatatan saat menghubungkan 
+pemeriksaan, tanpa mengisi ulang 
+informasi yang sudah benar hanya 
+untuk meminta pemeriksaan. 
+FR06 Sistem menggunakan kembali 
+identitas pesanan dan nominal yang 
+tersimpan saat membuat permintaan 
+pemeriksaan serta mempertahankan 
+rincian awal yang tidak diubah pengguna. 
+UX06 Ari dapat meneruskan konteks 
+pesanan ke pemeriksaan tanpa mengetik 
+ulang identitas pesanan dan nominal; 
+rincian yang benar tetap terjaga. Should; 
+urutan 6. 
+ 
+Functional Requirement menjelaskan perilaku sistem yang diusulkan, sedangkan UX Requirement menjelaskan apa yang harus dapat dipahami atau dilakukan pengguna. 
+Fungsi belum diimplementasikan atau diuji. Pemetaan tidak mewajibkan integrasi bank maupun memberi Ari akses rekening langsung. 
+
+5 
+4 Bagian B User Stories 
+Enam User Stories berikut menggunakan format As a [user], I want to [action], so that [benefit]. 
+Seluruhnya mengikuti peran Ari sebagai admin yang menjalankan tugas kasir. Kode FR dan UX 
+merujuk pemetaan bagian A; V1-V5 adalah kasus uji pada bagian 8. 
+US01 
+As a Fleffy admin handling cashier tasks, I want to distinguish recorded payments from confirmed 
+fund receipts, so that I know which payment information has been verified. 
+Keterkaitan: UX01; FR01; G1; V1 
+US02 
+As a Fleffy admin handling cashier tasks, I want to match each order with its bill, payment proof, 
+and verification result, so that I can identify the correct payment even when order amounts are the 
+same. 
+Keterkaitan: UX02; FR02; G1; V2 
+US03 
+As a Fleffy admin handling cashier tasks, I want to know who is checking a payment and whether 
+the result is available, so that I can coordinate with the responsible person while waiting. 
+Keterkaitan: UX03; FR03; G2; V1 
+US04 
+As a Fleffy admin handling cashier tasks, I want to know the appropriate follow-up when a 
+verification result is unavailable, so that I can explain the situation to the customer without 
+making unsupported promises. 
+Keterkaitan: UX04; FR04; G2; V4 
+US05 
+As a Fleffy admin handling cashier tasks, I want to base my decision on an authorized verification 
+result for the same order, so that I can decide whether to forward the order to technicians or hold it 
+for further checking. 
+Keterkaitan: UX05; FR05; G3; V3-V4 
+US06 
+As a Fleffy admin handling cashier tasks, I want to reuse correct order information when 
+requesting payment verification, so that I can continue the process without re-entering the order 
+identity and payment amount. 
+Keterkaitan: UX06; FR06; G4; V5 
+Kriteria penerimaan setiap cerita mengikuti kriteria keterpenuhan UX yang bersesuaian pada bagian 5. 
+Cerita menggambarkan kebutuhan rancangan, bukan bukti bahwa fitur tersebut sudah ada pada Fleffy. 
+
+6 
+5 Daftar kebutuhan UX 
+Rumusan berfokus pada hasil yang perlu dipahami atau dilakukan pengguna. Kriteria keterpenuhan 
+adalah sasaran uji rancangan berikutnya, belum merupakan hasil pengujian. Must berarti wajib untuk 
+skenario inti; Should berarti penting setelah kebutuhan inti. 
+UX01 Memahami makna informasi pembayaran 
+Prioritas: Must | Urutan 4 | Tujuan G1 | Journey T2-T3 
+Ari membutuhkan informasi yang membedakan pembayaran yang telah dicatat dari 
+penerimaan dana yang telah diperiksa agar ia mengetahui kep astian yang sudah tersedia dan 
+yang masih perlu diperoleh. 
+Dasar riset: R2 membedakan pencatatan dari pemeriksaan rekening pada Q7. R1 masih 
+mempertanyakan jaminan label Lunas, sedangkan R3 tetap memeriksa rekening. Kebutuhan ini 
+memperjelas informasi; tidak menganggap semua pengguna salah memahami status. [S5 R1-R3 Q7; 
+S6 U1; S7 M3] 
+Kriteria keterpenuhan: 1. Pada pesanan yang baru dicatat tanpa hasil pemeriksaan, Ari dapat 
+menyebut bahwa pembayaran telah dicatat dan penerimaan dana belum dipastikan. 
+2. Pada pesanan yang hasil pemeriksaannya tersedia, Ari dapat menjelaskan perbedaan informasi 
+pencatatan dan hasil pemeriksaan dengan benar, tanpa petunjuk moderator. 
+Alasan prioritas: Makna informasi adalah dasar memahami proses. Prioritas Must karena penafsiran 
+yang tidak tepat dapat melemahkan keputusan, walaupun R2 sudah memahami perbedaannya. 
+Batas penerapan: Berlaku saat membaca catatan dan hasil pemeriksaan. Istilah atau bentuk tampilan 
+dipilih pada tahap rancangan; kebutuhan tidak mewajibkan nama status tertentu. 
+UX02 Mencocokkan informasi pada pesanan yang sama 
+Prioritas: Must | Urutan 3 | Tujuan G1 | Journey T1-T4 
+Ari membutuhkan hubungan yang dapat ditelusuri antara pesanan, nominal tagihan, bukti 
+pelanggan, dan hasil pemeriksaan agar ia dapat mencocokkan pembayaran untuk pesanan 
+yang tepat tanpa mengandalkan ingatan semata. 
+Dasar riset: R2 menghubungkan data Fleffy, bukti pada WhatsApp pelanggan, dan hasil pemeriksaan 
+owner atau finance. R1 dan R3 juga mencocokkan catatan dengan informasi penerimaan. Kejadian 
+salah cocok belum dibuktikan. [S5 R2 Q4-Q8; R1 dan R3 Q4-Q8; S6 U2; S7 M2] 
+Kriteria keterpenuhan: 1. Ketika diberi dua pesanan bernominal sama, Ari dapat menunjuk pesanan 
+dan bukti yang sesuai menggunakan identitas pesanan atau konteks pembanding yang tersedia, bukan 
+hanya nominal. 
+2. Ari dapat membandingkan nominal serta tanggal atau waktu pada informasi pembayaran, dan 
+menghubungkan hasil pemeriksaan dengan pesanan yang sama. Ketidakcocokan pada skenario uji 
+dikenali sebelum tindak lanjut. 
+Alasan prioritas: Prioritas Must karena konfirmasi hanya berguna jika merujuk pesanan yang benar. 
+Hubungan informasi mendukung koordinasi dan keputusan pada UX03 serta UX05. 
+Batas penerapan: Informasi pembanding mengikuti yang tersedia dan prosedur pemeriksa. Nomor 
+rekening lengkap atau akses bank langsung untuk Ari tidak menjadi syarat. 
+
+7 
+Daftar kebutuhan UX lanjutan 
+UX03 Mengetahui penanggung jawab dan perkembangan pemeriksaan 
+Prioritas: Must | Urutan 2 | Tujuan G2 | Journey T4-T5 
+Ari membutuhkan kejelasan siapa yang bertanggung jawab memeriksa rekening dan 
+sampai di mana permintaan pemeriksaan pesanan ditangani agar ia dapat berkoordinasi 
+dengan pihak yang tepat saat menunggu kepastian. 
+Dasar riset: R2 meminta owner atau finance memeriksa mutasi dan menunggu balasan. Respons yang 
+lambat dilaporkan dapat menunda pelayanan atau pengerjaan. Worksheet 3 menekankan pembagian 
+tanggung jawab sesuai peran. [S3 profil Kasir Owner Admin; S5 R2 Q1, Q8-Q11; S6 U3; S7 M1] 
+Kriteria keterpenuhan: 1. Setelah meminta pemeriksaan, Ari dapat menyebut pesanan yang 
+dimaksud, pihak pemeriksa sesuai prosedur usaha, serta apakah hasil pemeriksaan sudah tersedia atau 
+masih ditunggu. 
+2. Ketika hasil belum tersedia, Ari tidak menafsirkan pengiriman permintaan sebagai konfirmasi dana 
+masuk; ketika hasil tersedia, ia dapat menemukan hasil untuk permintaan yang sama. 
+Alasan prioritas: Prioritas Must karena ketergantungan pada pemeriksa merupakan hambatan utama 
+Ari. Kejelasan perkembangan mengurangi ketidakpastian koordinasi; tidak menjamin owner 
+merespons lebih cepat. 
+Batas penerapan: Ari tetap sebagai pencatat dan penerima konfirmasi. Progres hanya menyatakan 
+keadaan yang memiliki dasar; waktu selesai tidak boleh dijanjikan tanpa informasi pemeriksa. 
+UX04 Menentukan tindak lanjut selama hasil belum tersedia 
+Prioritas: Should | Urutan 5 | Tujuan G2 | Journey T5 
+Saat hasil pemeriksaan belum tersedia, Ari membutuhkan kejelasan langkah tindak lanjut 
+sesuai prosedur usaha agar ia dapat menghubungi pihak yang tepat dan menjelaskan kondi si 
+pembayaran kepada pelanggan secara akurat. 
+Dasar riset: R2 melaporkan panggilan telepon saat respons lambat, pelanggan yang diminta 
+menunggu, dan rasa sungkan. Perumusan dukungan tindak lanjut adalah interpretasi atas pola tersebut, 
+bukan prosedur baku yang telah disepakati. [S5 R2 Q9-Q11; S6 U3; S7 T5 dan P5] 
+Kriteria keterpenuhan: 1. Pada skenario hasil masih ditunggu, Ari dapat memilih langkah 
+menghubungi kembali atau meminta bantuan sesuai prosedur uji, sambil mempertahankan kondisi 
+pembayaran yang belum dipastikan. 
+2. Ari dapat menjelaskan kepada pelanggan bahwa pemeriksaan masih berlangsung tanpa menyatakan 
+dana sudah diterima atau menjanjikan waktu selesai yang belum diketahui. 
+Alasan prioritas: Prioritas Should karena mendukung pelayanan pada kondisi penantian. 
+Penerapannya membutuhkan kesepakatan prosedur dan mengandalkan kejelasan penanggung jawab 
+pada UX03. 
+Batas penerapan: Kontak, batas waktu tindak lanjut, dan pihak pengganti harus disepakati usaha saat 
+pendalaman. Penelitian belum menetapkan berapa menit pengguna harus menunggu. 
+
+8 
+Daftar kebutuhan UX lanjutan 
+UX05 Menentukan keputusan berdasarkan hasil pemeriksaan 
+Prioritas: Must | Urutan 1 | Tujuan G3 | Journey T6 serta kondisi sebelum konfirmasi 
+Ari membutuhkan hasil pemeriksaan yang merujuk pesanan yang sama dan berasal dari 
+pihak berwenang agar ia dapat menentukan apakah pesanan boleh diteruskan ke teknisi atau 
+perlu ditahan untuk pemeriksaan lanjutan. 
+Dasar riset: R2 baru meneruskan pesanan setelah konfirmasi owner atau finance. R3 juga memastikan 
+penerimaan sebelum melanjutkan. Worksheet 3 membedakan tanggung jawab pencatat, pemeriksa, 
+dan teknisi. [S3 hubungan Kasir Owner dan Kasir Teknisi; S5 R2 Q3, Q8; R3 Q8; S6 U4; S7 T6] 
+Kriteria keterpenuhan: 1. Pada hasil yang sesuai dari pemeriksa berwenang, Ari dapat menentukan 
+tindak lanjut pesanan dan menjelaskan hasil pemeriksaan yang menjadi dasarnya. 
+2. Pada hasil yang belum tersedia, tidak cocok, atau tidak jelas rujukan pesanannya, Ari memilih 
+menahan tindak lanjut dan meminta pemeriksaan lanjutan sesuai prosedur uji, tanpa menganggap input 
+pembayaran sebagai kepastian dana. 
+Alasan prioritas: Prioritas Must dan urutan pertama karena merupakan tujuan akhir tugas: keputusan 
+kerja memiliki dasar yang tepat. Jika kebutuhan ini tidak terpenuhi, kejelasan informasi lain belum 
+cukup menjamin ketepatan tindak lanjut. 
+Batas penerapan: Rincian penanganan ketidaksesuaian adalah kasus uji yang diusulkan, bukan 
+kejadian lapangan yang telah diamati. Kewenangan perubahan status aktual masih perlu diperiksa pada 
+akun terkait. 
+UX06 Mempertahankan kelancaran pencatatan 
+Prioritas: Should | Urutan 6 | Tujuan G4 | Journey T1-T4 
+Ari membutuhkan proses pencatatan pesanan dan pembayaran yang tetap lancar ketika 
+terhubung dengan pemeriksaan agar ia dapat meneruskan konteks pesanan tanpa memasukkan 
+ulang informasi yang sudah benar hanya untuk meminta pemeriksaan. 
+Dasar riset: R2 menilai input pesanan serta penerbitan nota sudah lancar, tetapi perlu berpindah 
+sumber saat meminta pemeriksaan. Mencegah pengisian ulang merupakan sasaran menjaga 
+pengalaman baik; bukan hambatan yang telah dilaporkan terjadi. [S5 R2 Q6, Q9, Q12; S6 U2; S7 
+pengalaman baik dan P2] 
+Kriteria keterpenuhan: 1. Setelah mencatat pesanan, Ari dapat melanjutkan permintaan pemeriksaan 
+dengan identitas pesanan dan nominal yang sama tanpa mengetik ulang kedua informasi tersebut 
+dalam alur rancangan. 
+2. Rincian pelanggan, layanan, dan nominal yang telah benar tetap dapat ditunjuk serta digunakan saat 
+menghubungkan pemeriksaan; tidak ada perubahan data yang tidak disengaja pada skenario uji. 
+Alasan prioritas: Prioritas Should karena menjaga kelebihan pencatatan yang sudah dinilai baik. 
+Bukti masalah pengisian ulang belum tersedia, sehingga kebutuhan ini ditempatkan setelah kepastian 
+dan koordinasi inti. 
+Batas penerapan: Tidak menetapkan jumlah klik atau waktu input sebelum baseline tersedia. Bentuk 
+pemanfaatan ulang konteks dipilih melalui eksplorasi rancangan. 
+
+9 
+6 Prioritas kebutuhan dan alasan penetapannya  
+Saya menggunakan kategori Must da n Should. Must diperlukan agar skenario utama 
+menghasilkan pemahaman, kecocokan informasi, koordinasi, dan keputusan yang tepat. 
+Should meningkatkan penanganan kondisi penantian atau menjaga kelancaran yang sudah 
+baik. Tidak ada kategori Could yang diisi hanya untuk menambah daftar. 
+Urutan ditetapkan dari dampak terhadap tujuan pengguna, konsekuensi bila kebutuhan 
+tidak terpenuhi, ketergantungan antarkebutuhan, serta kekuatan bukti. Penilaian ini bersifat 
+kualitatif. Frekuensi hambatan, biaya implementasi, dan durasi tunggu belum diukur, 
+sehingga tidak digunakan sebagai skor prioritas. 
+Urutan dan 
+kategori Kebutuhan Alasan dan ketergantungan 
+1 Must UX05 Dasar keputusan 
+Langsung memenuhi G3. Tanpa dasar yang sesuai, 
+pesanan dapat ditindaklanjuti tanpa kepastian yang 
+dibutuhkan. Memakai informasi UX01-UX03. 
+2 Must UX03 Koordinasi 
+pemeriksaan 
+Menangani M1, hambatan yang paling menonjol pada 
+pola Ari. Memerlukan pesanan yang jelas dari UX02; 
+mendukung keputusan UX05. 
+3 Must UX02 Kecocokan 
+informasi 
+Memastikan permintaan dan hasil pemeriksaan merujuk 
+pesanan yang benar. Menjadi prasyarat isi bagi UX03 
+dan UX05. 
+4 Must UX01 Makna informasi 
+Membedakan pencatatan dan hasil pemeriksaan. 
+Memperkuat pemahaman sebelum keputusan; tidak 
+menyatakan R2 terbukti salah memahami status. 
+5 Should UX04 Tindak lanjut 
+penantian 
+Mendukung pelayanan saat hasil belum tersedia. 
+Bergantung pada UX03 serta prosedur tindak lanjut 
+yang perlu disepakati usaha. 
+6 Should UX06 Kelancaran 
+pencatatan 
+Menjaga bagian yang sudah dinilai baik. Larangan 
+pengisian ulang adalah sasaran perbaikan yang perlu 
+diuji, dengan bukti keluhan lebih terbatas. 
+ 
+7 Kebutuhan terpenting dan fokus pengembangan 
+UX05 menjadi hasil utama yang harus dicapai. Empat kebutuhan Must dikembangkan 
+dan diuji sebagai satu alur inti: informasi pesanan cocok melalui UX02, maknanya dipahami 
+melalui UX01, pemeriksaan ditelusuri melalui UX03, lalu keputusan ditentukan melalui 
+UX05. Urutan kepentingan pada tabel bukan urutan pengerjaan teknis. 
+UX03 menjadi fokus perbaikan pengalaman pada titik menunggu karena R2 secara 
+langsung melaporkan dampaknya. Kejelasan koordinasi tidak sendirinya mempersingkat 
+pemeriksaan bank; kecepatan aktual tetap perlu diukur. UX04 dan UX06 ditambahkan setelah 
+alur inti terbukti dapat dipahami dan keputusan tidak keliru. 
+
+10 
+8 Rencana pemeriksaan keterpenuhan kebutuhan  
+Pengujian yang direncanakan menggunakan prototipe dan data pesanan fiktif. Peserta 
+utama adalah admin atau kasir dengan pembagian tugas seper ti Ari. Sebelum uji, pemilik 
+usaha perlu memastikan siapa pemeriksa berwenang dan prosedur tindak lanjut yang berlaku. 
+Pemeriksaan rekening nyata tidak diperlukan. 
+Kasus uji yang diusulkan Kebutuhan Bukti keterpenuhan yang dicatat 
+V1 Catatan pembayaran sudah ada, 
+hasil pemeriksaan belum tersedia. 
+UX01, 
+UX03 
+Peserta menjelaskan perbedaan pencatatan 
+dan kepastian dana, serta menunjuk 
+pemeriksa dan keadaan permintaan dengan 
+benar. 
+V2 Dua pesanan bernominal sama 
+dengan bukti dan konteks pembanding 
+berbeda. 
+UX02 
+Peserta menghubungkan pesanan dengan 
+bukti dan hasil yang tepat, serta mengenali 
+ketidakcocokan yang disiapkan dalam uji. 
+V3 Hasil pemeriksaan sesuai dari 
+pihak berwenang. UX05 
+Peserta menentukan tindak lanjut dan 
+menunjuk hasil pemeriksaan untuk pesanan 
+yang sama sebagai alasannya. 
+V4 Hasil belum tersedia, hasil tidak 
+cocok, atau rujukan pesanan belum 
+jelas. 
+UX04, 
+UX05 
+Peserta menahan tindak lanjut, memilih 
+langkah sesuai prosedur, dan tidak memberi 
+kepastian dana atau waktu yang belum 
+diketahui. 
+V5 Pencatatan dilanjutkan menjadi 
+permintaan pemeriksaan. UX06 
+Peserta menggunakan identitas pesanan serta 
+nominal yang sudah benar tanpa mengetik 
+ulang keduanya; rincian awal tetap sesuai. 
+ 
+Cara menilai 
+Setiap kriteria pada bagian 5 diberi catatan terpenuhi atau belum terpenuhi, disertai 
+tindakan, penjelasan peserta, serta bantuan yang diperlukan. Kriteria dianggap terpenuhi pada 
+satu sesi bila peserta menyelesaikannya dengan benar tanpa arahan moderator. Semua kriteria 
+Must harus terpenuhi untuk menerima alur inti pada sesi tersebut; hasil antarpeserta tetap 
+dilaporkan terpisah. 
+Keputusan meneruskan pesanan ketika belum ada hasil yang sesuai dicatat sebagai 
+kesalahan kritis pada uji UX05 dan menjadi alasan revisi. Targetnya t idak ada keputusan 
+kritis yang keliru pada skenario uji yang disiapkan. Ini adalah target rancangan, bukan bukti 
+bahwa risiko pembayaran telah hilang di penggunaan nyata. 
+Durasi tugas, perpindahan sumber, serta kebutuhan bantuan dapat dicatat sebagai baseline pengujian 
+berikutnya. Target menit, jumlah klik, persentase keberhasilan populasi, atau janji penghematan waktu 
+belum ditetapkan karena data pembanding belum tersedia. 
+Keterbatasan yang memengaruhi pemeriksaan 
+Persona Ari terutama bertumpu pada R2. Cabang ketidaksesuaian dan prosedur eskalasi masih 
+memerlukan pendalaman, sehingga V2 dan V4 merupakan skenario rancangan yang diusulkan. Hasil 
+uji harus diperiksa kembali pada pengguna dengan tugas serupa sebelum kebutuhan diperluas ke 
+seluruh pengguna Fleffy. 
+
+11 
+9 Penelusuran kebutuhan ke sumber dan tujuan  
+ID UX Masalah dan 
+tujuan Persona dan Journey Bukti wawancara pada S5 
+UX01 M3; G1 S6 U1; S7 T2-T3 R1-R3 Q7; R2 Q3, Q12 
+UX02 M2; G1 S6 U2; S7 T1-T4 R2 Q4-Q8; R1 dan R3 Q4-Q8 
+UX03 M1; G2 S6 U3; S7 T4-T5 R2 Q1, Q8-Q11 
+UX04 M1; G2 S6 U3; S7 T5 R2 Q9-Q11 
+UX05 M3 dan M4; G3 S6 U4; S7 T6; sebelum 
+hasil R2 Q3, Q8; R3 Q8 
+UX06 M2; G4 S6 U2; S7 T1-T4 R2 Q6, Q9, Q12 
+ 
+Worksheet 3 mendukung UX03 dan UX05 melalui batas tugas Kasir, Admin, Owner, dan Teknisi. 
+Wawancara memperjelas pembagian pemeriksaan: R2 meminta owner atau finance, sedangkan R1 dan 
+R3 dapat memeriksa sendiri. Perbedaan akses ini tetap dipertahankan. 
+10 Sumber dan batas kesimpulan 
+S3. Worksheet 3 User and Stakeholder, revisi 28 September 2026. 
+S5. Worksheet 5 User Interview, 15 Oktober 2026; R1-R3 dan Q1-Q13. 
+S6. Worksheet 6 Empathy Map dan Persona, 15 Oktober 2026; Ari dan U1-U4. 
+S7. Worksheet 7 User Journey, 15 Oktober 2026; T1-T6, M1-M3, dan P1-P6. 
+Penulis S3-S7: Rusdany Maestro. 
+Acuan utama. UX Design Hands-on Workbook, Pertemuan 08 From Insight to Requirement, bagian 2 
+dan 5, tabel A serta User Stories B. 
+Acuan penilaian. Instruksi Worksheet 8 UX Requirements, Rekayasa Interaksi. 
+Jawaban wawancara merupakan parafrasa. Pesenkopi adalah tempat wawancara. Kebutuhan dan prioritas 
+adalah sintesis peneliti; belum tersedia hasil uji prototipe, pengukuran rata-rata penantian, atau bukti 
+kejadian penipuan. [S5; S6; S7] 
+Kelengkapan hasil 
+Ringkasan masalah, tujuan, kebutuhan, dan harapan tersedia pada bagian 1-2. Tabel A memisahkan 
+insight, kebutuhan pengguna, fungsi, dan kriteria UX. Bagian B memuat enam User Stories. Bagian 5 
+memberi kriteria keterpenuhan, bagian 6-7 menjelaskan prioritas, dan bagian 9 menelusuri hubungan 
+ke riset serta tujuan. 

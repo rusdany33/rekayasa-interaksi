@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"mutatedNodeIds\":[\"4:1357\",\"4:1359\",\"4:1361\",\"4:2075\",\"4:2077\",\"4:2079\",\"4:2117\",\"4:2119\",\"4:2121\"],\"primaryRouteChecks\":[{\"label\":\"Minta pemeriksaan\",\"source\":\"4:1265\",\"destination\":\"4:1286\",\"navigation\":\"NAVIGATE\",\"passed\":true},{\"label\":\"Simpan keputusan Teruskan\",\"source\":\"4:1426\",\"destination\":\"4:1441\",\"navigation\":\"NAVIGATE\",\"passed\":true},{\"label\":\"Tahan untuk klarifikasi\",\"source\":\"4:1428\",\"destination\":\"5:255\",\"navigation\":\"OVERLAY\",\"passed\":true},{\"label\":\"Simpan keputusan Tahan\",\"source\":\"5:265\",\"destination\":\"4:1861\",\"navigation\":\"NAVIGATE\",\"passed\":true},{\"label\":\"Periksa permintaan\",\"source\":\"4:1652\",\"destination\":\"4:2103\",\"navigation\":\"NAVIGATE\",\"passed\":true},{\"label\":\"Periksa catatan keputusan\",\"source\":\"4:1814\",\"destination\":\"4:2019\",\"navigation\":\"NAVIGATE\",\"passed\":true}],\"allPassed\":true}"
+    }
+  ],
+  "isError": false
+}

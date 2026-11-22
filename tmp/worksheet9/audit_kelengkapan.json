@@ -1,0 +1,29 @@
+{
+  "template_A_exact_headers": true,
+  "template_B_visual_sitemap": true,
+  "template_C_categories": [
+    "Bantuan Pemeriksaan",
+    "Pemeriksaan Pembayaran",
+    "Pesanan"
+  ],
+  "inventory_items": 16,
+  "card_items": 15,
+  "card_ids_unique": true,
+  "aggregation_item": [
+    "C14"
+  ],
+  "page_count_IA": 9,
+  "hierarchy_depth_max": 2,
+  "all_UX_requirements_covered": true,
+  "no_blue_text": true,
+  "no_paragraph_rule": true,
+  "native_table_headers_repeat": true,
+  "user_card_sorting_claimed": false,
+  "rubric": {
+    "needs_25": "UX01-UX06 dipetakan ke C01-C16 dan lokasi halaman",
+    "inventory_25": "16item lengkap dengan kebutuhan prioritas lokasi; 3kategori15kartu+Beranda",
+    "hierarchy_relations_25": "9halaman L0-L2; H1-H3 TS1-TS2 NH1; detail kanonis",
+    "diagram_15": "sitemap visual hitamputih dengan legenda halaman bagianhierarki tautansilang",
+    "completeness_10": "A B C workbook, identitas, sumber, risiko, perbaikan, uji dan QA visual"
+  }
+}

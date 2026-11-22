@@ -1,0 +1,14 @@
+{
+  "pages": 8,
+  "phase_count": 6,
+  "components_per_phase": 10,
+  "fonts": [
+    "TimesNewRomanPS-BoldMT",
+    "TimesNewRomanPSMT"
+  ],
+  "colors": "hitam putih dan abu-abu netral",
+  "pdf_bytes": 330711,
+  "qa_visual": "Lulus pemeriksaan visual seluruh halaman 1-8; visual alur dan peta detail terbaca tanpa clipping atau halaman kosong.",
+  "status": "Selesai",
+  "halaman_final": 8
+}

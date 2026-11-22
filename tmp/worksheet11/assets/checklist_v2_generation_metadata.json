@@ -1,0 +1,10 @@
+{
+  "mode": "built-in image_gen edit",
+  "edit_target": "D:/Rekayasa Interaksi/tmp/worksheet11/assets/checklist.png",
+  "output": "D:/Rekayasa Interaksi/tmp/worksheet11/assets/checklist_v2.png",
+  "supersedes_for_report": "checklist.png",
+  "original_preserved": true,
+  "prompt": "Edit the attached low-fidelity monochrome UI sketch precisely. Preserve the entire composition, dimensions, line style, typography, all icons, labels, amounts, buttons, margins and elements exactly, except this one text correction in the FOURTH indicator row (the last row inside Pembayaran tercatat):\nChange its left label from \"Penerimaan dana\" to \"Kepastian dana masuk\" (can wrap onto two lines if needed for legibility).\nChange ONLY that row's right gray status pill from \"Belum ada\" to \"Belum diketahui\" (can expand pill slightly within same row while keeping arrow).\nDo NOT change the third row: \"Sumber hasil\" with status \"Belum ada\" stays unchanged.\nMeaning: receipt of funds is currently unknown, not proven absent. All other pixels/content as similar as possible. Black white gray only, printed Indonesian text crisp and readable.",
+  "output_hint": "Generated images are saved to C:\\Users\\HP 15\\.codex\\generated_images\\01a13f8c-0613-73b3-bfeb-bffcee0c62f0 as C:\\Users\\HP 15\\.codex\\generated_images\\01a13f8c-0613-73b3-bfeb-bffcee0c62f0\\exec-363b0f73-3f3d-4e04-a1c8-1a4de15fbe84.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "inspection": "Manually inspected generated result. Fourth row reads Kepastian dana masuk / Belum diketahui; third row Sumber hasil / Belum ada unchanged. Text legible and no overlap. Other composition and content preserved."
+}

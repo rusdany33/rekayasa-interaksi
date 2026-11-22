@@ -1,0 +1,21 @@
+{
+  "mode": "Eksplorasi digital berbantuan AI dan visualisasi ulang",
+  "source": "Worksheet 8 UX01–UX06; Worksheet 9 N1b; Worksheet 10 P2–P9, D1–D6, T1–T3, S",
+  "focus": "Membaca dasar pemeriksaan transfer untuk pesanan yang sama sebelum mencatat keputusan lanjut",
+  "ideation_timebox_minutes": 8,
+  "brief_start_utc": "2026-10-15 12:28:56 UTC",
+  "brief_end_utc": "2026-10-15 12:36:39 UTC",
+  "initial_digital_ideation_elapsed_seconds": 463,
+  "manual_sketch_session_claimed": false,
+  "mock_context": "PSN-015; Bank Transfer; Rp150.000; Owner; semua ID, rujukan, dan keadaan contoh merupakan data ilustrasi",
+  "concepts": [
+    {"key":"accordion","name":"Ringkasan bertingkat","structure":"Identitas tetap dan empat accordion Ringkasan Pesanan, Pembayaran, Pemeriksaan, Tindak Lanjut dalam satu N1b.","interaction":"Buka bagian yang diperlukan; ringkasan makna dan hasil selalu terlihat.","value":"Konteks pesanan tetap terbaca tanpa menampilkan seluruh rincian sekaligus.","risk":"Rincian pembanding dapat tersembunyi; informasi inti dan alasan tombol tidak aktif harus tetap terlihat."},
+    {"key":"stepper","name":"Langkah terpandu","structure":"Penanda tiga tahap Data, Pemeriksaan, Keputusan di dalam N1b.","interaction":"Lanjut atau kembali tahap dengan konteks tersimpan; saat menunggu dapat keluar dan kembali ke tahap sama.","value":"Ari mengetahui urutan pemeriksaan dan langkah berikutnya.","risk":"Mengesankan proses harus selalu linear; perlu jalur kembali ketika hasil belum tersedia."},
+    {"key":"comparison","name":"Perbandingan data sejajar","structure":"Kolom Catatan Pesanan dan Bukti Pelanggan, dengan hasil pemeriksa di bawah pasangan informasi.","interaction":"Bandingkan identitas, nominal, dan waktu sebelum membuka dasar keputusan.","value":"Memudahkan pencocokan pembayaran untuk pesanan yang tepat.","risk":"Dua kolom pada HP membuat teks sempit; perlu menyusun ulang vertikal pada layar kecil."},
+    {"key":"timeline","name":"Linimasa pemeriksaan","structure":"Rangkaian peristiwa catatan pembayaran, permintaan, hasil, dan keputusan untuk satu pesanan.","interaction":"Ketuk peristiwa untuk membaca sumber dan rincian; tindakan mengikuti keadaan terakhir.","value":"Ari dapat menelusuri perkembangan dan dasar hasil.","risk":"Informasi pembanding tersebar pada peristiwa lama dan membutuhkan gulir."},
+    {"key":"checklist","name":"Daftar periksa berbasis bukti","structure":"Empat indikator yang merujuk data: identitas pesanan, bukti, sumber pemeriksa, dan kepastian penerimaan.","interaction":"Buka sumber tiap indikator; indikator bukan centang manual untuk mengesahkan dana.","value":"Kecukupan dasar keputusan terlihat secara terstruktur.","risk":"Centang dapat disalahartikan sebagai konfirmasi otomatis; sumber dan keadaan belum tersedia harus jelas."},
+    {"key":"conversation","name":"Percakapan terstruktur","structure":"Riwayat koordinasi per pesanan dengan pesan sistem permintaan dan balasan pemeriksa yang memiliki rujukan.","interaction":"Tinjau balasan terstruktur dan sumber, lalu baca ringkasan dasar keputusan.","value":"Koordinasi tetap terkait pesanan tanpa memindahkan konteks ke percakapan umum.","risk":"Percakapan bebas dapat mengaburkan hasil resmi; fungsi komunikasi dan otorisasi perlu kesepakatan usaha."},
+    {"key":"bottomsheet","name":"Panel tindakan kontekstual","structure":"Ringkasan pembayaran pada N1b dengan bottom sheet berisi hasil, dasar, dan tindakan.","interaction":"Buka panel keputusan; tutup untuk melihat bukti tanpa meninggalkan N1b.","value":"Tindakan dekat dengan hasil pemeriksaan dan tidak menjadi halaman baru.","risk":"Panel dapat menutup bukti yang perlu dibandingkan dan mudah tertutup tanpa sengaja."},
+    {"key":"queue_detail","name":"Antrean dengan detail terpilih","structure":"Ringkasan antrean N2 di atas, detail kanonis N1b pesanan terpilih di bawah dalam satu konteks tampilan.","interaction":"Pilih pesanan antrean lalu baca hasil dan keputusan; ID terpilih tetap ditandai.","value":"Membantu kembali ke pemeriksaan yang masih menunggu tanpa membuat permintaan baru.","risk":"Dua konteks pada HP meningkatkan risiko salah memilih pesanan; detail harus tetap kanonis dan pilihan sangat jelas."}
+  ]
+}

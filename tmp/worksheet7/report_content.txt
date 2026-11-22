@@ -1,0 +1,131 @@
+User Journey Pembayaran Transfer pada Fleffy
+
+Worksheet 7 Rekayasa Interaksi
+
+Nama: Rusdany Maestro NIM: 202210370311406 Program studi: Informatika Institusi: Universitas Muhammadiyah Malang Mata kuliah: Rekayasa Interaksi Jenis tugas: Individu Tanggal penyusunan: 15 Oktober 2026
+
+1 Produk dan fokus perjalanan
+
+Fleffy - Kasir Laundry Sepatu mendukung pencatatan pesanan, layanan, dan pembayaran. Journey ini memetakan pengalaman admin ketika mencatat transfer dan memperoleh konfirmasi penerimaan dana sebelum meneruskan pesanan ke teknisi. Fokusnya adalah perjalanan kondisi saat ini menurut laporan pengguna, bukan alur solusi baru. [S1-S4]
+
+2 Persona skenario dan tujuan
+
+Persona:  Ari, nama samaran pada Worksheet 6. Admin Operasional yang juga bertugas sebagai kasir, usia 20-22 tahun. Ari memakai Fleffy dan WhatsApp dalam pekerjaan harian; pemeriksaan rekening dilakukan owner atau finance. [S2 Q1-Q2, Q8; S4]
+
+Skenario:  Pelanggan memesan deep cleaning dua pasang sepatu melalui WhatsApp dan mengirim bukti transfer Rp150.000. Ari mencatat pesanan, mencocokkan informasi, lalu meminta pemeriksaan penerimaan dana sebelum pesanan diteruskan ke teknisi. [S2 Q4-Q8]
+
+Tujuan utama:  Pesanan dan pembayaran tercatat sesuai informasi yang diterima, serta tindak lanjut memiliki dasar konfirmasi dari pihak pemeriksa rekening. [S2 Q3, Q8]
+
+Awal dan akhir:  Dimulai ketika pesanan dan bukti diterima; berakhir ketika hasil pemeriksaan yang sesuai menjadi dasar meneruskan pesanan. Pengerjaan cuci hingga pengambilan sepatu berada di luar skenario.
+
+Saya menyusun enam tahap agar hubungan antara pencatatan, pencocokan, koordinasi, dan keputusan tindak lanjut terlihat jelas. Perilaku bersumber dari R2; pikiran, penempatan sebagian emosi, dan peluang perbaikan diberi penanda sesuai jenisnya.
+
+3 Dasar data dan batas penyusunan
+
+Sumber Dasar yang digunakan Peran dalam Journey S1 Worksheet 1 Dokumentasi 19 September 2026; B2 menampilkan Lunas dan Bank Transfer Rp57.000. Konteks layar pembayaran; bukan bukti mutasi atau transaksi Rp150.000. S2 Catatan R2 Wawancara langsung, 15 Oktober 2026, Pesenkopi, 12 menit; Q1-Q13. Urutan inti Q4-Q8; tujuan Q3; pola usaha, emosi, dampak, dan harapan Q9-Q12. S3 Worksheet 5 Ringkasan jawaban R2 dan perbandingan tiga responden. Menjaga pembagian kewenangan: Ari tidak mengambil peran owner pemeriksa rekening. S4 Worksheet 6 Persona Ari, Empathy Map, dan kebutuhan UX U1-U4. Menjaga kesinambungan karakteristik, motivasi, emosi, kebutuhan, dan masalah.
+
+Penanda pada peta
+
+D:  Data yang dilaporkan R2, termasuk pola umum. Penanda ini tidak berarti peneliti menyaksikan kejadian secara langsung.
+
+I:  Interpretasi peneliti untuk membagi tahap, menempatkan pikiran/emosi, atau merumuskan kebutuhan.
+
+P:  Peluang perbaikan yang diusulkan untuk dievaluasi; bukan fitur yang sudah ada atau hasil pengujian.
+
+Cara membaca skenario
+
+Urutan utama direkonstruksi dari Q4-Q8. Pencatatan dan pencocokan dapat bergantian; pembagian T1-T6 membantu membaca pengalaman, bukan catatan klik atau waktu yang terukur. Q9-Q11 melengkapi pola hambatan dan perasaan pada tahap relevan. Keterlambatan, telepon, atau pelanggan menunggu tidak diklaim semuanya terjadi pada contoh Rp150.000.
+
+Contoh pengambilan sepatu pada Q9 tetap dipisahkan dari pesanan sebelum pengerjaan pada Q4. Peta berakhir pada tindak lanjut setelah konfirmasi. Kasus bukti tidak cocok atau dana belum masuk belum memiliki rincian alur yang cukup untuk dipetakan sebagai cabang lengkap.
+
+Sumber S2 dan S3 merujuk sesi yang sama, bukan dua responden berbeda. Seluruh pernyataan adalah parafrasa. Nama samaran dan kode responden menjaga privasi; tidak ada kontak pelanggan atau informasi rekening pribadi.
+
+4 Gambaran visual perjalanan
+
+Urutan dibaca dari T1 menuju T6. Simbol emosi menunjukkan pola yang dilaporkan dan interpretasi per tahap; tidak menyatakan skor, intensitas, atau durasi pengalaman.
+
+Bagian yang memerlukan perhatian
+
+T3-T5 memperlihatkan usaha menghubungkan informasi dan memperoleh hasil pemeriksaan. T5 ditonjolkan karena R2 melaporkan penantian konfirmasi sebagai hambatan layanan. Penekanan ini merupakan prioritas analisis, tanpa menyatakan lama atau frekuensi keterlambatan pada setiap transaksi. [S2 Q6, Q8-Q11]
+
+Peta detail berikut melanjutkan alur yang sama dalam dua bagian agar seluruh komponen tetap terbaca. Kolom dan urutan komponen dipertahankan pada kedua halaman.
+
+5 User Journey Map Tahap 1 sampai 3
+
+D = laporan R2; I = interpretasi; P = peluang perbaikan. Tahapan berikut adalah bagian dari skenario dan Persona yang sama.
+
+Komponen T1 Terima pesanan dan bukti T2 Catat pesanan dan pembayaran T3 Cocokkan rincian pembayaran Tujuan pengguna Memperoleh rincian pesanan serta bukti pembayaran yang akan dicatat. [I] Membuat catatan pesanan dan pembayaran sesuai informasi yang diterima. [I] Memastikan rincian tagihan dan bukti pelanggan cocok sebelum meminta pemeriksaan dana. [I] Aktivitas pengguna Mengumpulkan informasi pelanggan, dua pasang sepatu, layanan, dan bukti transfer. [D] Mendaftarkan pelanggan, layanan cuci, dan metode pembayaran pada pesanan. [D] Membandingkan data pembayaran di Fleffy dengan bukti dari pelanggan. [D] Tindakan pengguna Membuka chat pelanggan dan membaca rincian pesanan serta lampiran bukti Rp150.000. [D] Membuka pesanan baru di Fleffy, mengisi rincian, dan memilih Bank Transfer. [D] Berpindah ke WhatsApp, lalu mencocokkan nominal, tanggal, dan jam pada bukti. [D] Touchpoint atau media WhatsApp pelanggan; rincian layanan dan foto atau informasi sepatu. [D] Menu pesanan baru dan bagian pembayaran Fleffy. [D] Rincian tagihan Fleffy dan lampiran bukti transfer di WhatsApp. [D] Pemikiran pengguna Rincian pesanan dan bukti perlu cukup untuk memulai pencatatan. [I] Catatan aplikasi perlu sesuai pesanan; pencatatan belum menggantikan pemeriksaan rekening. [I] Kecocokan bukti belum memastikan keaslian dokumen atau penerimaan dana di rekening. [I] Perasaan atau emosi Tenang dan siap melayani, sesuai pola awal proses yang diceritakan. [D] Relatif tenang; ditafsirkan dari pencatatan yang dinilai lancar, bukan pengukuran emosi tahap ini. [I] Lebih waspada, sebagai interpretasi dari perhatian pada kecocokan dan kekhawatiran bukti. [I] Masalah atau hambatan Hambatan khusus pada penerimaan pesanan belum dirinci dalam Q4-Q5. Input dinilai lancar. Kepastian dana belum diperoleh hanya dari catatan pembayaran. [D] Pencocokan memerlukan perpindahan aplikasi dan sumber informasi. [D] Kebutuhan pengguna Informasi pelanggan, layanan, nominal, dan bukti mudah ditemukan bersama. [I] Pencatatan efisien dengan makna status yang dapat dipahami. [I] Hubungan yang jelas antara pesanan, nominal, bukti, dan hasil pemeriksaan berikutnya. [I] Peluang perbaikan UX P1 Menyediakan ringkasan data awal dan akses ke bukti yang sesuai pesanan. [P] P2 Mempertahankan kemudahan input dan memperjelas catatan pembayaran serta hasil pemeriksaan. [P] P3 Menghubungkan bukti dengan pesanan dan menampilkan rincian pembanding yang relevan. [P] Dasar data R2 Q4-Q5; emosi Q10; Persona Ari dan Does pada Worksheet 6. R2 Q1, Q6-Q7, Q9; Says pada Worksheet 6. R2 Q3, Q5-Q7, Q10; Does, Thinks, dan Pain pada Worksheet 6.
+
+User Journey Map Tahap 4 sampai 6
+
+D = laporan R2; I = interpretasi; P = peluang perbaikan. Tahapan berikut adalah bagian dari skenario dan Persona yang sama.
+
+Komponen T4 Minta pemeriksaan rekening T5 Tunggu hasil pemeriksaan T6 Konfirmasi dan teruskan pesanan Tujuan pengguna Meminta pihak pemegang akses rekening memastikan penerimaan dana yang sesuai. [I] Memperoleh kejelasan hasil sebelum melanjutkan pesanan. [I] Menindaklanjuti pesanan setelah memperoleh hasil pemeriksaan yang sesuai. [I] Aktivitas pengguna Berkoordinasi dengan owner atau finance untuk pemeriksaan mutasi. [D] Menunggu respons pemeriksa; menahan tindak lanjut sampai ada kepastian. [D] Menggunakan konfirmasi penerimaan sebagai dasar meneruskan pesanan ke teknisi. [D] Tindakan pengguna Mengirim pesan dan tangkapan layar atau bukti pembayaran kepada pemeriksa melalui WhatsApp. [D] Memantau balasan WhatsApp; bila respons lambat, dapat menghubungi owner kembali. [D, pola umum] Membaca hasil pemeriksa, memastikan catatan sesuai, lalu meneruskan pesanan atau nota/SPK. [D] Touchpoint atau media Chat WhatsApp owner/finance; rekening diperiksa oleh mereka, bukan oleh Ari. [D] WhatsApp owner/finance; telepon hanya sebagai tindak lanjut bersyarat. [D] Balasan WhatsApp pemeriksa, catatan Fleffy, nota/SPK, dan koordinasi dengan teknisi. [D] Pemikiran pengguna Keputusan membutuhkan hasil pihak berwenang; permintaan perlu merujuk pesanan yang benar. [I] Hasil pemeriksaan diperlukan untuk menentukan langkah berikutnya. [I] Konfirmasi pemeriksa menjadi dasar untuk melanjutkan pengerjaan dengan yakin. [I] Perasaan atau emosi Mulai cemas, sebagai penempatan interpretatif menuju fase menunggu konfirmasi. [I] Cemas saat menunggu; sungkan jika pelanggan ikut menunggu, sebagai pola umum R2. [D] Lega dan tenang setelah konfirmasi, sesuai pola yang dinyatakan R2. [D] Masalah atau hambatan Pemeriksaan memerlukan komunikasi di luar Fleffy dan tindakan pihak lain. [D] Jika respons lambat, pelayanan atau pengerjaan dapat tertunda. Bukan klaim kejadian khusus Rp150.000. [D] Hambatan khusus sesudah konfirmasi belum dirinci dalam catatan wawancara. Kebutuhan pengguna Identitas pesanan, pihak pemeriksa, dan permintaan verifikasi yang dapat ditelusuri. [I] Perkembangan pemeriksaan dan tindak lanjut saat konfirmasi belum tersedia. [I] Kesesuaian hasil pemeriksaan dengan pesanan dan kejelasan dasar serah terima. [I] Peluang perbaikan UX P4 Menautkan permintaan dan hasil pemeriksaan ke pesanan dengan penanggung jawab yang jelas. [P] P5 Memperjelas status permintaan, pemeriksa, dan langkah tindak lanjut ketika belum ada hasil. [P] P6 Menampilkan hasil pemeriksaan yang terkait pesanan dan mendukung tindak lanjut sesuai kewenangan. [P] Dasar data R2 Q1, Q4, Q8, Q10; Does dan Thinks pada Worksheet 6. R2 Q8-Q11; Feels dan Pain pada Worksheet 6. Keterlambatan adalah pengalaman umum yang dilaporkan. R2 Q1, Q3, Q8, Q10; Feels dan Gain pada Worksheet 6.
+
+6 Ringkasan masalah UX utama
+
+M1 Penantian hasil pemeriksaan
+
+Pada T4-T5, Ari mengandalkan respons owner atau finance yang memegang akses rekening. R2 melaporkan bahwa konfirmasi yang lambat dapat membuat layanan tersendat atau pengerjaan tertunda. Rasa cemas saat menunggu turut muncul pada Q10. Karena berkaitan dengan keputusan sebelum pesanan dilanjutkan, bagian ini menjadi prioritas utama dalam analisis. [S2 Q8-Q11]
+
+Keterlambatan merupakan pengalaman umum yang dilaporkan, bukan pengukuran khusus contoh Rp150.000. Data belum cukup untuk menetapkan rata-rata waktu tunggu atau persentase transaksi yang terdampak.
+
+M2 Pencocokan informasi terpisah
+
+Pada T3-T4, rincian pesanan berada di Fleffy, bukti pada chat pelanggan, dan hasil pemeriksaan diperoleh melalui chat owner. R2 menjelaskan perpindahan sumber secara berulang. Kebutuhan utamanya adalah menjaga kecocokan informasi dan konteks pesanan saat berkoordinasi. Potensi salah menghubungkan informasi merupakan risiko interpretatif; kejadian salah cocok belum dibuktikan. [S2 Q5-Q8]
+
+M3 Perbedaan pencatatan dan kepastian dana
+
+Pada T2-T3, catatan pembayaran tidak menjadi satu-satunya dasar kepastian penerimaan. B2 pada observasi awal menunjukkan informasi di layar; R2 sendiri sudah membedakannya dari hasil pemeriksaan rekening. Karena itu, Journey tidak menyatakan bahwa Ari salah memahami Lunas. Peluangnya adalah memperjelas makna informasi serta dasar keputusan, terutama menuju T6. [S1 B2; S2 Q3, Q7-Q8]
+
+Pengalaman baik yang perlu dipertahankan
+
+R2 menilai input pesanan dan penerbitan nota berjalan lancar. Sesudah konfirmasi, ia merasa lega. Perbaikan pada koordinasi perlu mempertahankan kemudahan pencatatan dan ketelitian keputusan; menghapus pemeriksaan tanpa dasar penerimaan tidak menjadi kesimpulan Journey ini. [S2 Q9-Q10; S4 U1-U4]
+
+7 Kebutuhan dan peluang perbaikan UX
+
+P1-P6 pada peta diturunkan dari kebutuhan berikut. Hubungannya dengan U1-U4 pada Worksheet 6 mempertahankan dasar Persona Ari. Kriteria di bawah digunakan untuk pemeriksaan rancangan berikutnya; belum merupakan hasil uji atau janji peningkatan kinerja.
+
+Kejelasan makna status dan dasar keputusan
+
+T2-T3 memerlukan makna informasi pembayaran yang dapat dijelaskan. P2 mendukung perbedaan antara catatan pembayaran dan hasil pemeriksaan penerimaan, sambil mempertahankan kemudahan input. Dasarnya adalah penafsiran R2 pada Q7 dan kebutuhan U1 pada Worksheet 6.
+
+Kriteria pemeriksaan: operator dapat menjelaskan informasi yang telah dicatat dan apakah hasil pemeriksaan penerimaan sudah tersedia.
+
+Kecocokan informasi dengan pesanan
+
+T1-T3 memerlukan hubungan yang jelas antara pelanggan, layanan, nominal, dan bukti. P1 serta P3 mendukung ringkasan data awal dan rujukan bukti yang sesuai. Dasarnya adalah aktivitas Q4-Q6 dan kebutuhan U2 pada Worksheet 6.
+
+Kriteria pemeriksaan: operator dapat menunjuk pesanan, bukti, serta rincian pembanding yang digunakan dalam permintaan pemeriksaan.
+
+Kejelasan koordinasi dan perkembangan pemeriksaan
+
+T4-T5 memerlukan penanggung jawab dan tindak lanjut yang jelas. P4 serta P5 menghubungkan permintaan, pemeriksa, dan hasilnya dengan pesanan. Dasarnya adalah Q8-Q11 dan kebutuhan U3 pada Worksheet 6.
+
+Kriteria pemeriksaan: ketika hasil belum tersedia, operator dapat menjelaskan siapa yang memeriksa dan langkah berikutnya sesuai prosedur usaha.
+
+Kepastian tindak lanjut setelah konfirmasi
+
+T6 memerlukan dasar untuk meneruskan pesanan sesuai kewenangan. P6 mendukung hasil pemeriksaan yang terkait dengan pesanan dan informasi tindak lanjut. Dasarnya adalah Q3, Q8, Q10 dan kebutuhan U4 pada Worksheet 6.
+
+Kriteria pemeriksaan: operator dapat menentukan tindak lanjut dari hasil pemeriksa yang sesuai, tanpa mengganti konfirmasi penerimaan dengan sekadar input nominal.
+
+8 Keterbatasan dan asumsi
+
+Journey bertumpu pada satu anggota kelompok yang menjadi dasar Persona, yaitu R2. R1 dan R3 tidak digabungkan ke alur Ari karena akses rekening dan pembagian tugas mereka berbeda. Urutan T1-T6 merupakan rekonstruksi untuk membaca satu skenario; belum divalidasi melalui observasi lapangan dari awal sampai akhir.
+
+Q10 memberikan pola tenang sebelum proses, cemas selama pemeriksaan, dan lega sesudah konfirmasi. Penempatan tenang di T2, waspada di T3, serta awal cemas di T4 merupakan interpretasi, bukan perasaan yang diukur pada tiap tahap. Pikiran pada peta juga berupa interpretasi, bukan kutipan langsung.
+
+Pada T1 dan T6, hambatan khusus belum dirinci. Peta menyatakan batas tersebut dan tetap merumuskan kebutuhan yang relevan. Tidak ada asumsi bahwa pelanggan hadir secara fisik pada contoh WhatsApp atau bahwa telepon serta penundaan beberapa jam pasti terjadi pada transaksi Rp150.000.
+
+Data belum menjelaskan alur lengkap ketika bukti tidak cocok, dana belum masuk, atau konfirmasi tidak diperoleh. Pendalaman berikutnya perlu mengamati kasus tersebut, mencatat perpindahan informasi dan waktu tunggu bila diizinkan, serta memeriksa urutan dengan operator dan owner. Mutasi dan data pelanggan pribadi tetap tidak direproduksi.
+
+9 Kesimpulan
+
+Perjalanan Ari bergerak dari penerimaan pesanan dan bukti, pencatatan, pencocokan, permintaan pemeriksaan, penantian hasil, hingga tindak lanjut setelah konfirmasi. Tujuan di seluruh alur adalah memperoleh catatan yang benar dan dasar penerimaan dana yang dapat dipertanggungjawabkan sebelum pesanan diteruskan.
+
+Usaha utama muncul ketika informasi berpindah sumber dan pemeriksaan membutuhkan respons pihak lain. Peluang UX berfokus pada kecocokan informasi, kejelasan koordinasi, dan dasar keputusan yang sesuai kewenangan. Validasi otomatis atau integrasi bank yang diharapkan R2 tetap merupakan alternatif untuk dievaluasi, bukan solusi yang sudah terbukti. [S2 Q12-Q13]
+
+Sumber data
+
+S1. Rusdany Maestro. Worksheet 1 UX Detective, dokumentasi 19 September 2026, terutama bukti B2 dan batas observasi. S2. Catatan wawancara R2 Admin Operasional, 15 Oktober 2026, Q1-Q13 beserta pendalaman. S3. Rusdany Maestro. Worksheet 5 User Interview, terutama ringkasan R2 dan perbandingan responden. S4. Rusdany Maestro. Worksheet 6 Empathy Map dan Persona, Persona Ari, enam bagian Empathy Map, dan kebutuhan UX U1-U4. Acuan tugas. Worksheet 7 User Journey, mata kuliah Rekayasa Interaksi.

@@ -1,0 +1,315 @@
+HALAMAN 1
+1 
+Empathy Map dan Persona Pengguna Fleffy 
+Worksheet 6 Rekayasa Interaksi 
+Nama: Rusdany Maestro 
+NIM: 202210370311406 
+Program studi: Informatika 
+Institusi: Universitas Muhammadiyah Malang 
+Mata kuliah: Rekayasa Interaksi 
+Jenis tugas: Individu 
+Tanggal penyusunan: 15 Oktober 2026 
+1 Produk dan tujuan kajian 
+Fleffy - Kasir Laundry Sepatu digunakan untuk mencatat pesanan, layanan, dan 
+pembayaran. Kajian ini berfokus pada pengalaman memastikan penerimaan Bank Transfer 
+setelah pembayaran tercatat di aplikasi.  Empathy Map dan Persona disusun untuk memahami 
+dasar keputusan operator sebelum menindaklanjuti pesanan. [S1; S2 Q3-Q8] 
+2 Kelompok pengguna yang dipilih 
+Saya memilih admin atau kasir laundry sepatu yang mencatat pembayaran melalui Fleffy, 
+tetapi mengandalkan owner atau finance untuk memeriksa rekening. Kelompok ini dikenali 
+dari pembagian tugas pemeriksaan, bukan hanya jabatan. R2 menjadi sumber utama karena 
+menjalankan pola kerja tersebut secara langsung. [E1, E4] 
+R1 dan R3 tetap digunakan sebagai pemband ing. Keduanya dapat memeriksa rekening 
+sendiri, sehingga kewenangan tersebut tidak dimasukkan ke Persona admin yang menunggu 
+konfirmasi. Persona yang disusun merupakan gambaran awal dari pola R2 dan belum 
+mewakili seluruh pengguna Fleffy. [S3, bagian 8] 
+Ringkasan kebutuhan pengguna 
+Admin membutuhkan kecocokan antara catatan pesanan dan hasil pemeriksaan 
+penerimaan dana. Hambatan yang dilaporkan mencakup perpindahan sumber informasi serta 
+penantian respons pemeriksa rekening. Perbaikan UX perlu membantu oper ator mengetahui 
+hasil pemeriksaan dan tindak lanjut yang sesuai kewenangannya, sambil menjaga ketelitian 
+pembayaran. [E3-E8] 
+
+HALAMAN 2
+2 
+3 Sumber data dan penyusunan 
+Sumber Cakupan data Penggunaan dalam analisis 
+S1 Worksheet 1 
+Dokumentasi layar dan catatan 
+pengguna, 19 September 2026; satu 
+alur transaksi contoh. 
+Konteks pencatatan Bank Transfer dan 
+batas makna bukti layar. 
+S2 Catatan R2 
+Wawancara langsung, 15 Oktober 
+2026 di Pesenkopi; 12 menit; 13 
+jawaban dan pendalaman. 
+Sumber utama pekerjaan, perilaku, 
+perasaan, tujuan, hambatan, dan 
+harapan. 
+S3 Worksheet 5 Tiga pengguna: R1 kasir, R2 admin 
+operasional, dan R3 owner. 
+Ringkasan serta pembandingan akses 
+dan tanggung jawab pemeriksaan. 
+C1 Klarifikasi Rentang usia R2 20-22 tahun; semua 
+jawaban merupakan parafrasa. 
+Mengisi usia dan menetapkan batas 
+penggunaan kutipan. 
+ 
+Dasar observasi 
+Pada S1, bukti B2 memperlihatkan status Lunas dan Bank Transfer Rp57.000. Bukti ini 
+menunjukkan catatan pada layar, tanpa memperlihatkan mutasi bank. Nominal tersebut adalah 
+transaksi contoh pada observasi, berbeda dari contoh Rp150.000 yang diceritakan R2. [O1; 
+E4] 
+Batas kelompok pengguna 
+Responden Cara memperoleh kepastian Kedudukan terhadap Persona 
+R1 Kasir Memeriksa sendiri; dapat meminta 
+bantuan. 
+Pembanding; bukan dasar 
+ketergantungan pemeriksaan. 
+R2 Admin Meminta owner atau finance memeriksa 
+rekening. 
+Anggota kelompok yang menjadi dasar 
+Persona. 
+R3 Owner Memeriksa rekening sendiri. Pembanding yang memiliki akses 
+berbeda. 
+ 
+Saya mengelompokkan jawaban R2 ke enam bagian Empathy Map, lalu menurunkan 
+karakteristik Persona dari pola tersebut. Kode E1 -E8 menelusuri jawaban asal; O1 merujuk 
+observasi dan C1 klarifikasi. Pernyataan pengguna, interpretasi, dan kebutuhan UX 
+dibedakan. Rincian kode tersedia pada bagian 8. 
+Pesenkopi adalah tempat wawancara, bukan nama usaha laundry. Penggunaan kode responden 
+mengikuti persetujuan pada Worksheet 5; nama usaha, kontak, dan informasi rekening pribadi tidak 
+dicantumkan. 
+
+HALAMAN 3
+3 
+4 Empathy Map 
+Kelompok yang dipetakan adalah admin/kasir pencatat pembayaran yang meminta konfirmasi owner atau finance. Isi berasal dari pola R2. Pernyataan dan tindakan 
+merupakan laporan responden; bagian Thinks merupakan interpretasi peneliti. 
+ 
+Says tidak memakai kutipan langsung karena catatan yang tersedia berupa parafrasa. Thinks tidak diperlakukan sebagai ucapan atau isi pikiran yang diamati. Does bersumber dari 
+cerita aktivitas R2; observasi S1 mendukung konteks layar pembayaran, tanpa membuktikan semua tindakan R2. 
+
+
+HALAMAN 4
+4 
+5 User Persona 
+Persona eksploratif berdasarkan pola kerja R2 pada Empathy Map. Nama digunakan sebagai samaran 
+representasi, tanpa menyatakan identitas responden. 
+Nama Persona: Ari, nama samaran untuk representasi admin/kasir. 
+Representasi singkat: Operator pencatat pembayaran yang menunggu hasil pemeriksaan 
+rekening dari owner atau finance. [E1] 
+Latar belakang: Menangani layanan awal usaha laundry sepatu: menerima pesanan, mencatat 
+layanan, menerbitkan nota, dan berkoordinasi dengan pemeriksa pembayaran serta teknisi. [E1] 
+Usia atau rentang usia: 20-22 tahun, berdasarkan klarifikasi lanjutan. Rentang usia tidak 
+digunakan untuk menyimpulkan kemampuan atau perilaku. [C1] 
+Pekerjaan atau status: Admin Operasional yang juga menjalankan tugas kasir. [E1] 
+Tujuan pengguna: Mencatat pembayaran sesuai dana yang diterima dan menentukan kapan 
+pesanan dapat ditindaklanjuti dengan yakin. [E3, E4] 
+Kebutuhan pengguna: Kecocokan data pesanan, bukti transfer, dan hasil pemeriksaan; informasi 
+yang jelas dari pihak berwenang. [E1, E4, E8] 
+Motivasi pengguna: Mengurangi risiko salah menentukan pembayaran dan menghindari 
+penantian pelanggan yang tidak perlu. [E3, E6-E8] 
+Masalah utama: Informasi tersebar dan konfirmasi bergantung pada respons owner/finance. 
+Penantian dapat menghambat layanan serta pengerjaan dalam pengalaman R2. [E4, E6] 
+Perilaku dan kebiasaan: Memakai Fleffy setiap hari kerja, memeriksa rincian bukti di 
+WhatsApp, meneruskan permintaan cek, lalu menindaklanjuti hasilnya. Dapat menelepon saat 
+respons lambat. [E2, E4, E6] 
+Konteks penggunaan: Penerimaan pesanan dan pembayaran, pelunasan saat pengambilan, serta 
+rekap harian. Pelanggan dapat menunggu ketika konfirmasi belum diperoleh. [E2, E6] 
+Kemampuan menggunakan teknologi: Terbiasa menjalankan tugas operasional melalui Fleffy 
+dan WhatsApp; melaporkan penggunaan tablet Android, smartphone, serta sesekali browser 
+laptop. Tingkat kemahiran belum diuji. [E2] 
+Kutipan pengguna: Catatan verbatim tidak tersedia. Parafrasa pernyataan R2: ia merasa lega 
+setelah menerima konfirmasi mutasi dari owner. [E7; C1] 
+Kebutuhan UX utama: Kejelasan makna status, kecocokan pesanan dengan hasil pemeriksaan, 
+dan koordinasi tindak lanjut sesuai kewenangan. U1-U4 menjabarkan hasil yang dibutuhkan. [E1, 
+E3-E8] 
+
+HALAMAN 5
+5 
+6 Hubungan Empathy Map dan Persona 
+Setiap bagian Persona berasal dari pola pada Empathy Map. Tabel berikut 
+memperlihatkan perubahan dari data pengguna menjadi karakteristik Persona dan kebutuhan 
+UX; arah perancangan merupakan hasil analisis, bukan fitur yang telah terbukti berhasil. 
+Bagian 
+Map Pola yang menjadi dasar Turunan pada Persona dan UX 
+Says 
+Pencatatan membantu, tetapi status 
+belum menjadi satu-satunya dasar 
+kepastian. [E5, E6, E8] 
+Tujuan dan kebutuhan Ari menekankan 
+pencatatan yang dapat dihubungkan dengan 
+penerimaan dana. U1. 
+Thinks 
+Keputusan memerlukan hasil 
+pemeriksa rekening dan ketelitian. [E1, 
+E3-E7] 
+Motivasi Ari adalah mengurangi risiko 
+salah menentukan pembayaran sebelum 
+menindaklanjuti pesanan. U1 dan U4. 
+Does 
+Mencatat, mencocokkan bukti, 
+mengirim permintaan cek, dan 
+menunggu balasan. [E1, E4, E6] 
+Perilaku Ari melibatkan Fleffy dan 
+WhatsApp, tanpa akses bank langsung. U2 
+dan U3. 
+Feels Cemas dan sungkan saat menunggu, 
+lalu lega setelah konfirmasi. [E7] 
+Kebutuhan Ari mencakup kejelasan 
+perkembangan pemeriksaan dan tindak 
+lanjut. U3 dan U4. 
+Pain Informasi tersebar dan respons 
+pemeriksa dapat lambat. [E4, E6] 
+Masalah utama Ari adalah pencocokan 
+serta ketergantungan koordinasi. U2 dan 
+U3. 
+Gain 
+Ingin kepastian pembayaran yang 
+mudah diperoleh dan layanan lebih 
+lancar. [E3, E8] 
+Tujuan Ari menggabungkan kelancaran 
+pelayanan dengan ketelitian keputusan. U1-
+U4. 
+ 
+Konsistensi kelompok pengguna 
+Ari tetap berperan sebagai pencatat yang meminta pemeriksaan rekening. Kemampuan 
+R3 sebagai owner untuk memeriksa dana sendiri tidak dipindahkan ke Ari. Dengan batas ini, 
+masalah menunggu konfirmasi tetap sesuai dengan pengalaman anggota kelompok yang 
+menjadi dasar Persona. [S3, bagian 8] 
+Says dan Does membantu menjelaskan pola kerja; Fee ls menunjukkan perubahan emosi 
+pada momen pemeriksaan; Pain dan Gain menuntun kebutuhan perancangan. Thinks 
+menyatukan alasan tindakan sebagai interpretasi yang masih perlu dikonfirmasi kepada 
+pengguna. 
+
+HALAMAN 6
+6 
+7 Masalah motivasi dan kebutuhan UX utama 
+Masalah uta ma Ari adalah memperoleh kepastian penerimaan dana melalui alur 
+pemeriksaan yang melibatkan pihak lain. Motivasi untuk menghindari salah menentukan 
+pembayaran membuat pemeriksaan tetap penting, sementara penantian pelanggan mendorong 
+kebutuhan koordinasi yang lebih jelas. [E1, E3, E6-E8] 
+U1 Kejelasan status pembayaran 
+Operator perlu memahami informasi yang sudah dicatat dan kepastian yang masih 
+menunggu pemeriksaan. Dasar: Says dan Thinks; E3, E5, E8. 
+Kriteria pemeriksaan rancangan: Pada uji rancangan berik utnya, operator dapat 
+menjelaskan apakah status menunjukkan pencatatan atau hasil pemeriksaan penerimaan dana. 
+U2 Kecocokan informasi pesanan 
+Operator perlu menghubungkan nominal, pesanan, bukti pelanggan, dan hasil 
+pemeriksaan yang sesuai. Dasar: Does dan Pain; E1, E4. 
+Kriteria pemeriksaan rancangan: Operator dapat menunjuk pesanan serta informasi 
+pembayaran yang menjadi dasar konfirmasi, tanpa mengandalkan ingatan semata. 
+U3 Kejelasan koordinasi pemeriksaan 
+Operator perlu mengetahui pihak pemeriksa dan pe rkembangan permintaannya. Dasar: 
+Does, Feels, dan Pain; E1, E6, E7. 
+Kriteria pemeriksaan rancangan: Saat pemeriksaan belum selesai, operator dapat 
+menjelaskan siapa yang memeriksa dan tindakan lanjutan yang perlu dilakukan. 
+U4 Dasar tindak lanjut yang meyakinkan 
+Operator perlu mengetahui kapan hasil pemeriksaan cukup untuk melanjutkan pesanan 
+sesuai tanggung jawabnya. Dasar: Thinks, Feels, dan Gain; E3, E4, E7, E8. 
+Kriteria pemeriksaan rancangan: Operator dapat menentukan tindak lanjut berdasarkan 
+hasil pemeriksaan, tanpa menganggap input pembayaran sebagai bukti dana sudah diterima. 
+Kedudukan harapan teknologi 
+R2 mengusulkan validasi otomatis, integrasi rekening, QRIS dinamis, atau payment 
+gateway. Usulan tersebut dicatat sebagai harapa n pengguna. Kebutuhan UX pada U1 -U4 
+berfokus pada hasil yang harus dipahami dan dilakukan operator; pilihan teknologi, kelayakan 
+integrasi, serta manfaatnya belum diuji. [E8] 
+
+HALAMAN 7
+7 
+8 Penelusuran informasi penting 
+Kode berikut digunakan pada Empathy Map, Persona, dan hubungan keduanya. Satu jawaban dapat 
+mendukung lebih dari satu bagian. Catatan wawancara dan ringkasan Worksheet 5 merupakan sumber 
+dari sesi yang sama, sehingga tidak dihitung sebagai responden tambahan. 
+Kode Informasi yang menjadi dasar Sumber dan jenis bukti 
+O1 
+Layar menunjukkan Lunas dan Bank Transfer Rp57.000 
+pada transaksi contoh; tidak memperlihatkan mutasi 
+rekening. 
+S1, halaman 2-3, bukti B2; 
+fakta pada layar. 
+E1 R2 mencatat pesanan dan pembayaran; owner atau finance 
+memegang akses pemeriksaan rekening. 
+S2 Q1 dan Q8; laporan 
+responden. 
+E2 R2 memakai Fleffy setiap hari kerja; menggunakan tablet 
+Android, smartphone, dan sesekali browser laptop. 
+S2 Q2; laporan kebiasaan 
+dan perangkat. 
+E3 R2 ingin catatan sesuai dana yang diterima, mengurangi 
+risiko salah bayar, dan merasa yakin setelah pemeriksaan. 
+S2 Q3; tujuan dan alasan 
+pengguna. 
+E4 
+Contoh Rp150.000 untuk dua pasang deep cleaning: 
+mencatat pesanan, melihat bukti, lalu meminta owner 
+memeriksa sebelum pengerjaan. 
+S2 Q4-Q6 dan Q8; cerita 
+pengalaman. 
+E5 R2 memahami status sebagai pencatatan; kepastian 
+penerimaan dana tetap perlu diperoleh melalui rekening. S2 Q7; penafsiran pengguna. 
+E6 
+Pencatatan dinilai lancar, sedangkan menunggu respons 
+dapat memerlukan telepon dan menunda layanan atau 
+pengerjaan. 
+S2 Q9 dan Q11; dampak 
+yang dilaporkan. 
+E7 R2 merasa tenang sebelum pemeriksaan, cemas dan 
+sungkan saat menunggu, lalu lega setelah konfirmasi. 
+S2 Q10; perasaan yang 
+dinyatakan. 
+E8 
+R2 memerlukan kepastian pembayaran yang lebih mudah 
+diperoleh dan mengusulkan validasi otomatis atau 
+integrasi. 
+S2 Q12-Q13; kebutuhan 
+serta harapan. 
+C1 Usia R2 berada pada rentang 20-22 tahun; seluruh 
+jawaban yang tersedia merupakan parafrasa. 
+Klarifikasi lanjutan, 15 
+Oktober 2026. 
+ 
+Data pada tabel adalah bukti asal. Penamaan Persona, pengelompokan Thinks, dan U1-U4 merupakan 
+sintesis peneliti. Rujukan silang membantu memeriksa dasar sintesis tanpa mengubahnya menjadi 
+pernyataan langsung responden. 
+
+HALAMAN 8
+8 
+9 Keterbatasan data dan asumsi 
+Cakupan kelompok dan kedalaman data 
+Worksheet 5 memuat tiga responden, tetapi hanya R2 yang secara jelas menggambarkan 
+ketergantungan pemeriksaan kepada owner atau finance. Persona ini bertumpu pada satu 
+anggota kelompok tersebut. Sesi R2 berlangsung 12 menit; beber apa rincian frekuensi dan 
+dampak belum didalami. Pola Persona perlu diperiksa pada admin/kasir lain dengan 
+pembagian tugas serupa. 
+Perbedaan bukti dan interpretasi 
+Observasi S1 berupa dokumentasi layar satu alur contoh, bukan pengamatan langsung 
+seluruh pe rilaku R2. Waktu tunggu dan hambatan pada wawancara merupakan laporan 
+pengalaman. Data tidak membuktikan prevalensi hambatan, kejadian penipuan, kerugian, 
+maupun kemampuan teknis integrasi Fleffy. Thinks dan kebutuhan UX merupakan 
+interpretasi yang dapat direvisi setelah pendalaman. 
+Identitas dan kutipan 
+Ari adalah nama samaran representasi. Usia 20 -22 tahun berasal dari klarifikasi; 
+pendidikan, domisili, gender, penghasilan, dan sifat kepribadian tidak ditambahkan. 
+Kemampuan teknologi dijelaskan dari tugas serta perangkat yang dilaporkan, tanpa pemberian 
+skor kemahiran. Tidak ada kutipan verbatim karena semua jawaban yang tersedia telah 
+diparafrasakan. 
+10 Kesimpulan 
+Admin/kasir pada pola R2 membutuhkan kepastian pembayaran yang dapat dihubungkan 
+dengan pesa nan dan hasil pemeriksaan pihak yang berwenang. Hambatan utamanya adalah 
+pencocokan informasi serta penantian konfirmasi. Motivasi untuk menghindari kesalahan 
+tetap berjalan bersama kebutuhan melayani pelanggan dengan lancar. 
+Empathy Map menjelaskan pernyataan, pemikiran hasil interpretasi, tindakan, perasaan, 
+hambatan, dan manfaat yang diinginkan. Persona Ari merangkum pola itu menjadi profil 
+operasional yang jelas. Dasar perancangan berikutnya adalah kejelasan makna status, 
+kecocokan inf ormasi, koordinasi pemeriksaan, dan dasar tindak lanjut. Pemilihan solusi 
+dilakukan setelah kebutuhan tersebut diuji kembali pada kelompok pengguna yang sama. 
+Sumber data 
+S1. Rusdany Maestro. Worksheet 1 UX Detective, dokumentasi 19 September 2026, terutama halaman 
+2-4 dan bukti B2. 
+S2. Catatan wawancara R2 Admin Operasional, 15 Oktober 2026, Q1-Q13 beserta pendalaman. 
+S3. Rusdany Maestro. Worksheet 5 User Interview, 15 Oktober 2026, terutama bagian 6 dan 8. 
+C1. Klarifikasi lanjutan tentang rentang usia R2 dan status parafrasa, 15 Oktober 2026. 
+Acuan tugas. Worksheet 6 Empathy Map dan Persona, mata kuliah Rekayasa Interaksi. 

@@ -1,0 +1,61 @@
+{
+  "google_document_id": "1BtN5CAcDWRHPGcFI-Dz6l1_ZC4fzOs_mlcWy3SZQGJo",
+  "google_docs_url": "https://docs.google.com/document/d/1BtN5CAcDWRHPGcFI-Dz6l1_ZC4fzOs_mlcWy3SZQGJo/edit?usp=drivesdk",
+  "native_mime_type": "application/vnd.google-apps.document",
+  "google_docs_parent_id": "1M2pFybewl10ZZGrk_cKeU-LxCtZJngIh",
+  "source_content_blocks": 198,
+  "missing_blocks": 0,
+  "diagrams": 3,
+  "tables": 6,
+  "local_pages_visually_checked": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "native_pages_visually_checked": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "template_sections": [
+    "A Task Definition",
+    "B Current Flow vs Proposed Flow",
+    "C Flow Check Evaluation"
+  ],
+  "flow_checks": 5,
+  "ux_trace": [
+    "UX05",
+    "UX03",
+    "UX02",
+    "UX01",
+    "UX04",
+    "UX06"
+  ],
+  "rubric_coverage": [
+    "Kesesuaian dengan tujuan pengguna",
+    "Kelengkapan langkah alur",
+    "Kejelasan User Flow Diagram",
+    "Identifikasi kesalahan dan hambatan",
+    "Kelengkapan dan kerapian"
+  ],
+  "review": "No material content findings from independent agent audit. All rendered pages inspected. Google Docs cell wrap repaired in place, source synchronized.",
+  "submitted_to_classroom": false,
+  "docx_sha256": "10d42d23949f86f88f3bf060d6b674237fd6bf266008c3836648f3c785baaf1e",
+  "local_pdf_pages": 10,
+  "native_pdf_pages": 10,
+  "sanitizer_check": "passed"
+}

@@ -1,0 +1,79 @@
+{
+  "native_mime_type": "application/vnd.google-apps.document",
+  "title": "202210370311406_Rusdany_Maestro_Worksheet9_InformationArchitecture",
+  "characters": 20132,
+  "tables": [
+    [
+      9,
+      3
+    ],
+    [
+      9,
+      3
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      10,
+      4
+    ],
+    [
+      7,
+      4
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      7,
+      3
+    ],
+    [
+      7,
+      3
+    ]
+  ],
+  "inline_objects": 1,
+  "has_inventory_all": true,
+  "has_all_six_UX": true,
+  "has_three_card_categories": true,
+  "fonts": [
+    "Times New Roman"
+  ],
+  "text_colors": [
+    "{\"color\":{\"rgbColor\":{}}}"
+  ],
+  "section_orientations": [
+    false,
+    true,
+    false
+  ],
+  "url": "https://docs.google.com/document/d/1VhHAgQp-kaiRZrmBlqjPmshYH8tjMW1N_z6JuKhiDDc/edit?usp=drivesdk",
+  "paragraphs_and_cells": 249,
+  "missing_from_native": 0,
+  "local_visual_qa": {
+    "pages": 10,
+    "all_pages_inspected": true,
+    "result": "Lulus"
+  },
+  "native_visual_qa": {
+    "pages": 10,
+    "all_pages_inspected": true,
+    "result": "Lulus; sitemap dan tabel bersih setelah perbaikan header halaman7"
+  },
+  "content_inventory": 16,
+  "categories": 3,
+  "card_sorting": {
+    "cards": 15,
+    "aggregate": "C14",
+    "conducted_with_users": false
+  },
+  "sitemap": {
+    "pages": 9,
+    "max_depth": 2
+  },
+  "status": "Selesai"
+}

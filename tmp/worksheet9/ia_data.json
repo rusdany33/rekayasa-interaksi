@@ -1,0 +1,39 @@
+{
+  "inventory": [
+    {"id":"C01","name":"Ringkasan identitas pesanan dan tagihan","need":"Menghubungkan pelanggan, layanan, dan nominal dengan pesanan yang tepat. UX02.","priority":"Must","location":"N1b Ringkasan Pesanan","group":"Pesanan"},
+    {"id":"C02","name":"Catatan pembayaran dan penjelasan maknanya","need":"Membedakan pembayaran tercatat dari hasil pemeriksaan penerimaan dana. UX01.","priority":"Must","location":"N1b Pembayaran","group":"Pesanan"},
+    {"id":"C03","name":"Rujukan bukti pelanggan dan informasi pembanding","need":"Mencocokkan bukti, nominal, serta tanggal atau waktu dalam konteks pesanan yang sama. UX02.","priority":"Must","location":"N1b Pembayaran","group":"Pesanan"},
+    {"id":"C04","name":"Permintaan pemeriksaan dengan rujukan pesanan","need":"Meminta pemeriksaan kepada pihak yang bertanggung jawab untuk pesanan yang dimaksud. UX03.","priority":"Must","location":"N1b Pemeriksaan","group":"Pemeriksaan Pembayaran"},
+    {"id":"C05","name":"Hasil pemeriksaan beserta sumber dan rujukannya","need":"Mengetahui hasil dari pemeriksa berwenang dan memastikan hasil merujuk pesanan yang sama. UX01, UX02, UX05.","priority":"Must","location":"N1b Pemeriksaan","group":"Pemeriksaan Pembayaran"},
+    {"id":"C06","name":"Dasar keputusan dan catatan tindak lanjut","need":"Menentukan apakah pesanan diteruskan atau ditahan berdasarkan hasil pemeriksaan yang memadai. UX05.","priority":"Must","location":"N1b Tindak Lanjut","group":"Pesanan"},
+    {"id":"C07","name":"Antrean dengan keadaan pemeriksaan dan penanggung jawab","need":"Menemukan pesanan yang belum diminta atau masih menunggu pemeriksaan, serta pihak pemeriksa ketika sudah ditetapkan. UX03.","priority":"Must","location":"N2 Pemeriksaan Pembayaran","group":"Pemeriksaan Pembayaran"},
+    {"id":"C08","name":"Daftar dan pencarian pesanan berdasarkan identitas","need":"Menemukan pesanan yang benar menggunakan identitas atau konteks pelanggan, termasuk saat nominal sama. UX02.","priority":"Must","location":"N1 Pesanan","group":"Pesanan"},
+    {"id":"C09","name":"Pencatatan pelanggan layanan dan nominal pesanan","need":"Mempertahankan kelancaran pencatatan data yang benar sebelum dihubungkan ke pemeriksaan. UX06.","priority":"Should","location":"N1a Buat Pesanan","group":"Pesanan"},
+    {"id":"C10","name":"Pemanfaatan ulang konteks pesanan saat meminta pemeriksaan","need":"Meneruskan identitas pesanan dan nominal yang telah benar tanpa mengetik ulang keduanya. UX06.","priority":"Should","location":"N1b Pemeriksaan","group":"Pesanan"},
+    {"id":"C11","name":"Panduan arti status pembayaran dan pemeriksaan","need":"Mendalami perbedaan makna catatan pembayaran, keadaan permintaan, dan hasil pemeriksa. UX01.","priority":"Should","location":"N3a Arti Status Pembayaran","group":"Bantuan Pemeriksaan"},
+    {"id":"C12","name":"Panduan tindak lanjut ketika hasil belum tersedia","need":"Mengetahui langkah berikutnya dan menjelaskan kondisi kepada pelanggan tanpa kepastian yang belum tersedia. UX04.","priority":"Should","location":"N3b Panduan saat Menunggu","group":"Bantuan Pemeriksaan"},
+    {"id":"C13","name":"Kontak pemeriksa sesuai prosedur usaha","need":"Menghubungi pihak yang tepat untuk tindak lanjut ketika hasil masih ditunggu. UX04.","priority":"Should","location":"N3c Kontak Pemeriksa","group":"Bantuan Pemeriksaan"},
+    {"id":"C14","name":"Ringkasan Beranda dan pintasan ke kelompok utama","need":"Memulai penelusuran pesanan atau permintaan melalui tujuan yang jelas. Pendukung UX02 dan UX03.","priority":"Should","location":"N0 Beranda","group":"Agregasi"},
+    {"id":"C15","name":"Jejak permintaan hasil dan keputusan yang terkait","need":"Menelusuri dasar konfirmasi dan petugas yang terkait sebelum menindaklanjuti pesanan. UX03, UX05.","priority":"Must","location":"N1b Pemeriksaan dan Tindak Lanjut","group":"Pemeriksaan Pembayaran"},
+    {"id":"C16","name":"Penyaringan antrean menurut keadaan permintaan","need":"Memusatkan penelusuran pada hasil yang masih ditunggu atau sudah tersedia. Pendukung UX03.","priority":"Should","location":"N2 Pemeriksaan Pembayaran","group":"Pemeriksaan Pembayaran"}
+  ],
+  "pages": [
+    ["N0","Beranda","L0","Awal aplikasi; ringkasan dan pintasan ke Pesanan, Pemeriksaan Pembayaran, serta Bantuan Pemeriksaan."],
+    ["N1","Pesanan","L1","Daftar dan pencarian pesanan. Induk Buat Pesanan dan Detail Pesanan."],
+    ["N2","Pemeriksaan Pembayaran","L1","Antrean pesanan transfer menurut keadaan pemeriksaan; penanggung jawab ditampilkan jika sudah ditetapkan. Membuka Detail Pesanan bagian Pemeriksaan."],
+    ["N3","Bantuan Pemeriksaan","L1","Indeks bantuan yang mengarah ke arti status, panduan menunggu, dan kontak pemeriksa."],
+    ["N1a","Buat Pesanan","L2","Halaman pendukung N1 untuk mencatat pelanggan, layanan, dan nominal."],
+    ["N1b","Detail Pesanan","L2","Halaman detail kanonis untuk satu pesanan; memuat Ringkasan Pesanan, Pembayaran, Pemeriksaan, dan Tindak Lanjut sebagai bagian halaman."],
+    ["N3a","Arti Status Pembayaran","L2","Halaman pendukung N3 yang menjelaskan catatan pembayaran, keadaan permintaan, dan hasil pemeriksaan."],
+    ["N3b","Panduan saat Menunggu","L2","Halaman pendukung N3 tentang tindak lanjut ketika hasil belum tersedia, sesuai prosedur usaha."],
+    ["N3c","Kontak Pemeriksa","L2","Halaman pendukung N3 untuk informasi pihak yang dapat dihubungi sesuai tanggung jawab." ]
+  ],
+  "links": [
+    ["H1","N0 ke N1 N2 N3","Hierarki dan navigasi global","Membuka kelompok tujuan; Beranda tetap dapat dicapai melalui navigasi global."],
+    ["H2","N1 ke N1a atau N1b","Hierarki lokal","Buat Pesanan membuka formulir; pesanan yang dipilih membuka Detail Pesanan."],
+    ["H3","N3 ke N3a N3b N3c","Hierarki lokal","Indeks bantuan membuka penjelasan atau kontak yang dipilih."],
+    ["TS1","N2 ke N1b bagian Pemeriksaan","Tautan silang pada diagram","Pesanan terpilih membuka halaman Detail Pesanan yang sama; identitas pesanan, asal antrean, dan penyaring dipertahankan saat kembali."],
+    ["TS2","N1b Pemeriksaan ke N3a N3b N3c","Bantuan kontekstual","Tautan Arti Status, Panduan saat Menunggu, dan Kontak Pemeriksa dapat dibuka lalu kembali ke pesanan dan bagian yang sama."],
+    ["NH1","N1b antarbagian","Navigasi di dalam halaman","Ringkasan Pesanan, Pembayaran, Pemeriksaan, dan Tindak Lanjut adalah bagian satu halaman; perpindahan tidak membuat salinan pesanan." ]
+  ]
+}

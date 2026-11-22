@@ -1,0 +1,122 @@
+{
+  "persona": "Ari",
+  "kelompok": "Admin/kasir pencatat transfer yang meminta owner/finance memeriksa rekening",
+  "dasar_utama": "R2",
+  "responden_pembanding": [
+    "R1",
+    "R3"
+  ],
+  "usia": "20-22 tahun",
+  "status_kutipan": "Semua parafrasa; tidak ada kutipan langsung",
+  "empathy_map_visual": "D:\\Rekayasa Interaksi\\202210370311406_Rusdany_Maestro_Worksheet6_EmpathyMap.png",
+  "bagian_empathy_map": [
+    "Says",
+    "Thinks",
+    "Does",
+    "Feels",
+    "Pain",
+    "Gain"
+  ],
+  "komponen_persona": [
+    "Nama Persona",
+    "Representasi singkat",
+    "Latar belakang",
+    "Usia atau rentang usia",
+    "Pekerjaan atau status",
+    "Tujuan pengguna",
+    "Kebutuhan pengguna",
+    "Motivasi pengguna",
+    "Masalah utama",
+    "Perilaku dan kebiasaan",
+    "Konteks penggunaan",
+    "Kemampuan menggunakan teknologi",
+    "Kutipan pengguna",
+    "Kebutuhan UX utama"
+  ],
+  "rubrik": [
+    {
+      "aspek": "Kesesuaian data observasi dan wawancara",
+      "bobot": 25,
+      "bagian": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        9
+      ]
+    },
+    {
+      "aspek": "Kelengkapan Empathy Map",
+      "bobot": 20,
+      "bagian": [
+        4
+      ]
+    },
+    {
+      "aspek": "Kelengkapan dan kejelasan Persona",
+      "bobot": 25,
+      "bagian": [
+        2,
+        5
+      ]
+    },
+    {
+      "aspek": "Kesesuaian kebutuhan motivasi dan masalah",
+      "bobot": 15,
+      "bagian": [
+        4,
+        5,
+        7,
+        10
+      ]
+    },
+    {
+      "aspek": "Keterhubungan Map dan Persona",
+      "bobot": 10,
+      "bagian": [
+        6
+      ]
+    },
+    {
+      "aspek": "Kerapian dan kualitas penyajian",
+      "bobot": 5,
+      "cek": "Render seluruh halaman sebelum pengumpulan"
+    }
+  ],
+  "sumber": {
+    "S1": "D:\\Rekayasa Interaksi\\202210370311406_Rusdany_Maestro_Worksheet1_UXDetective.pdf",
+    "S2": "D:\\Rekayasa Interaksi\\tmp\\worksheet5\\data\\R2_Admin_dokumen_sumber.docx",
+    "S3": "D:\\Rekayasa Interaksi\\202210370311406_Rusdany_Maestro_Worksheet5_UserInterview.pdf",
+    "C1": "Konfirmasi pengguna pada percakapan 15 Oktober 2026"
+  },
+  "batas_waktu": "24 Oktober 2026 pukul 11.59 siang",
+  "qa_visual": "Lulus pemeriksaan visual seluruh halaman 1-8; Empathy Map berupa diagram bergambar pada halaman 3 landscape.",
+  "status": "Selesai",
+  "halaman_final": 8,
+  "map_visual_terverifikasi": {
+    "domain": 6,
+    "poin": 18,
+    "isi_sesuai_data": true,
+    "png_disisipkan_di_word": true,
+    "halaman_pdf_memuat_gambar": 3,
+    "isi_luar_map_tetap": true
+  },
+  "berkas_final": {
+    "pdf": {
+      "path": "D:\\Rekayasa Interaksi\\202210370311406_Rusdany_Maestro_Worksheet6_EmpathyMapPersona.pdf",
+      "bytes": 506792,
+      "sha256": "270b3dbf7b8ae5fd65e0440b969896a452ee7da178039401a4bef9b6deb8bb9d"
+    },
+    "docx": {
+      "path": "D:\\Rekayasa Interaksi\\202210370311406_Rusdany_Maestro_Worksheet6_EmpathyMapPersona.docx",
+      "bytes": 542165,
+      "sha256": "9b3b36e5d820b9925e10f3a49c5d13987b1fd6960c788edd55466e29a188eaa4"
+    },
+    "png": {
+      "path": "D:\\Rekayasa Interaksi\\202210370311406_Rusdany_Maestro_Worksheet6_EmpathyMap.png",
+      "bytes": 559048,
+      "sha256": "6df3f4a7ff3667015f41527838143dea4d7059e786e3e4948f2e0b23878f73bf"
+    }
+  }
+}
